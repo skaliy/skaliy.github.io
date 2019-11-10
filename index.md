@@ -13,11 +13,25 @@ My research actives are mainly related to machine learning and medical image ana
 with A.S Kaliyugarasan. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
 
 # Preprints, submitted and in preparation
-In prep: Brain age versus chronological age: A large scale MRI and deep learning investigation.
+<b>In prep: Brain age versus chronological age: A large scale MRI and deep learning investigation. </b>
 <br>
 S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 
 # Talks and travels 
+<ul>
+  <li><b>TekPRAT Førde - Maskinlæring og kunstig intelligens. Title: MMIV@HUS: Kunstig intelligens ved radiologisk avdeling</b>, 
+  	<i>Førde Sentralsjukehus, Førde, Norway, September 23, 2019 </i>
+  </li>
+  <li> 
+  	<b>Exhibition at Christiekonferansen 2019. Title: Mohn Medical Imaging and Visualization Center.</b>, 
+  	<i>Bergen, Norway, April 29, 2019 </i>
+  </li>
+  <li><b>EHiN 2018.</b>, 
+  	<i>Oslo Spektrum, Norway, November 14, 2018 </i>
+</li>
+</ul>
+
+<br>
 
 
 # Master thesis 
