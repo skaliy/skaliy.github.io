@@ -1,8 +1,6 @@
 ---
 ---
 
-# My Resume
-
 # Employment
 
 # Education
