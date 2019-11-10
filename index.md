@@ -19,6 +19,5 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 
 
 # Master thesis 
-<a href="http://bora.uib.no/bitstream/handle/1956/20849/Deep_transfer_learning_in_medical_imaging.pdf">Deep transfer learning in medical imaging</a>
-Deep transfer learning in medical imaging
+<a href="http://bora.uib.no/bitstream/handle/1956/20849/Deep_transfer_learning_in_medical_imaging.pdf"><b>Deep transfer learning in medical imaging</b></a>
 S. Kaliyugarasan, University of Bergen and Western Norway University of Applied Sciences, 2019
