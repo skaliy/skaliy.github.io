@@ -16,11 +16,11 @@ menu:
     icon: ""
 
   - text: My Resume
-    link: /
+    link: /myresume
     icon: ""
 
   - text: Contact Me
-    link: /
+    link: /contactme
     icon: ""
 
 # Socialmedia Icons
