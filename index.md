@@ -20,15 +20,25 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 # Talks and travels 
 <ul>
   <li><b>TekPRAT Førde - Maskinlæring og kunstig intelligens. Title: MMIV@HUS: Kunstig intelligens ved radiologisk avdeling</b>, 
-  	<i>Førde Sentralsjukehus, Førde, Norway, September 23, 2019 </i>
+  	<i>Førde Sentralsjukehus, Norway, September 23, 2019 </i>
   </li>
   <li> 
   	<b>Exhibition at Christiekonferansen 2019. Title: Mohn Medical Imaging and Visualization Center.</b>, 
-  	<i>Bergen, Norway, April 29, 2019 </i>
+  	<i>Universitetsaulaen i Bergen, Norway, April 29, 2019 </i>
   </li>
   <li><b>Exhibition at EHiN 2018.</b>, 
   	<i>Oslo Spektrum, Norway, November 14, 2018 </i>
 </li>
+ <li> <b>Machine learning seminar: A machine learning mini-conference. Title: Deep transfer learning: Can a network trained to do a task be reused for other tasks?</b>, 
+  	<i>Haukeland universitetssjukehus, Bergen, Norway, October 17, 2018 </i>
+  </li>
+   <li> <b>Machine learning seminar: A machine learning mini-conference. Title: Deep transfer learning: Can a network trained to do a task be reused for other tasks?</b>, 
+  	<i>Haukeland universitetssjukehus, Bergen, Norway, October 17, 2018 </i>
+  </li>
+  <li> 
+  	<b>Poster at GTC Europe 2018. Title: Transfer learning for medical images: a case study.</b>, 
+  	<i>Munich, Germany, October 9-11, 2018 </i>
+  </li>
 </ul>
 
 <br>
