@@ -7,16 +7,12 @@ defaults:
       layout: default
 
 title: Sathiesh Kaliyugarasan
-subtitle: Researcher
+subtitle: Software engineer
 
 # Side Menu Links
 menu:
-  - text: Portfolio
+  - text: Research
     link: /
-    icon: ""
-
-  - text: Skills & Offers
-    link: /skills-and-offers
     icon: ""
 
   - text: Contact Me
@@ -37,6 +33,10 @@ social_icons:
   - name: twitter
     link: https://www.twitter.com/skaliy3
     icon: fab fa-twitter
+
+  - name: linkedin
+    link: https://no.linkedin.com/in/satheshkumar-kaliyugarasan-75269711b
+    icon: fa fa-linkedin-square
 
 
     
