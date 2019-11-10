@@ -16,11 +16,11 @@ menu:
     icon: ""
 
   - text: My Resume
-    link: /resume
+    link: /
     icon: ""
 
   - text: Contact Me
-    link: /contact
+    link: /
     icon: ""
 
 # Socialmedia Icons
@@ -36,7 +36,7 @@ social_icons:
 
   - name: linkedin
     link: https://no.linkedin.com/in/satheshkumar-kaliyugarasan-75269711b
-    icon: fa-linkedin-square
+    icon: fab fa-linkedin
 
 
     
