@@ -26,7 +26,7 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
   	<b>Exhibition at Christiekonferansen 2019. Title: Mohn Medical Imaging and Visualization Center.</b>, 
   	<i>Bergen, Norway, April 29, 2019 </i>
   </li>
-  <li><b>EHiN 2018.</b>, 
+  <li><b>Exhibition at EHiN 2018.</b>, 
   	<i>Oslo Spektrum, Norway, November 14, 2018 </i>
 </li>
 </ul>
