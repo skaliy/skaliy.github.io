@@ -20,9 +20,15 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 # Talks and travels 
 ### Latest and upcoming
 <ul>
+
 <li> 
     <b>TekPRAT Førde - Maskinlæring og kunstig intelligens. Title: MMIV@HUS: Kunstig intelligens ved radiologisk avdeling</b>, 
     <i>Førde Sentralsjukehus, Norway, September 23, 2019 </i>
+</li>
+
+<li> 
+    <b>MMIV Seminar September 2019 – From mouse to man – Spatial and temporal medical imaging in different species and development phases. Title: Artificial intelligence in image diagnostics – transfer learning and active learning for efficient use of data and radiologist’s expertise</b>, 
+    <i>Haraldsplass Diakonale Sykehus, Bergen, Norway, September 20, 2019 </i>
 </li>
 
 <li> 
