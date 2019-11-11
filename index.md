@@ -5,19 +5,19 @@
 I'm currently working as a researcher at the Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital. 
 My research actives are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
 
-## Publications 
+# Publications 
 <a href="https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-europe/posters/deep-learning/gtc18eu-research-posters-AIDL_20_EP8136_Satheshkumar_Kaliyugarasan.jpg"> 
 	<b>Transfer learning for medical images: a case study </b>
 </a>
 <br>
 with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
 
-## Preprints, submitted and in preparation
+# Preprints, submitted and in preparation
 <b>In prep: Brain age versus chronological age: A large scale MRI and deep learning investigation. </b>
 <br>
 S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 
-## Talks and travels 
+# Talks and travels 
 ### Latest and upcoming
 <ul>
 <li> 
