@@ -26,8 +26,8 @@ body {
 
 a {
   &, &:link, &:visited {
-    color: #0000FF;
-    text-decoration: none;
+    color: #333;
+    text-decoration: underline;
   }
   
   &:hover {
