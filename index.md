@@ -6,9 +6,7 @@ I'm currently working as a researcher at the Mohn Medical Imaging and Visualizat
 My research actives are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
 
 # Publications 
-<a href="https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-europe/posters/deep-learning/gtc18eu-research-posters-AIDL_20_EP8136_Satheshkumar_Kaliyugarasan.jpg"> 
-	<b>Transfer learning for medical images: a case study </b>
-</a>
+<a href="https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-europe/posters/deep-learning/gtc18eu-research-posters-AIDL_20_EP8136_Satheshkumar_Kaliyugarasan.jpg"> <b>Transfer learning for medical images: a case study </b></a>
 <br>
 with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
 
@@ -22,12 +20,17 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 <ul>
 
 <li> 
-    <b>TekPRAT Førde - Maskinlæring og kunstig intelligens. Title: MMIV@HUS: Kunstig intelligens ved radiologisk avdeling</b>, 
+    <b> <a href="https://www.meetup.com/Bergen-Data-Science-Meetup/events/266379588/"> Bergen Data Science Meetup.</a> Title: Artificial intelligence in image diagnostics: design methodologies for efficient use of data.</b>, 
+    <i>Bouvet ASA, Bergen, Norway, November 19, 2019 </i>
+</li>
+
+<li> 
+    <b>TekPRAT Førde - Maskinlæring og kunstig intelligens. Title: MMIV@HUS: Kunstig intelligens ved radiologisk avdeling.</b>, 
     <i>Førde Sentralsjukehus, Norway, September 23, 2019 </i>
 </li>
 
 <li> 
-    <b>MMIV Seminar September 2019 – From mouse to man – Spatial and temporal medical imaging in different species and development phases. Title: Artificial intelligence in image diagnostics – transfer learning and active learning for efficient use of data and radiologist’s expertise</b>, 
+    <b>MMIV Seminar September 2019. Title: Artificial intelligence in image diagnostics – transfer learning and active learning for efficient use of data and radiologist’s expertise.</b>, 
     <i>Haraldsplass Diakonale Sykehus, Bergen, Norway, September 20, 2019 </i>
 </li>
 
