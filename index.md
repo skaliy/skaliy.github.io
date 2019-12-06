@@ -20,6 +20,12 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 <ul>
 
 <li> 
+    <b>Posters <a href="https://mmiv.no/conference/"> MMIV 2019: Convergence of medical data science for improved patient care.</a> Title: fastai for 3D MRI deep learning & explainable AI
+</b>, 
+    <i> Bikuben, Bergen, Norway, December 9--11, 2019</i>
+</li>
+
+<li> 
     <b> <a href="https://www.meetup.com/Bergen-Data-Science-Meetup/events/266379588/"> Bergen Data Science Meetup.</a> Title: Artificial intelligence in image diagnostics: design methodologies for efficient use of data.</b>, 
     <i>Bouvet ASA, Bergen, Norway, November 19, 2019 </i>
 </li>
