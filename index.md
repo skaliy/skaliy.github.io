@@ -20,7 +20,7 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 <ul>
 
 <li> 
-    <b>Posters at <a href="https://mmiv.no/conference/"> MMIV 2019: Convergence of medical data science for improved patient care.</a> Title: fastai for 3D MRI deep learning & explainable AI
+    <b>Posters at <a href="https://mmiv.no/conference/"> MMIV 2019: Convergence of medical data science for improved patient care.</a>
 </b>, 
     <i> Bikuben, Bergen, Norway, December 9--11, 2019</i>
 </li>
