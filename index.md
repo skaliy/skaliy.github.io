@@ -18,11 +18,15 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 # Talks and travels 
 ### Latest and upcoming
 <ul>
+<li> 
+    <b> EPOS scientific poster at <a href="https://mmiv.no/conference/"> ECR 2020: European Society of Radiology Annual Congress.</a> Title: Brain age versus chronological age: A large scale MRI and deep learning investigation.</b>, 
+    <i> Austria Center, Vienna, Austria, March 11-15, 2020</i>
+</li>
 
 <li> 
     <b>Posters at <a href="https://mmiv.no/conference/"> MMIV 2019: Convergence of medical data science for improved patient care.</a>
 </b>, 
-    <i> Bikuben, Bergen, Norway, December 9--11, 2019</i>
+    <i> Bikuben, Bergen, Norway, December 9-11, 2019</i>
 </li>
 
 <li> 
