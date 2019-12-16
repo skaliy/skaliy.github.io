@@ -19,7 +19,7 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 ### Latest and upcoming
 <ul>
 <li> 
-    <b> EPOS scientific poster at <a href="https://mmiv.no/conference/"> ECR 2020: European Society of Radiology Annual Congress.</a> Title: Brain age versus chronological age: A large scale MRI and deep learning investigation.</b>, 
+    <b> EPOS scientific poster at <a href="https://www.myesr.org/congress"> ECR 2020: European Society of Radiology Annual Congress.</a> Title: Brain age versus chronological age: A large scale MRI and deep learning investigation.</b>, 
     <i> Austria Center, Vienna, Austria, March 11-15, 2020</i>
 </li>
 
