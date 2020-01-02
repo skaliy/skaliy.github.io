@@ -6,6 +6,21 @@ I'm currently working as a researcher at the Mohn Medical Imaging and Visualizat
 My research actives are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
 
 # Publications 
+
+
+# Conference posters  
+<b>BrainAge: From DICOM to age</b>
+<br>
+with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference, Bergen, Norway, Dec. 2019 </i>
+
+<br>
+
+<b>fastai for 3D MRI deep learning & explainable AI</b>
+<br>
+with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference, Bergen, Norway, Dec. 2019 </i>
+
+<br>
+
 <a href="https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-europe/posters/deep-learning/gtc18eu-research-posters-AIDL_20_EP8136_Satheshkumar_Kaliyugarasan.jpg"> <b>Transfer learning for medical images: a case study </b></a>
 <br>
 with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
