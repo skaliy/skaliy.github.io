@@ -19,6 +19,10 @@ menu:
     link: /resume
     icon: ""
 
+  - text: Posts
+    link: /posts
+    icon: ""
+
   - text: Contact Me
     link: /contact
     icon: ""
