@@ -35,6 +35,11 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 </li>
 
 <li> 
+    <b>Seminar, Bergen gynekologisk kreft - Voss 2020:  Title: Artificial intelligence in image diagnostics: design methodologies for efficient use of data and radiologist’s expertise.</b>, 
+    <i>Scandic Voss, Norway, March 5-6, 2020 </i>
+</li>
+
+<li> 
     <b>Posters at <a href="https://mmiv.no/conference/"> MMIV 2019: Convergence of medical data science for improved patient care.</a>
 </b>, 
     <i> Bikuben, Bergen, Norway, December 9-11, 2019</i>
