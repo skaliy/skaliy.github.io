@@ -93,8 +93,7 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
      <i>Munich, Germany, October 9-11, 2018 </i>
 </li>
 </ul>
-<br> 
-
+<br>
 # Other research activites 
 <b>Lumbar spine segmention</b>
 <br>
