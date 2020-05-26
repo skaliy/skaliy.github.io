@@ -20,6 +20,9 @@
 <li>BSc. Information technology, Western Norway University of Applied Sciences, 2017 </li>
 </ul>
 
+## Personal grants 
+<a href="https://helse-vest.no/nyheiter/nyheiter-2019/tildeling-av-helse-vests-forskingsmidlar-2020"> Helse Vests forskningsmidler</a>, 2020-2023
+
 ## Membership in scientific societies
 <ul>
 <li> European Society of Radiology, 2019-present </li>
