@@ -5,7 +5,7 @@
 I'm currently working as a researcher at the Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital. 
 My research actives are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
 <br>
-<! -- # Publications -->
+
 # Conference posters  
 <a href="https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693"> <b>Brain age versus chronological age: A large scale MRI and deep learning investigation </b></a>
 <br>
@@ -25,12 +25,12 @@ with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </
 
 <br>
 # Preprints, submitted and in preparation
-<b>In prep: Pulmonary nodule classification in lung cancer from 3D thoracic CT scans using fastai. </b>
+<b>In prep: Pulmonary nodule classification in lung cancer from 3D thoracic CT scans using fastai</b>
 <br>
 S. Kaliyugarasan, A.S Lundervold, A. Lundervold
 
 
-<b>In prep: Brain age versus chronological age: A large scale MRI and deep learning investigation. </b>
+<b>In prep: Brain age versus chronological age: A large scale MRI and deep learning investigation</b>
 <br>
 S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 
@@ -99,7 +99,7 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 # Other research activites 
 <b>Lumbar spine segmention</b>
 <br>
-Manually segmented 5 T1-weighted scans in collaboration with <a href="https://www.uib.no/personer/Ansgar.Espeland"> Ansgar Espeland </a>, and trained a deep neural network to do this automatically with promising results., <i>Haukeland University Hospital, Bergen, Norway, January-August, 2019 </i>
+Manually segmented 5 T1-weighted scans in collaboration with <a href="https://www.uib.no/personer/Ansgar.Espeland"> Ansgar Espeland</a>, and trained a deep neural network to do this automatically with promising results., <i>Haukeland University Hospital, Bergen, Norway, January-August, 2019 </i>
 
 <br>
 
