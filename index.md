@@ -4,14 +4,12 @@
 # Research 
 I'm currently working as a researcher at the Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital. 
 My research actives are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
-
-# Publications 
-
-
+<br>
+<! -- # Publications -->
 # Conference posters  
 <a href="https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693"> <b>Brain age versus chronological age: A large scale MRI and deep learning investigation </b></a>
 <br>
-with A. Lundervold and A.S Lundervold. <i>EPOS scientific poster at <a href="https://www.myesr.org/congress"> ECR 2020 </a>, online, Jul. 2020 </i>
+with A. Lundervold and A.S Lundervold. <i>EPOS scientific poster at ECR 2020, online, Jul. 2020 </i>
 
 <b>BrainAge: From DICOM to age</b>
 <br>
@@ -25,6 +23,7 @@ with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference 2019, Bergen
 <br>
 with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
 
+<br>
 # Preprints, submitted and in preparation
 <b>In prep: Pulmonary nodule classification in lung cancer from 3D thoracic CT scans using fastai. </b>
 <br>
@@ -35,6 +34,7 @@ S. Kaliyugarasan, A.S Lundervold, A. Lundervold
 <br>
 S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 
+<br>
 # Talks and travels 
 ### Latest and upcoming
 <ul>
@@ -94,8 +94,14 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 </li>
 </ul>
 
-<br>
+<br> 
 
+# Other research activites 
+<b>Lumbar spine segmention</b>
+<br>
+Manually segmented 5 T1-weighted scans in collaboration with <a href="https://www.uib.no/personer/Ansgar.Espeland"> Ansgar Espeland </a>, and trained a deep neural network to do this automatically with promising results., <i>Haukeland University Hospital, Bergen, Norway, January-August, 2019 </i>
+
+<br>
 
 # Master thesis 
 <a href="http://bora.uib.no/bitstream/handle/1956/20849/Deep_transfer_learning_in_medical_imaging.pdf"><b>Deep transfer learning in medical imaging</b></a>
