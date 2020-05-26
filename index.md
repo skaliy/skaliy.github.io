@@ -23,7 +23,6 @@ with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference 2019, Bergen
 <br>
 with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
 
-<br>
 # Preprints, submitted and in preparation
 <b>In prep: Pulmonary nodule classification in lung cancer from 3D thoracic CT scans using fastai</b>
 <br>
@@ -34,7 +33,6 @@ S. Kaliyugarasan, A.S Lundervold, A. Lundervold
 <br>
 S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 
-<br>
 # Talks and travels 
 ### Latest and upcoming
 <ul>
@@ -94,14 +92,11 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 </li>
 </ul>
 
-<br> 
 
 # Other research activites 
 <b>Lumbar spine segmention</b>
 <br>
 Manually segmented 5 T1-weighted scans in collaboration with <a href="https://www.uib.no/personer/Ansgar.Espeland"> Ansgar Espeland</a>, and trained a deep neural network to do this automatically with promising results., <i>Haukeland University Hospital, Bergen, Norway, January-August, 2019 </i>
-
-<br>
 
 # Master thesis 
 <a href="http://bora.uib.no/bitstream/handle/1956/20849/Deep_transfer_learning_in_medical_imaging.pdf"><b>Deep transfer learning in medical imaging</b></a>
