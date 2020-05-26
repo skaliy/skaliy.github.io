@@ -9,19 +9,28 @@ My research actives are mainly related to machine learning and medical image ana
 
 
 # Conference posters  
+<a href="https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693"> <b>Brain age versus chronological age: A large scale MRI and deep learning investigation </b></a>
+<br>
+with A. Lundervold and A.S Lundervold. <i>EPOS scientific poster at <a href="https://www.myesr.org/congress"> ECR 2020 </a>, online, Jul. 2020 </i>
+
 <b>BrainAge: From DICOM to age</b>
 <br>
-with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference, Bergen, Norway, Dec. 2019 </i>
+with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference 2019, Bergen, Norway, Dec. 2019 </i>
 
 <b>fastai for 3D MRI deep learning & explainable AI</b>
 <br>
-with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference, Bergen, Norway, Dec. 2019 </i>
+with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference 2019, Bergen, Norway, Dec. 2019 </i>
 
 <a href="https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-europe/posters/deep-learning/gtc18eu-research-posters-AIDL_20_EP8136_Satheshkumar_Kaliyugarasan.jpg"> <b>Transfer learning for medical images: a case study </b></a>
 <br>
 with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
 
 # Preprints, submitted and in preparation
+<b>In prep: Pulmonary nodule classification in lung cancer from 3D thoracic CT scans using fastai. </b>
+<br>
+S. Kaliyugarasan, A.S Lundervold, A. Lundervold
+
+
 <b>In prep: Brain age versus chronological age: A large scale MRI and deep learning investigation. </b>
 <br>
 S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
@@ -29,10 +38,6 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 # Talks and travels 
 ### Latest and upcoming
 <ul>
-<li> 
-    <b> EPOS scientific poster at <a href="https://www.myesr.org/congress"> ECR 2020: European Society of Radiology Annual Congress.</a> Title: Brain age versus chronological age: A large scale MRI and deep learning investigation.</b>, 
-    <i> Austria Center, Vienna, Austria, March 11-15, 2020</i>
-</li>
 
 <li> 
     <b>Seminar, Bergen gynekologisk kreft - Voss 2020:  Title: Artificial intelligence in image diagnostics: design methodologies for efficient use of data and radiologist’s expertise.</b>, 
