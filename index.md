@@ -2,8 +2,7 @@
 ---
 
 # Research 
-I'm currently working as a researcher at the Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital. 
-My research actives are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
+PhD student at Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences and Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital. My research actives are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
 <br>
 
 # Conference posters  
@@ -25,7 +24,9 @@ with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </
 <br>
 
 # Preprints, submitted and in preparation
-<b>In prep: Pulmonary nodule classification in lung cancer from 3D thoracic CT scans using fastai</b>
+<b>Submitted: Pulmonary nodule classification in lung cancer from 3D thoracic CT scans using fastai</b>
+<br>
+The source code is available at: <a href=https://github.com/MMIV-ML/Lung-CT-fastai-2020> https://github.com/MMIV-ML/Lung-CT-fastai-2020 </a>
 <br>
 S. Kaliyugarasan, A.S Lundervold, A. Lundervold
 
@@ -97,7 +98,7 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 # Other research activites 
 <b>Lumbar spine segmention</b>
 <br>
-Manually segmented 5 T1-weighted scans in collaboration with <a href="https://www.uib.no/personer/Ansgar.Espeland"> Ansgar Espeland</a>, and trained a deep neural network to do this automatically with promising results., <i>Haukeland University Hospital, Bergen, Norway, January-August, 2019 </i>
+Manually segmented 5 T1-weighted scans in collaboration with <a href="https://www.uib.no/personer/Ansgar.Espeland"> Ansgar Espeland</a>, and trained a deep neural network to automatically segment new scans with promising results., <i>Haukeland University Hospital, Bergen, Norway, January-August, 2019 </i>
 <br>
 
 # Master thesis 
