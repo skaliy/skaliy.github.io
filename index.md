@@ -2,7 +2,7 @@
 ---
 
 # Research 
-PhD student at Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences and Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital. My research actives are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
+PhD student at <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/"> Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences </a> and <a href="https://mmiv.no/"> Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital </a>. My research actives are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
 <br>
 
 # Conference posters  
@@ -26,7 +26,7 @@ with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </
 # Preprints, submitted and in preparation
 <b>Submitted: Pulmonary nodule classification in lung cancer from 3D thoracic CT scans using fastai</b>
 <br>
-The source code is available at: <a href=https://github.com/MMIV-ML/Lung-CT-fastai-2020> https://github.com/MMIV-ML/Lung-CT-fastai-2020 </a>
+The source code is available at: <a href="https://github.com/MMIV-ML/Lung-CT-fastai-2020"> https://github.com/MMIV-ML/Lung-CT-fastai-2020 </a>
 <br>
 S. Kaliyugarasan, A.S Lundervold, A. Lundervold
 
