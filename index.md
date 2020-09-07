@@ -24,6 +24,11 @@ with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </
 <br>
 
 # Preprints, submitted and in preparation
+<b>Submitted: 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai</b>
+<br>
+S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold
+
+
 <b>Submitted: Pulmonary nodule classification in lung cancer from 3D thoracic CT scans using fastai</b>
 <br>
 The source code is available at: <a href="https://github.com/MMIV-ML/Lung-CT-fastai-2020"> https://github.com/MMIV-ML/Lung-CT-fastai-2020 </a>
