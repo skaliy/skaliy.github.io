@@ -41,6 +41,12 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 <ul>
 
 <li> 
+    <b> <a href="https://www.tekna.no/kurs/medisinsk-bildebehandling-og-maskinlaring-40653/#om-kurset"> Medisinsk bildebehandling og maskinlæring.</a> Title: Kunstig intelligens ved MMIV, Radiologisk avdeling, Haukeland universitetssykehus.</b>, 
+    <i>Streaming, October 12, 2020 </i>
+</li>
+
+
+<li> 
     <b>Seminar, Bergen gynekologisk kreft - Voss 2020:  Title: Artificial intelligence in image diagnostics: design methodologies for efficient use of data and radiologist’s expertise.</b>, 
     <i>Scandic Voss, Norway, March 5-6, 2020 </i>
 </li>
