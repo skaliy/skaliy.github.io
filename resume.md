@@ -8,7 +8,7 @@
 
 <li> Data scientist, Bouvet ASA, Bergen, Norway, 2019-present</li>
 <li> Researcher, The Department of Biomedicine, University of Bergen, Norway, 2019-2020</li>
-<li> Teaching assistent, Western Norway University of Applied Sciences, 2015-2018</li>
+<li> Teaching assistant, Western Norway University of Applied Sciences, 2015-2018</li>
 <li> Summer internship, Capgemini, Bergen, Norway, 2018</li>
 <li> Summer internship, Nordea Liv, Bergen, Norway, 2017</li>
 <li> Internship, Vizrt, Bergen, Norway, 2016</li>
