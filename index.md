@@ -38,7 +38,7 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 <ul>
 
 <li> 
-    <b> <a href="https://www.tekna.no/kurs/medisinsk-bildebehandling-og-maskinlaring-40653/#om-kurset"> Medisinsk bildebehandling og maskinlæring.</a> Title: <a href="https://docs.google.com/presentation/d/10N2wJsADLf2KuWaDOG6MVeIHGD-fh2qVeSFVtk1a-7A/preview?slide=id.g9c0900aabd_0_31"> Kunstig intelligens ved MMIV, Radiologisk avdeling, Haukeland universitetssykehus.</b><a/>, 
+    <b> <a href="https://www.tekna.no/kurs/medisinsk-bildebehandling-og-maskinlaring-40653/#om-kurset"> Medisinsk bildebehandling og maskinlæring.</a> Title: <a href="https://docs.google.com/presentation/d/10N2wJsADLf2KuWaDOG6MVeIHGD-fh2qVeSFVtk1a-7A/preview?slide=id.g9c0900aabd_0_31"> Kunstig intelligens ved MMIV, Radiologisk avdeling, Haukeland universitetssykehus.<a/></b>, 
     <i>Streaming, October 12, 2020 </i>
 </li>
 
