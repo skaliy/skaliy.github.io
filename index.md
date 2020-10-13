@@ -28,14 +28,6 @@ with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </
 <br>
 S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold
 
-
-<b>Submitted: Pulmonary nodule classification in lung cancer from 3D thoracic CT scans using fastai</b>
-<br>
-The source code is available at: <a href="https://github.com/MMIV-ML/Lung-CT-fastai-2020"> https://github.com/MMIV-ML/Lung-CT-fastai-2020 </a>
-<br>
-S. Kaliyugarasan, A.S Lundervold, A. Lundervold
-
-
 <b>In prep: Brain age versus chronological age: A large scale MRI and deep learning investigation</b>
 <br>
 S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
@@ -46,7 +38,7 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 <ul>
 
 <li> 
-    <b> <a href="https://www.tekna.no/kurs/medisinsk-bildebehandling-og-maskinlaring-40653/#om-kurset"> Medisinsk bildebehandling og maskinlæring.</a> Title: Kunstig intelligens ved MMIV, Radiologisk avdeling, Haukeland universitetssykehus.</b>, 
+    <b> <a href="https://www.tekna.no/kurs/medisinsk-bildebehandling-og-maskinlaring-40653/#om-kurset"> Medisinsk bildebehandling og maskinlæring.</a> Title: <a href="https://docs.google.com/presentation/d/10N2wJsADLf2KuWaDOG6MVeIHGD-fh2qVeSFVtk1a-7A/preview?slide=id.g9c0900aabd_0_31"> Kunstig intelligens ved MMIV, Radiologisk avdeling, Haukeland universitetssykehus.</b><a/>, 
     <i>Streaming, October 12, 2020 </i>
 </li>
 
