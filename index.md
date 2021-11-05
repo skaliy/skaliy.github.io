@@ -23,18 +23,64 @@ with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference 2019, Bergen
 with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
 <br>
 
-# Preprints, submitted and in preparation
-<b>Submitted: 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai</b>
+# Publications 
+<b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2772280/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> Pulmonary Nodule Classification in Lung Cancer from
+3D Thoracic CT Scans Using fastai and MONAI </b> </a>
 <br>
-S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold
+S. Kaliyugarasan, A. Lundervold, A.S Lundervold., <i> IJIMAI, 2021</i>
 
-<b>In prep: Brain age versus chronological age: A large scale MRI and deep learning investigation</b>
+<b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2721631/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai</b> </a>
 <br>
-S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
+S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1, 2020</i>
+
+
+
+# Preprints, submitted and in preparation
+<b>In prep: How old is your brain? A Large Scale MRI and DeepLearning Investigation</b>
 <br>
+S. Kaliyugarasan, M. Kocinski, P.G.L. PortaMana, A. Lundervold, A.S. Lundervold
+<br>
+
+
+#Teaching 
+### current courses
+<ul>
+<li> 
+<b>DAT158</b>: Machine learning engineering and advanced algorithms. Fall 2021. Course website: <a href="https://skaliy.no/DAT158-ML-21/"> DAT158-ML-21 </a>.
+</li>
+</ul>
+
+
+### MSc co-supervision
+
+<ul>
+<li> 
+<b> Jostein Digernes (2020–2022).</b>, Topic: Developing brain tumor analysis software
+</li>
+<li> <b> Carsten Ditlev-Simonsen (2020–2022).</b>, Topic: Developing brain tumor analysis software </li>
+
+</ul>
+
+
 
 # Talks and travels 
 ### Latest and upcoming
+<ul>
+
+<li> 
+    <b>NordicAIMeet 2021 – Nordic Young Researchers Symposium. Title: How old is your brain? A Large Scale MRI and Deep Learning Investigation.</b>, 
+     <i>Oslo Kongressenter, Norway, November 1-2, 2021 </i>
+</li>
+
+<li> 
+    <b>Seminar in Engineering Computing. Title: Practical deep learning in medical image analysis.</b>, 
+    <i>Western Norway University of Applied Sciences, Bergen, Norway, May 21, 2021 </i>
+</li>
+
+</ul>
+
+
+### Older
 <ul>
 
 <li> 
@@ -44,15 +90,10 @@ S. Kaliyugarasan, A. Lundervold, A.S. Lundervold
 
 
 <li> 
-    <b>Seminar, Bergen gynekologisk kreft - Voss 2020:  Title: Artificial intelligence in image diagnostics: design methodologies for efficient use of data and radiologist’s expertise.</b>, 
+    <b>Seminar, Bergen gynekologisk kreft - Voss 2020.  Title: Artificial intelligence in image diagnostics: design methodologies for efficient use of data and radiologist’s expertise.</b>, 
     <i>Scandic Voss, Norway, March 5-6, 2020 </i>
 </li>
 
-<li> 
-    <b>Posters at <a href="https://mmiv.no/conference/"> MMIV 2019: Convergence of medical data science for improved patient care.</a>
-</b>, 
-    <i> Bikuben, Bergen, Norway, December 9-11, 2019</i>
-</li>
 
 <li> 
     <b> <a href="https://www.meetup.com/Bergen-Data-Science-Meetup/events/266379588/"> Bergen Data Science Meetup.</a> Title: Artificial intelligence in image diagnostics: design methodologies for efficient use of data.</b>, 
