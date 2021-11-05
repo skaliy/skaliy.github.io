@@ -43,7 +43,7 @@ S. Kaliyugarasan, M. Kocinski, P.G.L. PortaMana, A. Lundervold, A.S. Lundervold
 
 
 # Teaching 
-### current courses
+### Current courses
 <ul>
 <li> 
 <b>DAT158</b>: Machine learning engineering and advanced algorithms. Fall 2021. Course website: <a href="https://skaliy.no/DAT158-ML-21/"> DAT158-ML-21 </a>.
