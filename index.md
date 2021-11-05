@@ -25,11 +25,11 @@ with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </
 
 # Publications 
 <b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2772280/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> Pulmonary Nodule Classification in Lung Cancer from
-3D Thoracic CT Scans Using fastai and MONAI </b> </a>
+3D Thoracic CT Scans Using fastai and MONAI </a> </b>
 <br>
 S. Kaliyugarasan, A. Lundervold, A.S Lundervold., <i> IJIMAI, 2021</i>
 
-<b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2721631/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai</b> </a>
+<b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2721631/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai</a> </b> 
 <br>
 S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1, 2020</i>
 
@@ -42,7 +42,7 @@ S. Kaliyugarasan, M. Kocinski, P.G.L. PortaMana, A. Lundervold, A.S. Lundervold
 <br>
 
 
-#Teaching 
+# Teaching 
 ### current courses
 <ul>
 <li> 
@@ -139,6 +139,7 @@ S. Kaliyugarasan, M. Kocinski, P.G.L. PortaMana, A. Lundervold, A.S. Lundervold
 </li>
 </ul>
 <br>
+
 # Other research activites 
 <b>Lumbar spine segmention</b>
 <br>
