@@ -5,7 +5,7 @@
 ## Employment
 
 <ul>
-
+<li> Assistant Professor II, Department of Computer science, Electrical engineering and Mathematical sciences, Western Norway University of Applied Sciences, Bergen, Norway, 2021-2021</li>
 <li> Data scientist, Bouvet ASA, Bergen, Norway, 2019-present</li>
 <li> Researcher, The Department of Biomedicine, University of Bergen, Norway, 2019-2020</li>
 <li> Teaching assistant, Western Norway University of Applied Sciences, 2015-2018</li>
