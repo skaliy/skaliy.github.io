@@ -8,19 +8,19 @@ PhD student at <a href="https://www.hvl.no/en/about/management/faculty-of-engine
 # Conference posters  
 <a href="https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693"> <b>Brain age versus chronological age: A large scale MRI and deep learning investigation </b></a>
 <br>
-with A. Lundervold and A.S Lundervold. <i>EPOS scientific poster at ECR 2020, online, Jul. 2020 </i>
+with A. Lundervold and A.S Lundervold., <i>EPOS scientific poster at ECR 2020, online, Jul. 2020 </i>
 
 <b>BrainAge: From DICOM to age</b>
 <br>
-with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference 2019, Bergen, Norway, Dec. 2019 </i>
+with A. Lundervold and A.S Lundervold., <i>Poster at MMIV Conference 2019, Bergen, Norway, Dec. 2019 </i>
 
 <b>fastai for 3D MRI deep learning & explainable AI</b>
 <br>
-with A. Lundervold and A.S Lundervold. <i>Poster at MMIV Conference 2019, Bergen, Norway, Dec. 2019 </i>
+with A. Lundervold and A.S Lundervold., <i>Poster at MMIV Conference 2019, Bergen, Norway, Dec. 2019 </i>
 
 <a href="https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-europe/posters/deep-learning/gtc18eu-research-posters-AIDL_20_EP8136_Satheshkumar_Kaliyugarasan.jpg"> <b>Transfer learning for medical images: a case study </b></a>
 <br>
-with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
+with A.S Lundervold., <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
 <br>
 
 # Publications 
@@ -37,7 +37,7 @@ S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1
 # Preprints, submitted and in preparation
 <b>Submitted: <a href="https://github.com/MMIV-ML/cervical-cancer-segmentation-2022"> Fully automatic whole-volume tumor segmentation in cervical cancer </a></b> 
 <br>
-E. Hodneland, S. Kaliyugarasan, K.S. Wagner-Larsen, N. Lura1,4, E. Andersen, H. Bartsch, N.Smit, M.K. Halle, C. Krakstad, A.S. Lundervold, I. Haldorsen
+E. Hodneland, S. Kaliyugarasan, K.S. Wagner-Larsen, N. Lura, E. Andersen, H. Bartsch, N.Smit, M.K. Halle, C. Krakstad, A.S. Lundervold, I. Haldorsen.
 <br>
 
 
