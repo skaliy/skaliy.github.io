@@ -2,7 +2,7 @@
 ---
 
 # Research 
-PhD student at <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/"> Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences </a> and <a href="https://mmiv.no/"> Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital </a>. My research actives are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
+PhD student at <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/"> Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences </a> and <a href="https://mmiv.no/"> Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital </a>. My research activities are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
 <br>
 
 # Conference posters  
@@ -29,21 +29,20 @@ with A.S Lundervold. <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </
 <br>
 S. Kaliyugarasan, A. Lundervold, A.S Lundervold., <i> IJIMAI, 2021</i>
 
-<b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2721631/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai</a> </b> 
+<b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2721631/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai</a></b> 
 <br>
 S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1, 2020</i>
 
 
-
 # Preprints, submitted and in preparation
-<b>In prep: How old is your brain? A Large Scale MRI and DeepLearning Investigation</b>
+<b>Submitted: <a href="https://github.com/MMIV-ML/cervical-cancer-segmentation-2022"> Fully automatic whole-volume tumor segmentation in cervical cancer </a></b> 
 <br>
-S. Kaliyugarasan, M. Kocinski, P.G.L. PortaMana, A. Lundervold, A.S. Lundervold
+E. Hodneland, S. Kaliyugarasan, K.S. Wagner-Larsen, N. Lura1,4, E. Andersen, H. Bartsch, N.Smit, M.K. Halle, C. Krakstad, A.S. Lundervold, I. Haldorsen
 <br>
 
 
 # Teaching 
-### Current courses
+### Past courses
 <ul>
 <li> 
 <b>DAT158</b>: Machine learning engineering and advanced algorithms. Fall 2021. Course website: <a href="https://skaliy.no/DAT158-ML-21/"> DAT158-ML-21 </a>.
@@ -57,8 +56,8 @@ S. Kaliyugarasan, M. Kocinski, P.G.L. PortaMana, A. Lundervold, A.S. Lundervold
 <li> 
 <b> Jostein Digernes (2020–2022).</b>, Topic: Developing brain tumor analysis software
 </li>
-<li> <b> Carsten Ditlev-Simonsen (2020–2022).</b>, Topic: Developing brain tumor analysis software </li>
-
+<li> 
+<b> Carsten Ditlev-Simonsen (2020–2022).</b>, Topic: Developing brain tumor analysis software </li>
 </ul>
 
 
@@ -66,6 +65,16 @@ S. Kaliyugarasan, M. Kocinski, P.G.L. PortaMana, A. Lundervold, A.S. Lundervold
 # Talks and travels 
 ### Latest and upcoming
 <ul>
+
+<li> 
+    <b>DAT255 guest lecture. Title: How to use fastai for medical image analysis.</b>, 
+    <i>Western Norway University of Applied Sciences, Bergen, Norway, March 2, 2022 </i>
+</li>
+
+<li> 
+    <b>CurieLecture. Title: Praktisk dyp læring i medisinsk bildeanalyse.</b>, 
+    <i>Eitri Medical Incubator, Bergen, Norway, February 2, 2022 </i>
+</li>
 
 <li> 
     <b>NordicAIMeet 2021 – Nordic Young Researchers Symposium. Title: How old is your brain? A Large Scale MRI and Deep Learning Investigation.</b>, 
