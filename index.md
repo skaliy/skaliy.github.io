@@ -40,7 +40,7 @@ S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1
 # Preprints, submitted and in preparation
 <b>In prep: fastMONAI </b>
 <br>
-S. Kaliyugarasan, A.S Lundervold.
+S. Kaliyugarasan, A.S Lundervold
 
 # Teaching 
 ### Past courses
