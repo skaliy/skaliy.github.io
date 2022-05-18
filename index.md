@@ -2,7 +2,7 @@
 ---
 
 # Research 
-PhD student at <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/"> Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences </a> and <a href="https://mmiv.no/"> Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital</a>. My research activities are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
+PhD candidate at <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/"> Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences </a> and <a href="https://mmiv.no/"> Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital</a>. My research activities are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
 <br>
 
 # Conference posters  
@@ -24,6 +24,10 @@ with A.S Lundervold., <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 <
 <br>
 
 # Publications 
+<b><a href="https://www.mdpi.com/2072-6694/14/10/2372/htm"> Fully automatic whole-volume tumor segmentation in cervical cancer </a> </b>
+<br>
+E. Hodneland, S. Kaliyugarasan, K.S. Wagner-Larsen, N. Lura, E. Andersen, H. Bartsch, N. Smit, M.K Halle, C. Krakstad, A.S Lundervold, I. Haldorsen., <i> Cancers, 2022</i>
+
 <b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2772280/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> Pulmonary Nodule Classification in Lung Cancer from
 3D Thoracic CT Scans Using fastai and MONAI </a> </b>
 <br>
@@ -33,19 +37,16 @@ S. Kaliyugarasan, A. Lundervold, A.S Lundervold., <i> IJIMAI, 2021</i>
 <br>
 S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1, 2020</i>
 
-
 # Preprints, submitted and in preparation
-<b>Submitted: <a href="https://github.com/MMIV-ML/cervical-cancer-segmentation-2022"> Fully automatic whole-volume tumor segmentation in cervical cancer </a></b> 
+<b>In prep: fastMONAI </b>
 <br>
-E. Hodneland, S. Kaliyugarasan, K.S. Wagner-Larsen, N. Lura, E. Andersen, H. Bartsch, N.Smit, M.K. Halle, C. Krakstad, A.S. Lundervold, I. Haldorsen.
-<br>
-
+S. Kaliyugarasan, A.S Lundervold </i>
 
 # Teaching 
 ### Past courses
 <ul>
 <li> 
-<b>DAT158</b>: Machine learning engineering and advanced algorithms. Fall 2021. Course website: <a href="https://skaliy.no/DAT158-ML-21/"> DAT158-ML-21 </a>.
+<b>DAT158</b>: Machine learning engineering and advanced algorithms. Fall 2021. Course website: <a href="https://skaliy.no/DAT158-ML-21/"> DAT158-ML-21</a>
 </li>
 </ul>
 
@@ -65,6 +66,11 @@ E. Hodneland, S. Kaliyugarasan, K.S. Wagner-Larsen, N. Lura, E. Andersen, H. Bar
 # Talks and travels 
 ### Latest and upcoming
 <ul>
+<li> 
+    <b>RAD230 guest lecture. Title: <a href="https://docs.google.com/presentation/d/1A11am8FbLPNqcM_VJs-eA31RWwdf8DS0DTLbHIuPtFE/present?slide=id.g128819a6924_0_61"> Hva er dyplæring?.</a></b>, 
+    <i>Western Norway University of Applied Sciences, Bergen, Norway, May 13, 2022 </i>
+</li>
+
 
 <li> 
     <b>DAT255 guest lecture. Title: How to use fastai for medical image analysis.</b>, 
