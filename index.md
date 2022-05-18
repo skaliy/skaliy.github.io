@@ -40,13 +40,14 @@ S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1
 # Preprints, submitted and in preparation
 <b>In prep: fastMONAI </b>
 <br>
-S. Kaliyugarasan, A.S Lundervold </i>
+S. Kaliyugarasan, A.S Lundervold.
 
 # Teaching 
 ### Past courses
 <ul>
 <li> 
-<b>DAT158</b>: Machine learning engineering and advanced algorithms. Fall 2021. Course website: <a href="https://skaliy.no/DAT158-ML-21/"> DAT158-ML-21</a>
+<b>DAT158: Machine learning engineering and advanced algorithms</b>., 
+<i>Fall 2021 </i>. Course website: <a href="https://skaliy.no/DAT158-ML-21/"> DAT158-ML-21</a>
 </li>
 </ul>
 
@@ -67,10 +68,9 @@ S. Kaliyugarasan, A.S Lundervold </i>
 ### Latest and upcoming
 <ul>
 <li> 
-    <b>RAD230 guest lecture. Title: <a href="https://docs.google.com/presentation/d/1A11am8FbLPNqcM_VJs-eA31RWwdf8DS0DTLbHIuPtFE/present?slide=id.g128819a6924_0_61"> Hva er dyplæring?.</a></b>, 
+    <b>RAD230 lecture and lab. Title: <a href="https://docs.google.com/presentation/d/1A11am8FbLPNqcM_VJs-eA31RWwdf8DS0DTLbHIuPtFE/present?slide=id.g128819a6924_0_61"> Hva er dyplæring?.</a></b>, 
     <i>Western Norway University of Applied Sciences, Bergen, Norway, May 13, 2022 </i>
 </li>
-
 
 <li> 
     <b>DAT255 guest lecture. Title: How to use fastai for medical image analysis.</b>, 
