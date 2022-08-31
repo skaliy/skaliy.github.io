@@ -33,12 +33,12 @@ E. Hodneland, S. Kaliyugarasan, K.S. Wagner-Larsen, N. Lura, E. Andersen, H. Bar
 <br>
 S. Kaliyugarasan, A. Lundervold, A.S Lundervold., <i> IJIMAI, 2021</i>
 
-<b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2721631/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai</a></b> 
+<b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2721631/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai </a></b> 
 <br>
 S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1, 2020</i>
 
 # Preprints, submitted and in preparation
-<b>In prep: fastMONAI </b>
+<b><a href="https://fastmonai.no/"> Submitted: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
 <br>
 S. Kaliyugarasan, A.S Lundervold
 
@@ -52,14 +52,9 @@ S. Kaliyugarasan, A.S Lundervold
 </ul>
 
 
-### MSc co-supervision
-
+### Completed MSc projects (co-supervision)
 <ul>
-<li> 
-<b> Jostein Digernes (2020–2022).</b>, Topic: Developing brain tumor analysis software
-</li>
-<li> 
-<b> Carsten Ditlev-Simonsen (2020–2022).</b>, Topic: Developing brain tumor analysis software </li>
+<li> <b> Jostein Digernes and Carsten Ditlev-Simonsen (2020–2022).</b>, Topic: Developing brain tumor analysis software</li>
 </ul>
 
 
@@ -68,7 +63,12 @@ S. Kaliyugarasan, A.S Lundervold
 ### Latest and upcoming
 <ul>
 <li> 
-    <b>RAD230 lecture and lab. Title: <a href="https://docs.google.com/presentation/d/1A11am8FbLPNqcM_VJs-eA31RWwdf8DS0DTLbHIuPtFE/present?slide=id.g128819a6924_0_61"> Hva er dyplæring?.</a></b>, 
+    <b>RSNA 2022. Title: Fully automatic whole-volume tumor segmentation in cervical cancer.</b>, 
+    <i>McCormick Place, Chicago, IL, USA, December 27 - December 1, 2022 </i>
+</li>
+    
+<li> 
+    <b>RAD230 lecture and lab. Title: <a href="https://docs.google.com/presentation/d/1A11am8FbLPNqcM_VJs-eA31RWwdf8DS0DTLbHIuPtFE/present?slide=id.g128819a6924_0_61"> Hva er dyplæring?</a></b>, 
     <i>Western Norway University of Applied Sciences, Bergen, Norway, May 13, 2022 </i>
 </li>
 
@@ -81,7 +81,11 @@ S. Kaliyugarasan, A.S Lundervold
     <b>CurieLecture. Title: Praktisk dyp læring i medisinsk bildeanalyse.</b>, 
     <i>Eitri Medical Incubator, Bergen, Norway, February 2, 2022 </i>
 </li>
+</ul>
 
+
+### Older
+<ul>
 <li> 
     <b>NordicAIMeet 2021 – Nordic Young Researchers Symposium. Title: How old is your brain? A Large Scale MRI and Deep Learning Investigation.</b>, 
      <i>Oslo Kongressenter, Norway, November 1-2, 2021 </i>
@@ -91,12 +95,6 @@ S. Kaliyugarasan, A.S Lundervold
     <b>Seminar in Engineering Computing. Title: Practical deep learning in medical image analysis.</b>, 
     <i>Western Norway University of Applied Sciences, Bergen, Norway, May 21, 2021 </i>
 </li>
-
-</ul>
-
-
-### Older
-<ul>
 
 <li> 
     <b> <a href="https://www.tekna.no/kurs/medisinsk-bildebehandling-og-maskinlaring-40653/#om-kurset"> Medisinsk bildebehandling og maskinlæring.</a> Title: Kunstig intelligens ved MMIV, Radiologisk avdeling, Haukeland universitetssykehus.</b>, 
