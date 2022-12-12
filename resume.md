@@ -24,7 +24,10 @@
 </ul>
 
 ## Personal grants 
-<a href="https://helse-vest.no/nyheiter/nyheiter-2019/tildeling-av-helse-vests-forskingsmidlar-2020"> Helse Vests forskningsmidler</a>, 2020-2023
+<a href="https://helse-vest.no/nyheiter/nyheiter-2019/tildeling-av-helse-vests-forskingsmidlar-2020">Helse Vests forskningsmidler</a>, 2020-2023
+<a href="https://mmiv.no/presimal/">PRESIMAL travel grant</a>, 2022
+
+
 
 ## Membership in scientific societies
 <ul>

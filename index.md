@@ -6,13 +6,14 @@ PhD candidate at <a href="https://www.hvl.no/en/about/management/faculty-of-engi
 <br>
 
 # Conference posters  
-<a href="https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693"> <b>Brain age versus chronological age: A large scale MRI and deep learning investigation </b></a>
+
+<a href="https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693"><b>fastMONAI: a low-code deep learning library for medical image analysis</b></a>
+<br>
+with A.S Lundervold., <i>poster at MMIV Conference 2022, Bergen, Norway, Dec. 2022 </i>
+
+<a href="https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693"><b>Brain age versus chronological age: A large scale MRI and deep learning investigation</b></a>
 <br>
 with A. Lundervold and A.S Lundervold., <i>EPOS scientific poster at ECR 2020, online, Jul. 2020 </i>
-
-<b>BrainAge: From DICOM to age</b>
-<br>
-with A. Lundervold and A.S Lundervold., <i>Poster at MMIV Conference 2019, Bergen, Norway, Dec. 2019 </i>
 
 <b>fastai for 3D MRI deep learning & explainable AI</b>
 <br>
@@ -38,7 +39,7 @@ S. Kaliyugarasan, A. Lundervold, A.S Lundervold., <i> IJIMAI, 2021</i>
 S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1, 2020</i>
 
 # Preprints, submitted and in preparation
-<b><a href="https://fastmonai.no/"> Submitted: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
+<b><a href="https://fastmonai.no/"> In prep: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
 <br>
 S. Kaliyugarasan, A.S Lundervold
 
@@ -54,9 +55,8 @@ S. Kaliyugarasan, A.S Lundervold
 
 ### Completed MSc projects (co-supervision)
 <ul>
-<li> <b> Jostein Digernes and Carsten Ditlev-Simonsen (2020–2022).</b>, Topic: Developing brain tumor analysis software</li>
+<li> <b> Jostein Digernes and Carsten Ditlev-Simonsen (2020–2022):</b><a href="https://bora.uib.no/bora-xmlui/bitstream/handle/11250/3021987/MSc_Ditlev_Simonsen_Digernes_2022.pdf?sequence=1&isAllowed=y"> A workflow-integrated brain tumor segmentation system based on fastai and MONAI</a> </li>
 </ul>
-
 
 
 # Talks and travels 
