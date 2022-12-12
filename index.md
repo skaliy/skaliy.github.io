@@ -55,7 +55,7 @@ S. Kaliyugarasan, A.S Lundervold
 
 ### Completed MSc projects (co-supervision)
 <ul>
-<li> <b> Jostein Digernes and Carsten Ditlev-Simonsen (2020–2022):</b><a href="https://bora.uib.no/bora-xmlui/bitstream/handle/11250/3021987/MSc_Ditlev_Simonsen_Digernes_2022.pdf?sequence=1&isAllowed=y"> A workflow-integrated brain tumor segmentation system based on fastai and MONAI</a> </li>
+<li> <b>Jostein Digernes and Carsten Ditlev-Simonsen (2020–2022): </b><a href="https://bora.uib.no/bora-xmlui/bitstream/handle/11250/3021987/MSc_Ditlev_Simonsen_Digernes_2022.pdf?sequence=1&isAllowed=y">A workflow-integrated brain tumor segmentation system based on fastai and MONAI</a> </li>
 </ul>
 
 
