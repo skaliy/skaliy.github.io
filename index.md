@@ -39,7 +39,15 @@ S. Kaliyugarasan, A. Lundervold, A.S Lundervold., <i> IJIMAI, 2021</i>
 S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1, 2020</i>
 
 # Preprints, submitted and in preparation
-<b><a href="https://fastmonai.no/"> In prep: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
+<b> Accepted: Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data </b>
+<br>
+S. Kaliyugarasan, A.S Lundervold and others, <i> 20th IEEE International Symposium on Biomedical Imaging (ISBI) </i>
+
+<b><a href="https://github.com/HVL-ML/LAB-Net"> Submitted: LAB-Net: Lidar and aerial image-based building segmentation using U-Nets</a></b>
+<br>
+S. Kaliyugarasan, A.S Lundervold., <i> Nordic Machine Intelligence, second place 2022 NORA MapAI competition </i>
+
+<b><a href="https://fastmonai.no/"> In preparation: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
 <br>
 S. Kaliyugarasan, A.S Lundervold
 
@@ -62,6 +70,16 @@ S. Kaliyugarasan, A.S Lundervold
 # Talks and travels 
 ### Latest and upcoming
 <ul>
+<li> 
+    <b>ISBI 2023. Title: Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data.</b>, 
+    <i> Cartagena de Indias, Colombia, April 18-21, 2023 </i>
+</li>
+    
+<li> 
+    <b>Bouvet deler. Title: Kunstig intelligens i medisinsk bildebehandling.</b>, 
+    <i>Litteraturhuset i Bergen, Norway, January 19, 2023 </i>
+</li>
+    
 <li> 
     <b>RSNA 2022. Title: Fully automatic whole-volume tumor segmentation in cervical cancer.</b>, 
     <i>McCormick Place, Chicago, IL, USA, December 27 - December 1, 2022 </i>

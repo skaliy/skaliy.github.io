@@ -31,11 +31,8 @@
 </ul>
 
 
-
-
 ## Membership in scientific societies
 <ul>
     <li>Tekna, 2019-present</li>
     <li>European Society of Radiology, 2019-2020</li>
 </ul>
-
