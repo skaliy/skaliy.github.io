@@ -6,6 +6,10 @@ PhD candidate at <a href="https://www.hvl.no/en/about/management/faculty-of-engi
 <br>
 
 # Publications 
+<b><a href="https://journals.uio.no/NMI/article/view/10163/8480"> LAB-Net: Lidar and aerial image-based building segmentation using U-Nets</a></b>
+<br>
+S. Kaliyugarasan, A.S Lundervold., <i> Nordic Machine Intelligence, second place 2022 NORA MapAI competition </i>
+
 <b><a href="https://www.mdpi.com/2072-6694/14/10/2372/htm"> Fully automatic whole-volume tumor segmentation in cervical cancer </a> </b>
 <br>
 E. Hodneland, S. Kaliyugarasan, K.S. Wagner-Larsen, N. Lura, E. Andersen, H. Bartsch, N. Smit, M.K Halle, C. Krakstad, A.S Lundervold, I. Haldorsen., <i> Cancers, 2022</i>
@@ -24,11 +28,7 @@ S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1
 <br>
 S. Kaliyugarasan, A.S Lundervold and others, <i> 20th IEEE International Symposium on Biomedical Imaging (ISBI) </i>
 
-<b><a href="https://github.com/HVL-ML/LAB-Net"> Submitted: LAB-Net: Lidar and aerial image-based building segmentation using U-Nets</a></b>
-<br>
-S. Kaliyugarasan, A.S Lundervold., <i> Nordic Machine Intelligence, second place 2022 NORA MapAI competition </i>
-
-<b><a href="https://fastmonai.no/"> In preparation: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
+<b><a href="https://fastmonai.no/"> Submitted: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
 <br>
 S. Kaliyugarasan, A.S Lundervold
 
@@ -72,6 +72,11 @@ with A.S Lundervold., <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 <
 ### Latest and upcoming
 <ul>
 <li> 
+    <b>RAD230 lecture and lab. Title: Kunstig intelligens og framtidens radiografer</b>, 
+    <i>Western Norway University of Applied Sciences, Bergen, Norway, May 8, 2023 </i>
+</li>
+    
+<li> 
     <b>ISBI 2023. Title: Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data.</b>, 
     <i> Cartagena de Indias, Colombia, April 18-21, 2023 </i>
 </li>
@@ -80,7 +85,11 @@ with A.S Lundervold., <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 <
     <b>Bouvet deler. Title: Kunstig intelligens i medisinsk bildebehandling.</b>, 
     <i>Litteraturhuset i Bergen, Norway, January 19, 2023 </i>
 </li>
-    
+</ul>
+
+
+### Older
+<ul>
 <li> 
     <b>RSNA 2022. Title: Fully automatic whole-volume tumor segmentation in cervical cancer.</b>, 
     <i>McCormick Place, Chicago, IL, USA, December 27 - December 1, 2022 </i>
@@ -100,11 +109,7 @@ with A.S Lundervold., <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 <
     <b>CurieLecture. Title: Praktisk dyp læring i medisinsk bildeanalyse.</b>, 
     <i>Eitri Medical Incubator, Bergen, Norway, February 2, 2022 </i>
 </li>
-</ul>
-
-
-### Older
-<ul>
+    
 <li> 
     <b>NordicAIMeet 2021 – Nordic Young Researchers Symposium. Title: How old is your brain? A Large Scale MRI and Deep Learning Investigation.</b>, 
      <i>Oslo Kongressenter, Norway, November 1-2, 2021 </i>
