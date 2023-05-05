@@ -6,13 +6,18 @@ PhD candidate at <a href="https://www.hvl.no/en/about/management/faculty-of-engi
 <br>
 
 # Publications 
+
+<b> Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data </b>
+<br>
+S. Kaliyugarasan, A.S Lundervold and others., <i> 20th IEEE International Symposium on Biomedical Imaging (ISBI) </i>
+
 <b><a href="https://journals.uio.no/NMI/article/view/10163/8480"> LAB-Net: Lidar and aerial image-based building segmentation using U-Nets</a></b>
 <br>
 S. Kaliyugarasan, A.S Lundervold., <i> Nordic Machine Intelligence, second place 2022 NORA MapAI competition </i>
 
 <b><a href="https://www.mdpi.com/2072-6694/14/10/2372/htm"> Fully automatic whole-volume tumor segmentation in cervical cancer </a> </b>
 <br>
-E. Hodneland, S. Kaliyugarasan, K.S. Wagner-Larsen, N. Lura, E. Andersen, H. Bartsch, N. Smit, M.K Halle, C. Krakstad, A.S Lundervold, I. Haldorsen., <i> Cancers, 2022</i>
+E. Hodneland, S. Kaliyugarasan, and others., <i> Cancers, 2022</i>
 
 <b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2772280/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> Pulmonary Nodule Classification in Lung Cancer from
 3D Thoracic CT Scans Using fastai and MONAI </a> </b>
@@ -24,9 +29,6 @@ S. Kaliyugarasan, A. Lundervold, A.S Lundervold., <i> IJIMAI, 2021</i>
 S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1, 2020</i>
 
 # Preprints, submitted and in preparation
-<b> Accepted: Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data </b>
-<br>
-S. Kaliyugarasan, A.S Lundervold and others, <i> 20th IEEE International Symposium on Biomedical Imaging (ISBI) </i>
 
 <b><a href="https://fastmonai.no/"> Submitted: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
 <br>
@@ -35,17 +37,13 @@ S. Kaliyugarasan, A.S Lundervold
 
 # Conference posters  
 
-<a href="https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693"><b>fastMONAI: a low-code deep learning library for medical image analysis</b></a>
+<a href="https://docs.google.com/presentation/d/10DPw6IAAXDilAONE__NyqW0eGm5m56WXvUp3x6YfpfU/present?usp=sharing"><b>fastMONAI: a low-code deep learning library for medical image analysis</b></a>
 <br>
 with A.S Lundervold., <i>poster at MMIV Conference 2022, Bergen, Norway, Dec. 2022 </i>
 
 <a href="https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693"><b>Brain age versus chronological age: A large scale MRI and deep learning investigation</b></a>
 <br>
 with A. Lundervold and A.S Lundervold., <i>EPOS scientific poster at ECR 2020, online, Jul. 2020 </i>
-
-<b>fastai for 3D MRI deep learning & explainable AI</b>
-<br>
-with A. Lundervold and A.S Lundervold., <i>Poster at MMIV Conference 2019, Bergen, Norway, Dec. 2019 </i>
 
 <a href="https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-europe/posters/deep-learning/gtc18eu-research-posters-AIDL_20_EP8136_Satheshkumar_Kaliyugarasan.jpg"> <b>Transfer learning for medical images: a case study </b></a>
 <br>
