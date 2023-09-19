@@ -5,6 +5,7 @@
 ## Employment
 
 <ul>
+<li> Data scientist, Lerøy Seafood, Norway, present</li>
 <li> Assistant Professor II, Department of Computer science, Electrical engineering and Mathematical sciences, Western Norway University of Applied Sciences, Bergen, Norway, 2021-2021</li>
 <li> Researcher, The Department of Biomedicine, University of Bergen, Norway, 2019-2020</li>
 <li> Data scientist, Bouvet ASA, Bergen, Norway, 2019-2019</li>
@@ -16,7 +17,7 @@
 
 ## Education
 <ul>
-    <li> PhD student, Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences, 2020-2023. Supervisor: <a href= "https://alexander.lundervold.com/"> Alexander Selvikvåg Lundervold</a>. Title of thesis: Deep learning in medical image analysis: efficient use of data and radiological expertise
+    <li> PhD student, Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences, 2020-2023. Supervisor: <a href= "https://alexander.lundervold.com/"> Alexander Selvikvåg Lundervold</a>. Thesis: <a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/3090119/PhD_dissertation_Sathiesh_digital.pdf?sequence=6&isAllowed=y"> Deep learning in medical image analysis: efficient use of data and radiological expertise</a>
     </li>
  
     <li>MSc. Software engineering, University of Bergen and Western Norway University of Applied Sciences, 2019. Supervisor: <a href= "https://alexander.lundervold.com/"> Alexander Selvikvåg Lundervold</a>, Co-supervisor: <a href="https://www.uib.no/personer/Eli.Renate.Gruner"> Eli Renate Grüner</a>. Thesis: <a href="http://bora.uib.no/bitstream/handle/1956/20849/Deep_transfer_learning_in_medical_imaging.pdf">Deep transfer learning in medical imaging</a>

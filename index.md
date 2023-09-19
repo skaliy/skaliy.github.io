@@ -7,7 +7,7 @@ PhD candidate at <a href="https://www.hvl.no/en/about/management/faculty-of-engi
 
 # Publications 
 
-<b> Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data </b>
+<b><a href="https://ieeexplore.ieee.org/abstract/document/10230454"> Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data</a></b>
 <br>
 S. Kaliyugarasan, A.S Lundervold and others., <i> 20th IEEE International Symposium on Biomedical Imaging (ISBI) </i>
 
@@ -30,10 +30,9 @@ S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1
 
 # Preprints, submitted and in preparation
 
-<b><a href="https://fastmonai.no/"> Submitted: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
+<b><a href="https://fastmonai.no/"> Accepted: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
 <br>
-S. Kaliyugarasan, A.S Lundervold
-
+S. Kaliyugarasan, A.S Lundervold.,  <i> Software Impacts, 2023</i>
 
 # Conference posters  
 
