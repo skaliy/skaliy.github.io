@@ -1,11 +1,17 @@
 ---
 ---
 
-# Research 
-PhD candidate at <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/"> Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences </a> and <a href="https://mmiv.no/"> Mohn Medical Imaging and Visualization Center, Department of Radiology, Haukeland University Hospital</a>. My research activities are mainly related to machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
+# Professional background
+PhD from <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/">Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences</a> My research activities primarily revolved around machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data. 
+
+Currently, I am employed as a Data Scientist at <a href="https://www.leroyseafood.com/no/">Lerøy Seafood</a>, a global leader in the seafood industry.My primary responsibilities include implementing MLOps and incorporating large language models into our operational strategies, aiming to improve business efficiency and decision-making.
+
 <br>
 
 # Publications 
+<b><a href="https://www.sciencedirect.com/science/article/pii/S2665963823001203"> fastMONAI: a low-code deep learning library for medical image analysis </a></b>
+<br>
+S. Kaliyugarasan, A.S Lundervold.,  <i> Software Impacts, 2023</i>
 
 <b><a href="https://ieeexplore.ieee.org/abstract/document/10230454"> Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data</a></b>
 <br>
@@ -28,11 +34,7 @@ S. Kaliyugarasan, A. Lundervold, A.S Lundervold., <i> IJIMAI, 2021</i>
 <br>
 S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1, 2020</i>
 
-# Preprints, submitted and in preparation
-
-<b><a href="https://fastmonai.no/"> Accepted: fastMONAI: a low-code deep learning library for medical image analysis </a></b>
-<br>
-S. Kaliyugarasan, A.S Lundervold.,  <i> Software Impacts, 2023</i>
+%# Preprints, submitted and in preparation
 
 # Conference posters  
 
@@ -68,6 +70,10 @@ with A.S Lundervold., <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 <
 # Talks and travels 
 ### Latest and upcoming
 <ul>
+</ul>
+
+### Past events
+<ul>
 <li> 
     <b>RAD230 lecture and lab. Title: Kunstig intelligens og framtidens radiografer</b>, 
     <i>Western Norway University of Applied Sciences, Bergen, Norway, May 8, 2023 </i>
@@ -82,11 +88,6 @@ with A.S Lundervold., <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 <
     <b>Bouvet deler. Title: Kunstig intelligens i medisinsk bildebehandling.</b>, 
     <i>Litteraturhuset i Bergen, Norway, January 19, 2023 </i>
 </li>
-</ul>
-
-
-### Older
-<ul>
 <li> 
     <b>RSNA 2022. Title: Fully automatic whole-volume tumor segmentation in cervical cancer.</b>, 
     <i>McCormick Place, Chicago, IL, USA, December 27 - December 1, 2022 </i>
@@ -176,6 +177,7 @@ with A.S Lundervold., <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 <
 
 # Additional activites 
 <ul>
+    <li><a href="https://akademix.no/">Partner, AkademiX</a></li>
     <li><a href="https://www.meetup.com/bergen-data-science-meetup/">Co-hosting Bergen Data Science meetup</a></li>
 </ul>
 
