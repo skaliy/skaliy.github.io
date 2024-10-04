@@ -3,9 +3,11 @@
 
 # Professional background
 
-PhD from <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/" target="_blank" rel="noopener noreferrer">Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences</a>. My research activities primarily revolved around machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
+PhD from <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/" target="_blank" rel="noopener noreferrer">Western Norway University of Applied Sciences</a>. My research activities primarily revolved around machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
+<br>
 <br>
 Currently, I am employed as a Data Scientist at <a href="https://www.leroyseafood.com/no/" target="_blank" rel="noopener noreferrer">Lerøy Seafood</a>, a global leader in the seafood industry. My primary responsibilities include implementing MLOps and incorporating large language models into our operational strategies, aiming to improve business efficiency and decision-making.
+<br>
 <br>
 You can read more about how we are working on implementing ML models and exploring opportunities within generative AI <a href="https://www.leroyseafood.com/en/about-us/news/the-value-of-artificial-intelligence-and-machine-learning" target="_blank" rel="noopener noreferrer">here</a>.
 
@@ -120,7 +122,3 @@ You can read more about how we are working on implementing ML models and explori
 
 - **Poster at GTC Europe 2018: "Transfer learning for medical images: a case study"**
   - Munich, Germany, October 9-11, 2018
-
-## Additional activities
-- [Partner, AkademiX](https://akademix.no/)
-- [Co-hosting Bergen Data Science meetup](https://www.meetup.com/bergen-data-science-meetup/)
