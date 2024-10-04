@@ -2,187 +2,125 @@
 ---
 
 # Professional background
-PhD from <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/">Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences</a> My research activities primarily revolved around machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data. 
 
-Currently, I am employed as a Data Scientist at <a href="https://www.leroyseafood.com/no/">Lerøy Seafood</a>, a global leader in the seafood industry.My primary responsibilities include implementing MLOps and incorporating large language models into our operational strategies, aiming to improve business efficiency and decision-making.
-
+PhD from <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/" target="_blank" rel="noopener noreferrer">Western Norway University of Applied Sciences, Department of Computer science, Electrical engineering and Mathematical sciences</a>. My research activities primarily revolved around machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
 <br>
-
-# Publications 
-<b><a href="https://www.sciencedirect.com/science/article/pii/S2665963823001203"> fastMONAI: a low-code deep learning library for medical image analysis </a></b>
+Currently, I am employed as a Data Scientist at <a href="https://www.leroyseafood.com/no/" target="_blank" rel="noopener noreferrer">Lerøy Seafood</a>, a global leader in the seafood industry. My primary responsibilities include implementing MLOps and incorporating large language models into our operational strategies, aiming to improve business efficiency and decision-making.
 <br>
-S. Kaliyugarasan, A.S Lundervold.,  <i> Software Impacts, 2023</i>
+You can read more about how we are working on implementing ML models and exploring opportunities within generative AI <a href="https://www.leroyseafood.com/en/about-us/news/the-value-of-artificial-intelligence-and-machine-learning" target="_blank" rel="noopener noreferrer">here</a>.
 
-<b><a href="https://ieeexplore.ieee.org/abstract/document/10230454"> Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data</a></b>
-<br>
-S. Kaliyugarasan, A.S Lundervold and others., <i> 20th IEEE International Symposium on Biomedical Imaging (ISBI) </i>
+## Publications
 
-<b><a href="https://journals.uio.no/NMI/article/view/10163/8480"> LAB-Net: Lidar and aerial image-based building segmentation using U-Nets</a></b>
-<br>
-S. Kaliyugarasan, A.S Lundervold., <i> Nordic Machine Intelligence, second place 2022 NORA MapAI competition </i>
+1. [fastMONAI: a low-code deep learning library for medical image analysis](https://www.sciencedirect.com/science/article/pii/S2665963823001203)
+   - S. Kaliyugarasan, A.S Lundervold, *Software Impacts, 2023*
+   - [Source code](https://github.com/MMIV-ML/fastMONAI) (92 stars, 16 forks)
 
-<b><a href="https://www.mdpi.com/2072-6694/14/10/2372/htm"> Fully automatic whole-volume tumor segmentation in cervical cancer </a> </b>
-<br>
-E. Hodneland, S. Kaliyugarasan, and others., <i> Cancers, 2022</i>
+2. [Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data](https://ieeexplore.ieee.org/abstract/document/10230454)
+   - S. Kaliyugarasan, A.S Lundervold and others, *20th IEEE International Symposium on Biomedical Imaging (ISBI)*
 
-<b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2772280/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> Pulmonary Nodule Classification in Lung Cancer from
-3D Thoracic CT Scans Using fastai and MONAI </a> </b>
-<br>
-S. Kaliyugarasan, A. Lundervold, A.S Lundervold., <i> IJIMAI, 2021</i>
+3. [LAB-Net: Lidar and aerial image-based building segmentation using U-Nets](https://journals.uio.no/NMI/article/view/10163/8480)
+   - S. Kaliyugarasan, A.S Lundervold, *Nordic Machine Intelligence, second place 2022 NORA MapAI competition*
 
-<b><a href="https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2721631/Kaliyugarasan.pdf?sequence=4&isAllowed=y"> 2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai </a></b> 
-<br>
-S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold., <i> NIK2020, no.1, 2020</i>
+4. [Fully automatic whole-volume tumor segmentation in cervical cancer](https://www.mdpi.com/2072-6694/14/10/2372/htm)
+   - E. Hodneland, S. Kaliyugarasan, and others, *Cancers, 2022*
 
-%# Preprints, submitted and in preparation
+5. [Pulmonary Nodule Classification in Lung Cancer from 3D Thoracic CT Scans Using fastai and MONAI](https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2772280/Kaliyugarasan.pdf?sequence=4&isAllowed=y)
+   - S. Kaliyugarasan, A. Lundervold, A.S Lundervold, *IJIMAI, 2021*
 
-# Conference posters  
+6. [2D and 3D U-Nets for skull stripping in a large and heterogeneous set of head MRI using fastai](https://hvlopen.brage.unit.no/hvlopen-xmlui/bitstream/handle/11250/2721631/Kaliyugarasan.pdf?sequence=4&isAllowed=y)
+   - S. Kaliyugarasan, M. Kocinski, A. Lundervold, A.S Lundervold, *NIK2020, no.1, 2020*
 
-<a href="https://docs.google.com/presentation/d/10DPw6IAAXDilAONE__NyqW0eGm5m56WXvUp3x6YfpfU/present?usp=sharing"><b>fastMONAI: a low-code deep learning library for medical image analysis</b></a>
-<br>
-with A.S Lundervold., <i>poster at MMIV Conference 2022, Bergen, Norway, Dec. 2022 </i>
+## Conference posters
 
-<a href="https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693"><b>Brain age versus chronological age: A large scale MRI and deep learning investigation</b></a>
-<br>
-with A. Lundervold and A.S Lundervold., <i>EPOS scientific poster at ECR 2020, online, Jul. 2020 </i>
+1. [fastMONAI: a low-code deep learning library for medical image analysis](https://docs.google.com/presentation/d/10DPw6IAAXDilAONE__NyqW0eGm5m56WXvUp3x6YfpfU/present?usp=sharing)
+   - with A.S Lundervold, *MMIV Conference 2022, Bergen, Norway, Dec. 2022*
 
-<a href="https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-europe/posters/deep-learning/gtc18eu-research-posters-AIDL_20_EP8136_Satheshkumar_Kaliyugarasan.jpg"> <b>Transfer learning for medical images: a case study </b></a>
-<br>
-with A.S Lundervold., <i>Poster at GTC Europe 2018, Munich, Germany, Oct. 2018 </i>
+2. [Brain age versus chronological age: A large scale MRI and deep learning investigation](https://epos.myesr.org/esr/viewing/index.php?module=viewing_poster&task=&pi=156693)
+   - with A. Lundervold and A.S Lundervold, *EPOS scientific poster at ECR 2020, online, Jul. 2020*
 
+3. [Transfer learning for medical images: a case study](https://www.nvidia.com/content/dam/en-zz/Solutions/gtc-europe/posters/deep-learning/gtc18eu-research-posters-AIDL_20_EP8136_Satheshkumar_Kaliyugarasan.jpg)
+   - with A.S Lundervold, *GTC Europe 2018, Munich, Germany, Oct. 2018*
 
-# Teaching 
-### Past courses
-<ul>
-<li> 
-<b>DAT158: Machine learning engineering and advanced algorithms</b>., 
-<i>Fall 2021 </i>. Course website: <a href="https://skaliy.no/DAT158-ML-21/"> DAT158-ML-21</a>
-</li>
-</ul>
+## Teaching Experience
 
+### Courses 
+- **DAT158: Machine learning engineering and advanced algorithms** (Fall 2021)
+  - [Course website](https://skaliy.no/DAT158-ML-21/)
 
-### Completed MSc projects (co-supervision)
-<ul>
-<li> <b>Jostein Digernes and Carsten Ditlev-Simonsen (2020–2022): </b><a href="https://bora.uib.no/bora-xmlui/bitstream/handle/11250/3021987/MSc_Ditlev_Simonsen_Digernes_2022.pdf?sequence=1&isAllowed=y">A workflow-integrated brain tumor segmentation system based on fastai and MONAI</a> </li>
-</ul>
+### Supervision
+- **MSc Projects (co-supervision)**
+  - Jostein Digernes and Carsten Ditlev-Simonsen (2020–2022): [A workflow-integrated brain tumor segmentation system based on fastai and MONAI](https://bora.uib.no/bora-xmlui/bitstream/handle/11250/3021987/MSc_Ditlev_Simonsen_Digernes_2022.pdf?sequence=1&isAllowed=y)
 
+- **BSc Projects (co-supervision)**
+  - Preben Andersen and Andrea Svendheim (2024): Large Language Models (LLMs) and Fish Health
 
-# Talks and travels 
-### Latest and upcoming
-<ul>
-</ul>
+## Talks and conferences
 
 ### Past events
-<ul>
-<li> 
-    <b>RAD230 lecture and lab. Title: Kunstig intelligens og framtidens radiografer</b>, 
-    <i>Western Norway University of Applied Sciences, Bergen, Norway, May 8, 2023 </i>
-</li>
-    
-<li> 
-    <b>ISBI 2023. Title: Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data.</b>, 
-    <i> Cartagena de Indias, Colombia, April 18-21, 2023 </i>
-</li>
-    
-<li> 
-    <b>Bouvet deler. Title: Kunstig intelligens i medisinsk bildebehandling.</b>, 
-    <i>Litteraturhuset i Bergen, Norway, January 19, 2023 </i>
-</li>
-<li> 
-    <b>RSNA 2022. Title: Fully automatic whole-volume tumor segmentation in cervical cancer.</b>, 
-    <i>McCormick Place, Chicago, IL, USA, December 27 - December 1, 2022 </i>
-</li>
-    
-<li> 
-    <b>RAD230 lecture and lab. Title: <a href="https://docs.google.com/presentation/d/1A11am8FbLPNqcM_VJs-eA31RWwdf8DS0DTLbHIuPtFE/present?slide=id.g128819a6924_0_61"> Hva er dyplæring?</a></b>, 
-    <i>Western Norway University of Applied Sciences, Bergen, Norway, May 13, 2022 </i>
-</li>
 
-<li> 
-    <b>DAT255 guest lecture. Title: How to use fastai for medical image analysis.</b>, 
-    <i>Western Norway University of Applied Sciences, Bergen, Norway, March 2, 2022 </i>
-</li>
+- **Lerøy's motivational gathering: "Lerøy og kunstig intelligens"**
+  - Scandic Flesland, Bergen, Norway, September 7, 2023
 
-<li> 
-    <b>CurieLecture. Title: Praktisk dyp læring i medisinsk bildeanalyse.</b>, 
-    <i>Eitri Medical Incubator, Bergen, Norway, February 2, 2022 </i>
-</li>
-    
-<li> 
-    <b>NordicAIMeet 2021 – Nordic Young Researchers Symposium. Title: How old is your brain? A Large Scale MRI and Deep Learning Investigation.</b>, 
-     <i>Oslo Kongressenter, Norway, November 1-2, 2021 </i>
-</li>
+- **RAD230 lecture and lab: "Kunstig intelligens og framtidens radiografer"**
+  - Western Norway University of Applied Sciences, Bergen, Norway, May 8, 2023
 
-<li> 
-    <b>Seminar in Engineering Computing. Title: Practical deep learning in medical image analysis.</b>, 
-    <i>Western Norway University of Applied Sciences, Bergen, Norway, May 21, 2021 </i>
-</li>
+- **ISBI 2023: "Multi-Center CNN-based spine segmentation from T2w MRI using small amounts of data"**
+  - Cartagena de Indias, Colombia, April 18-21, 2023
 
-<li> 
-    <b> <a href="https://www.tekna.no/kurs/medisinsk-bildebehandling-og-maskinlaring-40653/#om-kurset"> Medisinsk bildebehandling og maskinlæring.</a> Title: Kunstig intelligens ved MMIV, Radiologisk avdeling, Haukeland universitetssykehus.</b>, 
-    <i>Streaming, October 12, 2020 </i>
-</li>
+- **Bouvet deler: "Kunstig intelligens i medisinsk bildebehandling"**
+  - Litteraturhuset i Bergen, Norway, January 19, 2023
 
+- **RSNA 2022: "Fully automatic whole-volume tumor segmentation in cervical cancer"**
+  - McCormick Place, Chicago, IL, USA, December 27 - December 1, 2022
 
-<li> 
-    <b>Seminar, Bergen gynekologisk kreft - Voss 2020. Title: Artificial intelligence in image diagnostics: design methodologies for efficient use of data and radiologist’s expertise.</b>, 
-    <i>Scandic Voss, Norway, March 5-6, 2020 </i>
-</li>
+- **RAD230 lecture and lab: ["Hva er dyplæring?"](https://docs.google.com/presentation/d/1A11am8FbLPNqcM_VJs-eA31RWwdf8DS0DTLbHIuPtFE/present?slide=id.g128819a6924_0_61)**
+  - Western Norway University of Applied Sciences, Bergen, Norway, May 13, 2022
 
+- **DAT255 guest lecture: "How to use fastai for medical image analysis"**
+  - Western Norway University of Applied Sciences, Bergen, Norway, March 2, 2022
 
-<li> 
-    <b>Bergen Data Science Meetup. Title: Artificial intelligence in image diagnostics: design methodologies for efficient use of data.</b>, 
-    <i>Bouvet ASA, Bergen, Norway, November 19, 2019 </i>
-</li>
+- **CurieLecture: "Praktisk dyp læring i medisinsk bildeanalyse"**
+  - Eitri Medical Incubator, Bergen, Norway, February 2, 2022
 
-<li> 
-    <b>TekPRAT Førde - Maskinlæring og kunstig intelligens. Title: MMIV@HUS: Kunstig intelligens ved radiologisk avdeling.</b>, 
-    <i>Førde Sentralsjukehus, Norway, September 23, 2019 </i>
-</li>
+- **NordicAIMeet 2021 – Nordic Young Researchers Symposium: "How old is your brain? A Large Scale MRI and Deep Learning Investigation"**
+  - Oslo Kongressenter, Norway, November 1-2, 2021
 
-<li> 
-    <b>MMIV Seminar September 2019. Title: Artificial intelligence in image diagnostics – transfer learning and active learning for efficient use of data and radiologist’s expertise.</b>, 
-    <i>Haraldsplass Diakonale Sykehus, Bergen, Norway, September 20, 2019 </i>
-</li>
+- **Seminar in Engineering Computing: "Practical deep learning in medical image analysis"**
+  - Western Norway University of Applied Sciences, Bergen, Norway, May 21, 2021
 
-<li> 
-    <b>NordBioMedNet Summer School 2019 in Computational Biomedicine - Imaging, machine learningn and precision medicine. Title: Deep Learning in medical image analysis.</b>, 
-    <i>Seili, Finland, August 11-16, 2019 </i>
-</li>
+- [**Medisinsk bildebehandling og maskinlæring: "Kunstig intelligens ved MMIV, Radiologisk avdeling, Haukeland universitetssykehus"**](https://www.tekna.no/kurs/medisinsk-bildebehandling-og-maskinlaring-40653/#om-kurset)
+  - Streaming, October 12, 2020
 
-<li> 
-     <b>Exhibition at Christiekonferansen 2019. Title: Mohn Medical Imaging and Visualization Center.</b>, 
-     <i>Universitetsaulaen i Bergen, Norway, April 29, 2019 </i>
-</li>
+- **Seminar, Bergen gynekologisk kreft - Voss 2020: "Artificial intelligence in image diagnostics: design methodologies for efficient use of data and radiologist's expertise"**
+  - Scandic Voss, Norway, March 5-6, 2020
 
-<li> 
-    <b>Bergen AI &amp; Machine Learning Symposium 2019. Title: Deep transfer learning: a case study.</b>, 
-    <i>Solstrand Hotel, Bergen, Norway, March 25-26, 2019 </i>
-</li>
+- **Bergen Data Science Meetup: "Artificial intelligence in image diagnostics: design methodologies for efficient use of data"**
+  - Bouvet ASA, Bergen, Norway, November 19, 2019
 
-<li><b>Exhibition at EHiN 2018.</b>, 
-    <i>Oslo Spektrum, Norway, November 14, 2018 </i>
-</li>
+- **TekPRAT Førde - Maskinlæring og kunstig intelligens: "MMIV@HUS: Kunstig intelligens ved radiologisk avdeling"**
+  - Førde Sentralsjukehus, Norway, September 23, 2019
 
-<li> <b>Machine learning seminar: A machine learning mini-conference. Title: Deep transfer learning: Can a network trained to do a task be reused for other tasks?</b>, 
-     <i>Haukeland universitetssjukehus, Bergen, Norway, October 17, 2018 </i>
-</li>
+- **MMIV Seminar September 2019: "Artificial intelligence in image diagnostics – transfer learning and active learning for efficient use of data and radiologist's expertise"**
+  - Haraldsplass Diakonale Sykehus, Bergen, Norway, September 20, 2019
 
-<li> 
-     <b>Poster at GTC Europe 2018. Title: Transfer learning for medical images: a case study.</b>, 
-     <i>Munich, Germany, October 9-11, 2018 </i>
-</li>
-</ul>
-<br>
+- **NordBioMedNet Summer School 2019 in Computational Biomedicine - Imaging, machine learning and precision medicine: "Deep Learning in medical image analysis"**
+  - Seili, Finland, August 11-16, 2019
 
-# Additional activites 
-<ul>
-    <li><a href="https://akademix.no/">Partner, AkademiX</a></li>
-    <li><a href="https://www.meetup.com/bergen-data-science-meetup/">Co-hosting Bergen Data Science meetup</a></li>
-</ul>
+- **Exhibition at Christiekonferansen 2019: "Mohn Medical Imaging and Visualization Center"**
+  - Universitetsaulaen i Bergen, Norway, April 29, 2019
 
+- **Bergen AI & Machine Learning Symposium 2019: "Deep transfer learning: a case study"**
+  - Solstrand Hotel, Bergen, Norway, March 25-26, 2019
 
-# Master thesis 
-<a href="http://bora.uib.no/bitstream/handle/1956/20849/Deep_transfer_learning_in_medical_imaging.pdf"><b>Deep transfer learning in medical imaging</b></a>
-<br>
-S. Kaliyugarasan, <i>University of Bergen and Western Norway University of Applied Sciences, 2019 </i>
+- **Exhibition at EHiN 2018**
+  - Oslo Spektrum, Norway, November 14, 2018
+
+- **Machine learning seminar: A machine learning mini-conference: "Deep transfer learning: Can a network trained to do a task be reused for other tasks?"**
+  - Haukeland universitetssjukehus, Bergen, Norway, October 17, 2018
+
+- **Poster at GTC Europe 2018: "Transfer learning for medical images: a case study"**
+  - Munich, Germany, October 9-11, 2018
+
+## Additional activities
+- [Partner, AkademiX](https://akademix.no/)
+- [Co-hosting Bergen Data Science meetup](https://www.meetup.com/bergen-data-science-meetup/)
