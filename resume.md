@@ -5,7 +5,7 @@
 ## Employment
 
 - **Data Scientist** | Lerøy Seafood, Norway | Present
-- **Assistant Professor II** | Department of Computer Science, Electrical Engineering and Mathematical Sciences, Western Norway University of Applied Sciences, Bergen, Norway | 2021
+- **Assistant Professor II** | Western Norway University of Applied Sciences, Bergen, Norway | 2021
 - **Researcher** | The Department of Biomedicine, University of Bergen, Norway | 2019-2020
 - **Data Scientist** | Bouvet ASA, Bergen, Norway | 2019
 - **Teaching Assistant** | Western Norway University of Applied Sciences | 2015-2018
@@ -15,7 +15,8 @@
 
 ## Education
 
-- **PhD** | Western Norway University of Applied Sciences, Department of Computer Science, Electrical Engineering and Mathematical Sciences | 2020-2023
+- **PhD** | Western Norway University of Applied Sciences | 2020-2023
+  - Department of Computer Science, Electrical Engineering and Mathematical Sciences 
   - Supervisor: [Alexander Selvikvåg Lundervold](https://alexander.lundervold.com/)
   - Thesis: [Deep learning in medical image analysis: efficient use of data and radiological expertise](https://hvlopen.brage.unit.no/hvlopen-xmlui/handle/11250/3090119)
 - **MSc. Software Engineering** | University of Bergen and Western Norway University of Applied Sciences | 2019
