@@ -13,22 +13,15 @@
 - **Summer Intern** | Nordea Liv, Bergen, Norway | 2017
 - **Intern** | Vizrt, Bergen, Norway | 2016
 
-## Additional Activities
-
-- [Partner, AkademiX](https://akademix.no/)
-- [Co-hosting Bergen Data Science meetup](https://www.meetup.com/bergen-data-science-meetup/)
-
 ## Education
 
 - **PhD** | Western Norway University of Applied Sciences, Department of Computer Science, Electrical Engineering and Mathematical Sciences | 2020-2023
   - Supervisor: [Alexander Selvikvåg Lundervold](https://alexander.lundervold.com/)
   - Thesis: [Deep learning in medical image analysis: efficient use of data and radiological expertise](https://hvlopen.brage.unit.no/hvlopen-xmlui/handle/11250/3090119)
-
 - **MSc. Software Engineering** | University of Bergen and Western Norway University of Applied Sciences | 2019
   - Supervisor: [Alexander Selvikvåg Lundervold](https://alexander.lundervold.com/)
   - Co-supervisor: [Eli Renate Grüner](https://www.uib.no/personer/Eli.Renate.Gruner)
   - Thesis: [Deep transfer learning in medical imaging](http://bora.uib.no/bitstream/handle/1956/20849/Deep_transfer_learning_in_medical_imaging.pdf)
-
 - **BSc. Information Technology** | Western Norway University of Applied Sciences | 2017
 
 ## Personal Grants
@@ -40,3 +33,8 @@
 
 - Tekna | 2019-present
 - European Society of Radiology | 2019-2020
+
+## Additional Activities
+
+- [Partner, AkademiX](https://akademix.no/)
+- [Co-hosting Bergen Data Science meetup](https://www.meetup.com/bergen-data-science-meetup/)
