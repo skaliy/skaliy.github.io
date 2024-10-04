@@ -6,10 +6,7 @@
 PhD from <a href="https://www.hvl.no/en/about/management/faculty-of-engineering-and-science/department-of-computer-science-electrical-engineering-and-mathematical-sciences-ny-side/" target="_blank" rel="noopener noreferrer">Western Norway University of Applied Sciences</a>. My research activities primarily revolved around machine learning and medical image analysis, with a particular focus on design methodologies in deep learning for efficient use of data.
 <br>
 <br>
-Currently, I am employed as a Data Scientist at <a href="https://www.leroyseafood.com/no/" target="_blank" rel="noopener noreferrer">Lerøy Seafood</a>, a global leader in the seafood industry. My primary responsibilities include implementing MLOps and incorporating large language models into our operational strategies, aiming to improve business efficiency and decision-making.
-<br>
-<br>
-You can read more about how we are working on implementing ML models and exploring opportunities within generative AI <a href="https://www.leroyseafood.com/en/about-us/news/the-value-of-artificial-intelligence-and-machine-learning" target="_blank" rel="noopener noreferrer">here</a>.
+Currently, I am employed as a Data Scientist at <a href="https://www.leroyseafood.com/no/" target="_blank" rel="noopener noreferrer">Lerøy Seafood</a>, a global leader in the seafood industry. My primary responsibilities include implementing MLOps and incorporating large language models into our operational strategies, aiming to improve business efficiency and decision-making. You can read more about how we are working on implementing ML models and exploring opportunities within generative AI <a href="https://www.leroyseafood.com/en/about-us/news/the-value-of-artificial-intelligence-and-machine-learning" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## Publications
 
