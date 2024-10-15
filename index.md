@@ -55,11 +55,21 @@ Currently, I am employed as a Data Scientist at <a href="https://www.leroyseafoo
 
 ## Talks and conferences
 
-### Past events
+- **Inspirasjonsdag for realfagselever: "Lerøy og kunstig intelligens"**
+  - Western Norway University of Applied Sciences, Bergen, Norway, November 4, 2024
+
+- **Hvordan jobber vi med kunstig intelligens?**
+  - Springbrett, Grieghallen, Bergen, Norway, September 24, 2024
 
 - **Lerøy's motivational gathering: "Lerøy og kunstig intelligens"**
   - Scandic Flesland, Bergen, Norway, September 7, 2023
+ 
+- **Kunstig intelligens i hverdagen**
+  - Tekna, Bergen Vitensenter, Bergen, Norway, April 29, 2024
 
+- **Workshop i Executive MBA-programmet innen strategisk ledelse**
+  - NHH, Gardermoen, Norway, April 10, 2024
+   
 - **RAD230 lecture and lab: "Kunstig intelligens og framtidens radiografer"**
   - Western Norway University of Applied Sciences, Bergen, Norway, May 8, 2023
 
