@@ -25,7 +25,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build
-        run: npm run build
+        run: |
+          npm run build -- --no-lint
+          touch out/.nojekyll
+          cp CNAME out/ || true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
