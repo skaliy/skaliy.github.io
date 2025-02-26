@@ -937,7 +937,6 @@ const PortfolioPage = () => {
         <section 
           ref={(el) => {
             sectionsRef.current["Background"] = el;
-            return undefined;
           }} 
           id="background-section" 
           className="mb-16 scroll-mt-24"
@@ -956,7 +955,9 @@ const PortfolioPage = () => {
         </section>
 
         <section 
-          ref={(el) => (sectionsRef.current["Experience"] = el)} 
+          ref={(el) => {
+            sectionsRef.current["Experience"] = el;
+          }} 
           id="experience-section" 
           className="mb-16 scroll-mt-24"
         >
@@ -969,7 +970,9 @@ const PortfolioPage = () => {
         </section>
 
         <section 
-          ref={(el) => (sectionsRef.current["Education"] = el)} 
+          ref={(el) => {
+            sectionsRef.current["Education"] = el;
+          }} 
           id="education-section" 
           className="mb-16 scroll-mt-24"
         >
@@ -982,7 +985,9 @@ const PortfolioPage = () => {
         </section>
 
         <section 
-          ref={(el) => (sectionsRef.current["Publications"] = el)} 
+          ref={(el) => {
+            sectionsRef.current["Publications"] = el;
+          }} 
           id="publications-section" 
           className="mb-16 scroll-mt-24"
         >
@@ -991,7 +996,9 @@ const PortfolioPage = () => {
         </section>
 
         <section 
-          ref={(el) => (sectionsRef.current["Teaching"] = el)} 
+          ref={(el) => {
+            sectionsRef.current["Teaching"] = el;
+          }} 
           id="teaching-section" 
           className="mb-16 scroll-mt-24"
         >
@@ -1034,7 +1041,9 @@ const PortfolioPage = () => {
         </section>
 
         <section 
-          ref={(el) => (sectionsRef.current["Talks and travels"] = el)} 
+          ref={(el) => {
+            sectionsRef.current["Talks and travels"] = el;
+          }} 
           id="talks-and-travels-section" 
           className="mb-16 scroll-mt-24"
         >
@@ -1043,7 +1052,9 @@ const PortfolioPage = () => {
         </section>
 
         <section 
-          ref={(el) => (sectionsRef.current["Contact"] = el)} 
+          ref={(el) => {
+            sectionsRef.current["Contact"] = el;
+          }} 
           id="contact-section" 
           className="mb-16 scroll-mt-24"
         >
