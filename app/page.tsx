@@ -79,11 +79,16 @@ const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
   useEffect(() => {
     // Check for user preference in localStorage or system preference
     const savedTheme = localStorage.getItem("theme")
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
-
-    if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+    
+    // Only enable dark mode if explicitly saved as dark
+    if (savedTheme === "dark") {
       setIsDarkMode(true)
       document.documentElement.classList.add("dark")
+    } else {
+      // Ensure light mode by default
+      setIsDarkMode(false)
+      document.documentElement.classList.remove("dark")
+      localStorage.setItem("theme", "light")
     }
   }, [])
 
