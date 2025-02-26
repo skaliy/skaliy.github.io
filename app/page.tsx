@@ -269,6 +269,37 @@ const ExperienceCard = ({ job }: { job: JobDetail }) => {
   )
 }
 
+// Component to display skills with badges
+const SkillsSection = ({ skills }: { skills: Record<string, string[]> }) => {
+  const categoryColors: Record<string, string> = {
+    "Languages": "blue",
+    "Primary programming language": "blue",
+    "Tools": "blue"
+  };
+
+  return (
+    <Card>
+      <div className="flex flex-col gap-8">
+        {Object.entries(skills).map(([category, skillList]) => (
+          <div key={category}>
+            <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-4">{category}</h3>
+            <div className="flex flex-wrap gap-2">
+              {skillList.map((skill, index) => (
+                <Badge 
+                  key={index} 
+                  color={categoryColors[category] || "blue"}
+                >
+                  {skill}
+                </Badge>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </Card>
+  );
+};
+
 const TalksSection = ({ talks }: { talks: Talk[] }) => {
   const [showAll, setShowAll] = useState(false)
   
@@ -574,24 +605,24 @@ const PortfolioPage = () => {
   ]
 
   const skillsData = {
-    "Primary programming Language": ["Python"],
     "Languages": ["Norwegian (Bokmål)", "Tamil", "English"],
-    "ML/AI tools": [
-      "PyTorch", 
-      "TensorFlow", 
-      "fastai", 
-      "sci kit-learn", 
-      "XGBoost", 
-      "Azure OpenAI", 
-      "Databricks", 
-      "MLflow", 
-      "Pandas", 
+    "Primary programming language": ["Python"],
+    "Tools": [
+      "PyTorch",
+      "TensorFlow",
+      "fastai",
+      "scikit-learn",
+      "XGBoost",
+      "Azure OpenAI",
+      "Databricks",
+      "MLflow",
+      "Pandas",
       "NumPy",
-      "PySpark", 
-      "LangChain", 
-      "Streamlit", 
+      "PySpark",
+      "LangChain",
+      "Streamlit",
       "Gradio"
-    ],
+    ]
   }
 
   const publicationsData: Publication[] = [
@@ -992,6 +1023,17 @@ const PortfolioPage = () => {
               <EducationCard key={index} education={edu} />
             ))}
           </div>
+        </section>
+
+        <section 
+          ref={(el) => {
+            sectionsRef.current["Skills"] = el;
+          }} 
+          id="skills-section" 
+          className="mb-16 scroll-mt-24"
+        >
+          <SectionHeader>Skills</SectionHeader>
+          <SkillsSection skills={skillsData} />
         </section>
 
         <section 
