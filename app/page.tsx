@@ -191,7 +191,7 @@ const ExperienceCard = ({ job }: { job: JobDetail }) => {
   
   // Check if we have enough content to warrant showing the "Show More" button
   const shouldShowButton = (job.details && job.details.length > 1) || 
-    (job.description && job.description.length > 150) // Approximate length for 2 lines
+    (job.description && job.description.length > 150)
   
   return (
     <Card hoverable>
@@ -202,9 +202,19 @@ const ExperienceCard = ({ job }: { job: JobDetail }) => {
         </p>
         
         {job.details ? (
-          <ul className="space-y-3 text-gray-700 dark:text-gray-300 transition-colors">
+          <ul className={`space-y-3 text-gray-700 dark:text-gray-300 transition-all duration-300 ${
+            isExpanded ? "opacity-100" : "opacity-100"
+          }`}>
             {(isExpanded || !shouldShowButton ? job.details : job.details.slice(0, 1)).map((detail: string, idx: number) => (
-              <li key={idx} className="flex items-start animate-fadeIn" style={{ animationDelay: `${idx * 100}ms` }}>
+              <li 
+                key={idx} 
+                className={`flex items-start transition-all duration-300 ease-in-out ${
+                  isExpanded ? "opacity-100 translate-y-0" : idx === 0 ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
+                }`} 
+                style={{ 
+                  transitionDelay: isExpanded ? `${idx * 100}ms` : "0ms"
+                }}
+              >
                 <span className="mr-3 mt-1.5 h-1.5 w-1.5 rounded-full bg-blue-500 dark:bg-blue-400 flex-shrink-0 transition-colors"></span>
                 <span>{detail}</span>
               </li>
