@@ -128,8 +128,8 @@ const SectionHeader = ({ children }: { children: React.ReactNode }) => {
 
 const SocialIcons = ({ size = "small" }: { size?: "small" | "large" }) => {
   const socialLinks: SocialLink[] = [
-    { icon: GithubIcon, href: "#", label: "GitHub" },
-    { icon: LinkedinIcon, href: "#", label: "LinkedIn" },
+    { icon: GithubIcon, href: "https://github.com/skaliy", label: "GitHub" },
+    { icon: LinkedinIcon, href: "https://no.linkedin.com/in/satheshkumar-kaliyugarasan-75269711b", label: "LinkedIn" },
   ]
   
   return (
@@ -139,6 +139,8 @@ const SocialIcons = ({ size = "small" }: { size?: "small" | "large" }) => {
           key={index}
           href={social.href}
           aria-label={social.label}
+          target="_blank"
+          rel="noopener noreferrer"
           className={`text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110
             focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-full p-1
             dark:text-gray-300 dark:hover:text-blue-300 dark:focus:ring-blue-400`}
