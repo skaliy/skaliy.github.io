@@ -2,21 +2,21 @@
 
 import { useEffect, useState, useRef, useCallback } from "react"
 import {
-  GithubIcon,
-  LinkedinIcon,
-  MailIcon,
-  ExternalLinkIcon,
-  BriefcaseIcon,
-  GraduationCapIcon,
-  WrenchIcon,
-  BookOpenIcon,
-  MapPinIcon,
-  MenuIcon,
-  XIcon,
-  ChevronDownIcon,
-  ChevronUpIcon,
-  PhoneIcon,
-  LocateIcon as LocationIcon,
+  Github,
+  Linkedin,
+  Mail,
+  ExternalLink,
+  Briefcase,
+  GraduationCap,
+  Wrench,
+  BookOpen,
+  MapPin,
+  Menu,
+  X,
+  ChevronDown,
+  ChevronUp,
+  Phone,
+  MapPin as LocationIcon,
   Moon,
   Sun,
   Search,
@@ -128,12 +128,12 @@ const SectionHeader = ({ children }: { children: React.ReactNode }) => {
 
 const SocialIcons = ({ size = "small" }: { size?: "small" | "large" }) => {
   const socialLinks: SocialLink[] = [
-    { icon: GithubIcon, href: "https://github.com/skaliy", label: "GitHub" },
-    { icon: LinkedinIcon, href: "https://no.linkedin.com/in/satheshkumar-kaliyugarasan-75269711b", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/skaliy", label: "GitHub" },
+    { icon: Linkedin, href: "https://no.linkedin.com/in/satheshkumar-kaliyugarasan-75269711b", label: "LinkedIn" },
   ]
   
   return (
-    <div className="flex justify-center space-x-6">
+    <div className="flex justify-center space-x-4 sm:space-x-6">
       {socialLinks.map((social, index) => (
         <a
           key={index}
@@ -142,7 +142,7 @@ const SocialIcons = ({ size = "small" }: { size?: "small" | "large" }) => {
           target="_blank"
           rel="noopener noreferrer"
           className={`text-gray-400 hover:text-blue-400 transition-all duration-300 hover:scale-110
-            focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-full p-1
+            focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-full p-2 sm:p-1 min-h-[44px] min-w-[44px] sm:min-h-auto sm:min-w-auto flex items-center justify-center
             dark:text-gray-300 dark:hover:text-blue-300 dark:focus:ring-blue-400`}
         >
           <social.icon className={size === "large" ? "w-6 h-6" : "w-5 h-5"} />
@@ -164,7 +164,7 @@ const Card = ({
   const hoverClass = hoverable ? "hover:shadow-md transform hover:-translate-y-1 transition-all duration-300" : ""
   
   return (
-    <div className={`bg-white dark:bg-gray-800 rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 
+    <div className={`bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8 shadow-sm border border-gray-100 
       dark:border-gray-700 ${hoverClass} transition-colors ${className}`}>
       {children}
     </div>
@@ -218,7 +218,7 @@ const ExperienceCard = ({ job }: { job: JobDetail }) => {
                 }}
               >
                 <span className="mr-3 mt-1.5 h-1.5 w-1.5 rounded-full bg-blue-500 dark:bg-blue-400 flex-shrink-0 transition-colors"></span>
-                <span>{detail}</span>
+                <span dangerouslySetInnerHTML={{ __html: detail }}></span>
               </li>
             ))}
           </ul>
@@ -234,12 +234,12 @@ const ExperienceCard = ({ job }: { job: JobDetail }) => {
               href={job.link}
               className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 
                 dark:text-blue-400 dark:hover:text-blue-300 focus:outline-none focus:ring-2 
-                focus:ring-blue-500 focus:ring-offset-2 rounded-lg px-2 py-1 transition-colors"
+                focus:ring-blue-500 focus:ring-offset-2 rounded-lg px-3 py-2 sm:px-2 sm:py-1 transition-colors min-h-[44px] sm:min-h-auto"
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="hover:underline">Website</span>
-              <ExternalLinkIcon className="w-4 h-4" />
+              <ExternalLink className="w-4 h-4" />
             </a>
           </div>
         )}
@@ -250,17 +250,17 @@ const ExperienceCard = ({ job }: { job: JobDetail }) => {
               onClick={() => setIsExpanded(!isExpanded)}
               className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 
                 flex items-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 
-                rounded-lg px-2 py-1 transition-colors"
+                rounded-lg px-3 py-2 sm:px-2 sm:py-1 transition-colors min-h-[44px] sm:min-h-auto"
               aria-expanded={isExpanded}
               aria-controls={`job-details-${job.title.replace(/\s+/g, "-").toLowerCase()}`}
             >
               {isExpanded ? (
                 <>
-                  Show less <ChevronUpIcon className="ml-1 w-4 h-4" />
+                  Show less <ChevronUp className="ml-1 w-4 h-4" />
                 </>
               ) : (
                 <>
-                  Show more <ChevronDownIcon className="ml-1 w-4 h-4" />
+                  Show more <ChevronDown className="ml-1 w-4 h-4" />
                 </>
               )}
             </button>
@@ -351,11 +351,11 @@ const TalksSection = ({ talks }: { talks: Talk[] }) => {
           >
             {showAll ? (
               <>
-                Show less <ChevronUpIcon className="ml-2 w-5 h-5" />
+                Show less <ChevronUp className="ml-2 w-5 h-5" />
               </>
             ) : (
               <>
-                Show more talks <ChevronDownIcon className="ml-2 w-5 h-5" />
+                Show more talks <ChevronDown className="ml-2 w-5 h-5" />
               </>
             )}
           </button>
@@ -395,13 +395,13 @@ const PublicationsSection = ({ publications }: { publications: Publication[] }) 
                 href={pub.link}
                 className="inline-flex items-center gap-2 text-green-600 hover:text-green-700 
                   dark:text-green-400 dark:hover:text-green-300 focus:outline-none focus:ring-2 
-                  focus:ring-green-500 focus:ring-offset-2 rounded-lg px-2 py-1 transition-colors"
+                  focus:ring-green-500 focus:ring-offset-2 rounded-lg px-3 py-2 sm:px-2 sm:py-1 transition-colors min-h-[44px] sm:min-h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <GithubIcon className="w-4 h-4" />
+                <Github className="w-4 h-4" />
                 <span className="hover:underline">{pub.linkText}</span>
-                <ExternalLinkIcon className="w-4 h-4" />
+                <ExternalLink className="w-4 h-4" />
               </a>
             )}
           </Card>
@@ -418,11 +418,11 @@ const PublicationsSection = ({ publications }: { publications: Publication[] }) 
           >
             {showAll ? (
               <>
-                Show less <ChevronUpIcon className="ml-2 w-5 h-5" />
+                Show less <ChevronUp className="ml-2 w-5 h-5" />
               </>
             ) : (
               <>
-                Show more publications <ChevronDownIcon className="ml-2 w-5 h-5" />
+                Show more publications <ChevronDown className="ml-2 w-5 h-5" />
               </>
             )}
           </button>
@@ -454,7 +454,7 @@ const ContactSection = () => {
       <div className="flex flex-col gap-6">
         <div className="flex items-center group">
           <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center mr-5 shadow-sm transition-colors">
-            <MailIcon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+            <Mail className="w-6 h-6 text-blue-600 dark:text-blue-400" />
           </div>
           <div>
             <p className="text-sm text-gray-500 dark:text-gray-400">Email</p>
@@ -469,7 +469,7 @@ const ContactSection = () => {
         
         <div className="flex items-center group">
           <div className="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center mr-5 shadow-sm transition-colors">
-            <PhoneIcon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
+            <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400" />
           </div>
           <div>
             <p className="text-sm text-gray-500 dark:text-gray-400">Phone</p>
@@ -508,34 +508,39 @@ const PortfolioPage = () => {
   }
 
   const navItems = [
-    { name: "Background", icon: BookOpenIcon },
-    { name: "Experience", icon: BriefcaseIcon },
-    { name: "Education", icon: GraduationCapIcon },
-    { name: "Skills", icon: WrenchIcon },
-    { name: "Publications", icon: BookOpenIcon },
-    { name: "Teaching", icon: GraduationCapIcon },
-    { name: "Talks and travels", icon: MapPinIcon },
-    { name: "Contact", icon: MailIcon },
+    { name: "Background", icon: BookOpen },
+    { name: "Experience", icon: Briefcase },
+    { name: "Education", icon: GraduationCap },
+    { name: "Skills", icon: Wrench },
+    { name: "Publications", icon: BookOpen },
+    { name: "Teaching", icon: GraduationCap },
+    { name: "Talks and travels", icon: MapPin },
+    { name: "Contact", icon: Mail },
   ]
 
   // Sample data
   const experienceData: JobDetail[] = [
     {
+      "title": "Postdoctoral Fellow",
+      "company": "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
+      "period": "2025 - Present",
+      "description": "Conducting research and development of AI solutions for medical imaging as part of the ASIS (AI-supported services for image-diagnostics in Western Norway) project, in close partnership with radiologists."
+    },
+    {
       title: "Data scientist",
-      company: "Lerøy Seafood, Norway",
-      period: "Present",
-      technologies: ["Databricks", "MLOps", "Python", "LLMs", "Microsoft Copilot"],
+      company: "Lerøy Seafood, Bergen",
+      period: "2023 - 2025",
       details: [
         "Built MLOps infrastructure in Databricks, automating model deployment and launching two production-grade salmon price prediction models",
         "Supported Microsoft Copilot adoption through training development and hands-on GenAI workshops",
         "Developed two custom LLM solutions: a shipping document analyzer and HR chatbot",
-      ],
+        "You can read more about it here: <a href='https://www.leroyseafood.com/en/about-us/news/the-value-of-artificial-intelligence-and-machine-learning/' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline'>The value of artificial intelligence and machine learning</a>"
+      ]
     },
     {
       title: "Partner",
       company: "AkademiX",
       period: "July 2023 - Present",
-      technologies: ["AI Consulting", "Knowledge Sharing", "Workshops"],
       description:
         "Co-founded a consulting company focused on artificial intelligence solutions and knowledge sharing.",
       link: "https://akademix.no/",
@@ -544,7 +549,6 @@ const PortfolioPage = () => {
       title: "Assistant professor II",
       company: "Western Norway University of Applied Sciences",
       period: "2021",
-      technologies: ["Teaching", "Curriculum Development", "Machine Learning"],
       description:
         "Held a 20% position during PhD studies for teaching ML course for third year BSc students.",
     },
@@ -559,7 +563,6 @@ const PortfolioPage = () => {
       title: "Researcher",
       company: "University of Bergen, Department of Biomedicine",
       period: "2019-2020",
-      technologies: ["Medical Imaging", "Algorithm Development", "Research"],
     },
     {
       title: "Teaching assistant",
@@ -669,6 +672,20 @@ const PortfolioPage = () => {
 
   // Convert talks data to have a year property for filtering
   const talksData: Talk[] = [
+    {
+      title: "Kunstig intelligens i medisinsk bildediagnostikk",
+      location: "Inspirasjonsdag for realfagselever, Western Norway University of Applied Sciences, Bergen, Norway",
+      date: "November 14, 2025",
+      year: 2025,
+      category: "AI"
+    },
+    {
+      title: "AI in medical imaging and reporting",
+      location: "MMIV seminar, Bergen, Norway",
+      date: "September 4, 2025",
+      year: 2025,
+      category: "AI in Medical Imaging"
+    },
     {
       title: "Lerøy og kunstig intelligens",
       location: "Inspirasjonsdag for realfagselever, Western Norway University of Applied Sciences, Bergen, Norway",
@@ -872,30 +889,30 @@ const PortfolioPage = () => {
   return (
     <div className={`min-h-screen ${isDarkMode ? 'dark bg-gray-900' : 'bg-gray-50/50'} transition-colors duration-300 flex flex-col`}>
       {/* Mobile Header */}
-      <header className="md:hidden fixed top-0 left-0 right-0 bg-gray-900 text-white p-4 z-50">
+      <header className="md:hidden fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm text-white p-3 z-50 border-b border-gray-700/30">
         <div className="flex justify-between items-center">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <img
               src="/skaliy.png"
               alt="Profile"
-              className="rounded-full w-10 h-10 object-cover ring-2 ring-blue-500/20"
+              className="rounded-full w-8 h-8 object-cover ring-2 ring-blue-500/20"
             />
-            <h1 className="text-xl font-bold">Satheshkumar K.</h1>
+            <h1 className="text-lg font-semibold truncate">Satheshkumar K.</h1>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <button
               onClick={toggleTheme}
-              className="text-white p-2 hover:bg-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-white/50"
+              className="text-white p-3 hover:bg-white/10 rounded-xl focus:outline-none focus:ring-2 focus:ring-white/50 transition-colors"
               aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
             </button>
             <button
               onClick={toggleMobileMenu}
-              className="text-white p-2 hover:bg-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-white/50"
+              className="text-white p-3 hover:bg-white/10 rounded-xl focus:outline-none focus:ring-2 focus:ring-white/50 transition-colors"
               aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
             >
-              {isMobileMenuOpen ? <XIcon size={24} /> : <MenuIcon size={24} />}
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
@@ -903,28 +920,33 @@ const PortfolioPage = () => {
 
       {/* Mobile Menu with animation */}
       <div 
-        className={`md:hidden fixed inset-0 bg-gray-900 text-white z-40 pt-16 flex flex-col transform transition-transform duration-300 ease-in-out ${
+        className={`md:hidden fixed inset-0 ${isDarkMode ? 'bg-gray-900/98 text-white' : 'bg-white/98 text-gray-900'} backdrop-blur-md z-40 pt-14 flex flex-col transform transition-transform duration-300 ease-in-out ${
           isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <nav className="p-4 flex-grow">
-          {navItems.map((item) => (
+        <nav className="p-4 flex-grow overflow-y-auto">
+          {navItems.map((item, index) => (
             <a
               key={item.name}
               href={`#${item.name.toLowerCase()}-section`}
-              className="flex items-center gap-3 px-4 py-2.5 rounded-lg text-gray-300 hover:text-white hover:bg-white/10 transition-all focus:outline-none focus:ring-2 focus:ring-white/50"
+              className={`flex items-center gap-4 px-4 py-4 mb-2 rounded-xl transition-all focus:outline-none focus:ring-2 text-lg ${
+                isDarkMode 
+                  ? 'text-gray-200 hover:text-white hover:bg-white/10 active:bg-white/20 focus:ring-white/50' 
+                  : 'text-gray-700 hover:text-gray-900 hover:bg-gray-100 active:bg-gray-200 focus:ring-gray-500'
+              }`}
+              style={{ animationDelay: `${index * 50}ms` }}
               onClick={() => {
                 toggleMobileMenu()
                 setActiveSection(item.name)
               }}
             >
-              <item.icon className="w-5 h-5" />
-              {item.name}
+              <item.icon className="w-6 h-6 flex-shrink-0" />
+              <span className="font-medium">{item.name}</span>
             </a>
           ))}
         </nav>
-        <div className="mt-auto p-4">
-          <SocialIcons />
+        <div className={`mt-auto p-6 border-t ${isDarkMode ? 'border-gray-700/30' : 'border-gray-200/50'}`}>
+          <SocialIcons size="large" />
         </div>
       </div>
 
@@ -976,22 +998,18 @@ const PortfolioPage = () => {
       </div>
 
       {/* Main Content */}
-      <div className="md:ml-72 p-4 md:p-12 max-w-5xl mx-auto pt-24 md:pt-12 flex-grow">
+      <div className="md:ml-72 p-4 sm:p-6 md:p-12 max-w-5xl mx-auto pt-20 sm:pt-24 md:pt-12 flex-grow">
         <section 
           ref={(el) => {
             sectionsRef.current["Background"] = el;
           }} 
           id="background-section" 
-          className="mb-16 scroll-mt-24"
+          className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24"
         >
           <SectionHeader>Background</SectionHeader>
           <Card>
-            <p className="text-gray-700 dark:text-gray-300 text-base md:text-lg leading-relaxed">
-              PhD from Western Norway University of Applied Sciences. My research activities primarily revolved around
-              machine learning and medical image analysis, with a particular focus on design methodologies in deep
-              learning for efficient use of data. Currently, I am employed as a data scientist at Lerøy Seafood, a
-              global leader in the seafood industry. My primary responsibilities include MLOps and LLMOps infrastructure, along with integrating machine learning models and large language models into operational workflows.
-              These efforts aim to enhance business efficiency and support data-driven decision-making across the organization.
+            <p className="text-gray-700 dark:text-gray-300 text-base sm:text-lg leading-relaxed">
+            PhD from Western Norway University of Applied Sciences. I enjoy working at the intersection of applied AI research and hands-on software development. My focus is on creating practical tools that help solve meaningful challenges. Currently, as a postdoctoral fellow at the Mohn Medical Imaging and Visualization Centre (MMIV), my work involves research and development of AI solutions for medical imaging, in close collaboration with radiologists.
             </p>
             
           </Card>
@@ -1002,10 +1020,10 @@ const PortfolioPage = () => {
             sectionsRef.current["Experience"] = el;
           }} 
           id="experience-section" 
-          className="mb-16 scroll-mt-24"
+          className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24"
         >
           <SectionHeader>Experience</SectionHeader>
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             {experienceData.map((job, index) => (
               <ExperienceCard key={index} job={job} />
             ))}
@@ -1017,10 +1035,10 @@ const PortfolioPage = () => {
             sectionsRef.current["Education"] = el;
           }} 
           id="education-section" 
-          className="mb-16 scroll-mt-24"
+          className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24"
         >
           <SectionHeader>Education</SectionHeader>
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             {educationData.map((edu, index) => (
               <EducationCard key={index} education={edu} />
             ))}
@@ -1032,7 +1050,7 @@ const PortfolioPage = () => {
             sectionsRef.current["Skills"] = el;
           }} 
           id="skills-section" 
-          className="mb-16 scroll-mt-24"
+          className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24"
         >
           <SectionHeader>Skills</SectionHeader>
           <SkillsSection skills={skillsData} />
@@ -1043,7 +1061,7 @@ const PortfolioPage = () => {
             sectionsRef.current["Publications"] = el;
           }} 
           id="publications-section" 
-          className="mb-16 scroll-mt-24"
+          className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24"
         >
           <SectionHeader>Publications</SectionHeader>
           <PublicationsSection publications={publicationsData} />
@@ -1054,12 +1072,12 @@ const PortfolioPage = () => {
             sectionsRef.current["Teaching"] = el;
           }} 
           id="teaching-section" 
-          className="mb-16 scroll-mt-24"
+          className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24"
         >
           <SectionHeader>Teaching</SectionHeader>
           <Card>
             <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-4">Teaching Experience</h3>
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6">
               <div>
                 <h4 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">Courses</h4>
                 <p className="text-gray-700 dark:text-gray-300">
@@ -1099,7 +1117,7 @@ const PortfolioPage = () => {
             sectionsRef.current["Talks and travels"] = el;
           }} 
           id="talks-and-travels-section" 
-          className="mb-16 scroll-mt-24"
+          className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24"
         >
           <SectionHeader>Talks and travels</SectionHeader>
           <TalksSection talks={talksData} />
@@ -1110,7 +1128,7 @@ const PortfolioPage = () => {
             sectionsRef.current["Contact"] = el;
           }} 
           id="contact-section" 
-          className="mb-16 scroll-mt-24"
+          className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24"
         >
           <SectionHeader>Contact information</SectionHeader>
           <ContactSection />
