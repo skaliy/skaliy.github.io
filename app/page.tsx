@@ -533,7 +533,7 @@ const PortfolioPage = () => {
   // Sample data
   const experienceData: JobDetail[] = [
     {
-      "title": "Postdoctoral Fellow",
+      "title": "Postdoctoral fellow",
       "company": "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
       "period": "2025 - Present",
       "description": "Conducting research and development of AI solutions for medical imaging as part of the ASIS (AI-supported services for image-diagnostics in Western Norway) project, in close partnership with radiologists."
