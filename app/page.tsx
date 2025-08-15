@@ -305,10 +305,22 @@ const SkillsSection = ({ skills }: { skills: Record<string, string[]> }) => {
 const TalksSection = ({ talks }: { talks: Talk[] }) => {
   const [showAll, setShowAll] = useState(false)
   
-  // Sort talks by date (newest first)
+  // Sort talks by date (newest first) - use year first, then try to parse date
   const sortedTalks = [...talks].sort((a, b) => {
+    // First sort by year (newest first)
+    if (a.year !== b.year) {
+      return b.year - a.year;
+    }
+    
+    // If same year, try to parse and compare dates
     const dateA = new Date(a.date);
     const dateB = new Date(b.date);
+    
+    // If date parsing fails, fallback to string comparison
+    if (isNaN(dateA.getTime()) || isNaN(dateB.getTime())) {
+      return a.date.localeCompare(b.date);
+    }
+    
     return dateB.getTime() - dateA.getTime();
   });
   
