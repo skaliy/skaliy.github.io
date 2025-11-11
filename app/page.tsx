@@ -63,6 +63,8 @@ interface Talk {
   date: string
   year: number
   category?: string
+  locationLinkLabel?: string
+  locationLink?: string
 }
 
 // ===== Theme Context for Dark Mode =====
@@ -338,7 +340,23 @@ const TalksSection = ({ talks }: { talks: Talk[] }) => {
                 <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-2 line-clamp-2">{talk.title}</h3>
                 <p className="text-gray-700 dark:text-gray-300 mb-1 flex items-start">
                   <LocationIcon className="w-4 h-4 mr-2 mt-1 flex-shrink-0 text-gray-500 dark:text-gray-400" />
-                  <span>{talk.location}</span>
+                  <span>
+                    {talk.locationLink && talk.locationLinkLabel ? (
+                      <>
+                        <a
+                          href={talk.locationLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 underline"
+                        >
+                          {talk.locationLinkLabel}
+                        </a>
+                        {talk.location ? `, ${talk.location}` : ""}
+                      </>
+                    ) : (
+                      talk.location
+                    )}
+                  </span>
                 </p>
               </div>
               <div className="mt-3 pt-3 border-t border-gray-100 dark:border-gray-700">
@@ -536,7 +554,7 @@ const PortfolioPage = () => {
       "title": "Postdoctoral fellow",
       "company": "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
       "period": "2025 - Present",
-      "description": "Conducting research and development of AI solutions for medical imaging as part of the ASIS (AI-supported services for image-diagnostics in Western Norway) project, in close partnership with radiologists."
+      "description": "Conducting research and development of AI solutions for medical imaging and reporting within the ASIS project (AI-supported Services for Image Diagnostics in Western Norway), in close collaboration with radiologists."
     },
     {
       title: "Data scientist",
@@ -684,6 +702,15 @@ const PortfolioPage = () => {
 
   // Convert talks data to have a year property for filtering
   const talksData: Talk[] = [
+    {
+      title: "Thoughts and ongoing work on implementing AI in real healthcare settings",
+      location: "Bergen, Norway",
+      date: "December 12, 2025",
+      year: 2025,
+      category: "Healthcare AI",
+      locationLinkLabel: "MMIV Conference",
+      locationLink: "https://mmiv.no/mmiv-conference-2025"
+    },
     {
       title: "Kunstig intelligens i medisinsk bildediagnostikk",
       location: "Inspirasjonsdag for realfagselever, Western Norway University of Applied Sciences, Bergen, Norway",
@@ -940,7 +967,7 @@ const PortfolioPage = () => {
           {navItems.map((item, index) => (
             <a
               key={item.name}
-              href={`#${item.name.toLowerCase()}-section`}
+              href={`#${item.name.toLowerCase().trim().replace(/\s+/g, "-")}-section`}
               className={`flex items-center gap-4 px-4 py-4 mb-2 rounded-xl transition-all focus:outline-none focus:ring-2 text-lg ${
                 isDarkMode 
                   ? 'text-gray-200 hover:text-white hover:bg-white/10 active:bg-white/20 focus:ring-white/50' 
@@ -982,7 +1009,7 @@ const PortfolioPage = () => {
           {navItems.map((item) => (
             <a
               key={item.name}
-              href={`#${item.name.toLowerCase()}-section`}
+              href={`#${item.name.toLowerCase().trim().replace(/\s+/g, "-")}-section`}
               className={`flex items-center gap-3 px-4 py-2 rounded-lg text-sm transition-all focus:outline-none focus:ring-2 focus:ring-white/50 ${
                 activeSection === item.name
                   ? "text-white bg-white/10"
@@ -1021,7 +1048,7 @@ const PortfolioPage = () => {
           <SectionHeader>Background</SectionHeader>
           <Card>
             <p className="text-gray-700 dark:text-gray-300 text-base sm:text-lg leading-relaxed">
-            PhD from Western Norway University of Applied Sciences. I enjoy working at the intersection of applied AI research and hands-on software development. My focus is on creating practical tools that help solve meaningful challenges. Currently, as a postdoctoral fellow at the Mohn Medical Imaging and Visualization Centre (MMIV), my work involves research and development of AI solutions for medical imaging, in close collaboration with radiologists.
+            PhD from Western Norway University of Applied Sciences. I work at the intersection of applied AI research and software engineering, with a focus on building practical tools that address real-world challenges. I am currently a postdoctoral fellow at MMIV, where I develop AI solutions for medical imaging and reporting in close collaboration with radiologists.
             </p>
             
           </Card>
