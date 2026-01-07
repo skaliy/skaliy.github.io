@@ -17,7 +17,7 @@ export const PublicationsSection = () => {
     <section id="publications-section" className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24">
       <SectionHeader variant="publications">Publications</SectionHeader>
       <div className="space-y-6">
-        <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {displayedPublications.map((pub, index) => (
             <Card key={index} hoverable variant="publication">
               <h3 className="text-lg md:text-xl font-bold text-gray-800 dark:text-white mb-2">

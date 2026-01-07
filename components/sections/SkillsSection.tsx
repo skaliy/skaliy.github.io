@@ -8,7 +8,7 @@ export const SkillsSection = () => {
     <section id="skills-section" className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24">
       <SectionHeader variant="skills">Skills</SectionHeader>
       <Card>
-        <div className="flex flex-col gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {Object.entries(skillsData).map(([category, skillList]) => (
             <div key={category}>
               <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-4">

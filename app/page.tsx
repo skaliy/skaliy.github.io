@@ -39,7 +39,7 @@ const ContactSection = dynamic(
 
 // Loading skeleton for sections
 const SectionSkeleton = () => (
-  <div className="mb-12 sm:mb-16 animate-pulse">
+  <div className="mb-12 sm:mb-16 xl:mb-20 animate-pulse">
     <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded w-1/4 mb-8" />
     <div className="bg-white dark:bg-gray-800 rounded-xl p-6 space-y-4">
       <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-3/4" />
@@ -131,7 +131,7 @@ export default function PortfolioPage() {
       {/* Main Content */}
       <main
         id="main-content"
-        className="md:ml-72 p-4 sm:p-6 md:p-12 max-w-5xl mx-auto pt-20 sm:pt-24 md:pt-12 flex-grow"
+        className="md:ml-72 p-4 sm:p-6 md:p-12 max-w-5xl xl:max-w-6xl mx-auto pt-20 sm:pt-24 md:pt-12 flex-grow"
         role="main"
       >
         <BackgroundSection />
