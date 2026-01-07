@@ -2,9 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+/* CSS Custom Properties for consistent theming */
+:root {
+  --color-link: theme('colors.blue.600');
+  --color-link-hover: theme('colors.blue.700');
+  --color-accent-experience: theme('colors.blue.500');
+  --color-accent-education: theme('colors.emerald.500');
+  --color-accent-publications: theme('colors.purple.500');
+  --color-accent-talks: theme('colors.amber.500');
+  --color-accent-teaching: theme('colors.teal.500');
+}
+
+.dark {
+  --color-link: theme('colors.blue.400');
+  --color-link-hover: theme('colors.blue.300');
+  color-scheme: dark;
+}
+
+@layer base {
+  /* Consistent focus states for accessibility */
+  :focus-visible {
+    @apply outline-none ring-2 ring-blue-500 ring-offset-2;
+  }
+
+  .dark :focus-visible {
+    @apply ring-blue-400 ring-offset-gray-900;
+  }
+
+  /* Links should always be underlined for accessibility */
+  a:not([class*="no-underline"]):not([class*="btn"]):not([role="button"]) {
+    @apply underline-offset-2 decoration-1;
+  }
+
+  /* Ensure good color contrast for text */
+  body {
+    @apply text-gray-900 dark:text-gray-100;
+  }
+}
+
 @layer utilities {
   .animate-fadeIn {
     animation: fadeIn 0.5s ease-in-out;
+  }
+
+  .animate-slideUp {
+    animation: slideUp 0.5s ease-out;
+  }
+
+  .animate-slideIn {
+    animation: slideIn 0.3s ease-out;
   }
 }
 
@@ -19,10 +65,72 @@
   }
 }
 
-.dark {
-  color-scheme: dark;
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Reduced motion support for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-fadeIn,
+  .animate-slideUp,
+  .animate-slideIn {
+    animation: none !important;
+  }
+}
+
+/* Screen reader only class */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Make sr-only visible on focus for skip links */
+.sr-only:focus,
+.sr-only:focus-visible {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
 }
