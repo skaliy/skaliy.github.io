@@ -2,7 +2,7 @@ import { JobDetail } from "./types"
 
 export const experienceData: JobDetail[] = [
   {
-    title: "Consultant (Part-time)",
+    title: "Consultant (part-time)",
     company: "Sjøkrigsskolen",
     period: "2025 - Present",
     description: "Contributing to the development of an existing machine learning course by implementing hands-on learning materials using scikit-learn and PyTorch.",
