@@ -1,6 +1,6 @@
 "use client"
 
-import { Github, Linkedin } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 
 interface SocialIconsProps {
   size?: "small" | "large"
@@ -9,6 +9,7 @@ interface SocialIconsProps {
 const socialLinks = [
   { icon: Github, href: "https://github.com/skaliy", label: "GitHub" },
   { icon: Linkedin, href: "https://no.linkedin.com/in/satheshkumar-kaliyugarasan-75269711b", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:skaliyugarasan@hotmail.com", label: "Email" },
 ]
 
 export const SocialIcons = ({ size = "small" }: SocialIconsProps) => {

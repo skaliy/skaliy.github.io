@@ -16,7 +16,10 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
   const { isDarkMode, toggleTheme } = useTheme()
 
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen)
+    const newState = !isMobileMenuOpen
+    setIsMobileMenuOpen(newState)
+    // Scroll lock when menu opens
+    document.body.style.overflow = newState ? "hidden" : ""
   }
 
   const handleNavClick = (sectionName: string) => {
@@ -27,7 +30,11 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
   return (
     <>
       {/* Mobile Header */}
-      <header className="md:hidden fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm text-white p-3 z-50 border-b border-gray-700/30">
+      <header className={`md:hidden fixed top-0 left-0 right-0 backdrop-blur-sm p-3 z-50 border-b ${
+        isDarkMode
+          ? "bg-gray-900/95 text-white border-gray-700/30"
+          : "bg-white/95 text-gray-900 border-gray-200/50"
+      }`}>
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
             <picture>
@@ -45,16 +52,22 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
           <div className="flex items-center gap-1">
             <button
               onClick={toggleTheme}
-              className="text-white p-3 hover:bg-white/10 rounded-xl
-                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 transition-colors"
+              className={`p-3 rounded-xl transition-colors focus-visible:outline-none focus-visible:ring-2 ${
+                isDarkMode
+                  ? "text-white hover:bg-white/10 focus-visible:ring-white/50"
+                  : "text-gray-700 hover:bg-gray-100 focus-visible:ring-gray-500"
+              }`}
               aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
             </button>
             <button
               onClick={toggleMobileMenu}
-              className="text-white p-3 hover:bg-white/10 rounded-xl
-                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 transition-colors"
+              className={`p-3 rounded-xl transition-colors focus-visible:outline-none focus-visible:ring-2 ${
+                isDarkMode
+                  ? "text-white hover:bg-white/10 focus-visible:ring-white/50"
+                  : "text-gray-700 hover:bg-gray-100 focus-visible:ring-gray-500"
+              }`}
               aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
               aria-expanded={isMobileMenuOpen}
             >

@@ -11,25 +11,25 @@ interface SectionHeaderProps {
 }
 
 const gradientColors: Record<SectionVariant, string> = {
-  default: "from-blue-500/50",
-  experience: "from-blue-500/50",
-  education: "from-emerald-500/50",
-  skills: "from-blue-500/50",
-  publications: "from-purple-500/50",
-  teaching: "from-teal-500/50",
-  talks: "from-amber-500/50",
-  contact: "from-blue-500/50",
+  default: "from-blue-500/50 dark:from-blue-400/50",
+  experience: "from-blue-500/50 dark:from-blue-400/50",
+  education: "from-emerald-500/50 dark:from-emerald-400/50",
+  skills: "from-blue-500/50 dark:from-blue-400/50",
+  publications: "from-purple-500/50 dark:from-purple-400/50",
+  teaching: "from-teal-500/50 dark:from-teal-400/50",
+  talks: "from-amber-500/50 dark:from-amber-400/50",
+  contact: "from-blue-500/50 dark:from-blue-400/50",
 }
 
 const hoverGradientColors: Record<SectionVariant, string> = {
-  default: "group-hover:from-blue-500/80",
-  experience: "group-hover:from-blue-500/80",
-  education: "group-hover:from-emerald-500/80",
-  skills: "group-hover:from-blue-500/80",
-  publications: "group-hover:from-purple-500/80",
-  teaching: "group-hover:from-teal-500/80",
-  talks: "group-hover:from-amber-500/80",
-  contact: "group-hover:from-blue-500/80",
+  default: "group-hover:from-blue-500/80 dark:group-hover:from-blue-400/80",
+  experience: "group-hover:from-blue-500/80 dark:group-hover:from-blue-400/80",
+  education: "group-hover:from-emerald-500/80 dark:group-hover:from-emerald-400/80",
+  skills: "group-hover:from-blue-500/80 dark:group-hover:from-blue-400/80",
+  publications: "group-hover:from-purple-500/80 dark:group-hover:from-purple-400/80",
+  teaching: "group-hover:from-teal-500/80 dark:group-hover:from-teal-400/80",
+  talks: "group-hover:from-amber-500/80 dark:group-hover:from-amber-400/80",
+  contact: "group-hover:from-blue-500/80 dark:group-hover:from-blue-400/80",
 }
 
 export const SectionHeader = ({ children, variant = "default" }: SectionHeaderProps) => {

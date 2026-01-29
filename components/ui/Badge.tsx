@@ -17,11 +17,11 @@ const colorStyles: Record<BadgeColor, string> = {
 
 // Subtle patterns for colorblind accessibility
 const patternStyles: Record<BadgeColor, string> = {
-  blue: "before:content-[''] before:absolute before:inset-0 before:opacity-[0.08] before:bg-[radial-gradient(circle,currentColor_1px,transparent_1px)] before:bg-[length:4px_4px]",
-  green: "before:content-[''] before:absolute before:inset-0 before:opacity-[0.08] before:bg-[linear-gradient(45deg,currentColor_25%,transparent_25%,transparent_75%,currentColor_75%)] before:bg-[length:4px_4px]",
-  red: "before:content-[''] before:absolute before:inset-0 before:opacity-[0.08] before:bg-[linear-gradient(90deg,currentColor_1px,transparent_1px)] before:bg-[length:4px_4px]",
-  yellow: "before:content-[''] before:absolute before:inset-0 before:opacity-[0.08] before:bg-[linear-gradient(0deg,currentColor_1px,transparent_1px)] before:bg-[length:4px_4px]",
-  purple: "before:content-[''] before:absolute before:inset-0 before:opacity-[0.08] before:bg-[linear-gradient(45deg,currentColor_1px,transparent_1px),linear-gradient(-45deg,currentColor_1px,transparent_1px)] before:bg-[length:4px_4px]",
+  blue: "before:content-[''] before:absolute before:inset-0 before:opacity-[0.15] before:bg-[radial-gradient(circle,currentColor_1px,transparent_1px)] before:bg-[length:4px_4px]",
+  green: "before:content-[''] before:absolute before:inset-0 before:opacity-[0.15] before:bg-[linear-gradient(45deg,currentColor_25%,transparent_25%,transparent_75%,currentColor_75%)] before:bg-[length:4px_4px]",
+  red: "before:content-[''] before:absolute before:inset-0 before:opacity-[0.15] before:bg-[linear-gradient(90deg,currentColor_1px,transparent_1px)] before:bg-[length:4px_4px]",
+  yellow: "before:content-[''] before:absolute before:inset-0 before:opacity-[0.15] before:bg-[linear-gradient(0deg,currentColor_1px,transparent_1px)] before:bg-[length:4px_4px]",
+  purple: "before:content-[''] before:absolute before:inset-0 before:opacity-[0.15] before:bg-[linear-gradient(45deg,currentColor_1px,transparent_1px),linear-gradient(-45deg,currentColor_1px,transparent_1px)] before:bg-[length:4px_4px]",
 }
 
 export const Badge = ({ children, color = "blue" }: BadgeProps) => {

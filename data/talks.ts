@@ -60,7 +60,7 @@ export const talksData: Talk[] = [
     category: "AI"
   },
   {
-    title: "Kunstig intelligens og framtidens radiografer",
+    title: "Kunstig intelligens og fremtidens radiografer",
     location: "RAD230, Western Norway University of Applied Sciences, Bergen, Norway",
     date: "May 8, 2023",
     year: 2023,
@@ -88,7 +88,7 @@ export const talksData: Talk[] = [
     category: "Medical Imaging"
   },
   {
-    title: "RAD230 lecture and lab: \"Hva er dyplaering?\"",
+    title: "RAD230 lecture and lab: \"Hva er dyplæring?\"",
     location: "Western Norway University of Applied Sciences, Bergen, Norway",
     date: "May 13, 2022",
     year: 2022,
@@ -102,7 +102,7 @@ export const talksData: Talk[] = [
     category: "Medical Imaging"
   },
   {
-    title: "Praktisk dyp laering i medisinsk bildeanalyse",
+    title: "Praktisk dyp læring i medisinsk bildeanalyse",
     location: "CurieLecture, Eitri Medical Incubator, Bergen, Norway",
     date: "February 2, 2022",
     year: 2022,
@@ -123,7 +123,7 @@ export const talksData: Talk[] = [
     category: "Medical Imaging"
   },
   {
-    title: "Medisinsk bildebehandling og maskinlaering: Kunstig intelligens ved MMIV, Radiologisk avdeling, Haukeland universitetssykehus",
+    title: "Medisinsk bildebehandling og maskinlæring: Kunstig intelligens ved MMIV, Radiologisk avdeling, Haukeland universitetssykehus",
     location: "Tekna, Streaming",
     date: "October 12, 2020",
     year: 2020,
@@ -144,7 +144,7 @@ export const talksData: Talk[] = [
     category: "Medical Imaging"
   },
   {
-    title: "Maskinlaering og kunstig intelligens: MMIV@HUS: Kunstig intelligens ved radiologisk avdeling",
+    title: "Maskinlæring og kunstig intelligens: MMIV@HUS: Kunstig intelligens ved radiologisk avdeling",
     location: "TekPRAT, Forde Sentralsjukehus, Norway",
     date: "September 23, 2019",
     year: 2019,

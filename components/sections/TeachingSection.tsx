@@ -5,13 +5,13 @@ export const TeachingSection = () => {
   return (
     <section id="teaching-section" className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24">
       <SectionHeader variant="teaching">Teaching</SectionHeader>
-      <Card>
+      <Card variant="teaching">
         <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-4">
           Teaching Experience
         </h3>
         <div className="space-y-4 sm:space-y-6">
           <div>
-            <h4 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">
+            <h4 className="text-lg font-semibold text-teal-700 dark:text-teal-400 mb-2">
               Courses
             </h4>
             <p className="text-gray-700 dark:text-gray-300">
@@ -19,7 +19,7 @@ export const TeachingSection = () => {
             </p>
           </div>
           <div>
-            <h4 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">
+            <h4 className="text-lg font-semibold text-teal-700 dark:text-teal-400 mb-2">
               Supervision
             </h4>
             <div className="space-y-4">

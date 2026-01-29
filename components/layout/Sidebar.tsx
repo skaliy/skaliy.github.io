@@ -41,7 +41,7 @@ export const Sidebar = ({ activeSection, onSectionClick }: SidebarProps) => {
   const { isDarkMode, toggleTheme } = useTheme()
 
   return (
-    <div className="fixed left-0 top-0 w-72 h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white p-8 hidden md:flex md:flex-col">
+    <div className="sticky top-0 w-72 h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white p-8 hidden md:flex md:flex-col shrink-0">
       <div className="mb-12">
         <div className="relative w-40 h-40 mx-auto mb-6">
           <picture>

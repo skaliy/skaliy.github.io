@@ -113,7 +113,7 @@ export default function PortfolioPage() {
   return (
     <div
       className={`min-h-screen ${
-        isDarkMode ? "dark bg-gray-900" : "bg-gray-50/50"
+        isDarkMode ? "dark bg-gray-900" : "bg-stone-100"
       } transition-colors duration-300 flex flex-col`}
     >
       {/* Mobile Header */}
@@ -122,27 +122,30 @@ export default function PortfolioPage() {
         onSectionClick={handleSectionClick}
       />
 
-      {/* Desktop Sidebar */}
-      <Sidebar
-        activeSection={activeSection}
-        onSectionClick={handleSectionClick}
-      />
+      {/* Desktop: Centered container with sidebar + content */}
+      <div className="md:flex md:max-w-[1800px] md:mx-auto md:w-full flex-grow">
+        {/* Desktop Sidebar */}
+        <Sidebar
+          activeSection={activeSection}
+          onSectionClick={handleSectionClick}
+        />
 
-      {/* Main Content */}
-      <main
-        id="main-content"
-        className="md:ml-72 p-4 sm:p-6 md:p-12 max-w-5xl xl:max-w-6xl mx-auto pt-20 sm:pt-24 md:pt-12 flex-grow"
-        role="main"
-      >
-        <BackgroundSection />
-        <ExperienceSection />
-        <EducationSection />
-        <SkillsSection />
-        <PublicationsSection />
-        <TeachingSection />
-        <TalksSection />
-        <ContactSection />
-      </main>
+        {/* Main Content */}
+        <main
+          id="main-content"
+          className="p-4 sm:p-6 md:p-12 max-w-5xl pt-20 sm:pt-24 md:pt-12 md:flex-1"
+          role="main"
+        >
+          <BackgroundSection />
+          <ExperienceSection />
+          <EducationSection />
+          <SkillsSection />
+          <PublicationsSection />
+          <TeachingSection />
+          <TalksSection />
+          <ContactSection />
+        </main>
+      </div>
     </div>
   )
 }

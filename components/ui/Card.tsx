@@ -2,7 +2,7 @@
 
 import { ReactNode } from "react"
 
-type CardVariant = "default" | "experience" | "education" | "publication" | "talk" | "contact"
+type CardVariant = "default" | "experience" | "education" | "publication" | "talk" | "teaching" | "contact"
 
 interface CardProps {
   children: ReactNode
@@ -17,7 +17,8 @@ const variantStyles: Record<CardVariant, string> = {
   education: "border-l-[3px] border-l-emerald-500 dark:border-l-emerald-400",
   publication: "border-purple-200 dark:border-purple-800 hover:border-purple-300 dark:hover:border-purple-700",
   talk: "border-l-[3px] border-l-amber-500 dark:border-l-amber-400",
-  contact: "",
+  teaching: "border-l-[3px] border-l-teal-500 dark:border-l-teal-400",
+  contact: "border-l-[3px] border-l-rose-500 dark:border-l-rose-400",
 }
 
 export const Card = ({
@@ -33,8 +34,8 @@ export const Card = ({
   return (
     <div
       className={`
-        bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8
-        shadow-sm border border-gray-100 dark:border-gray-700
+        bg-white/80 dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 md:p-8
+        shadow border border-stone-200/60 dark:border-gray-700
         ${variantStyles[variant]} ${hoverClass} transition-colors ${className}
       `}
     >

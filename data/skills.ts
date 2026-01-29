@@ -1,5 +1,5 @@
 export const skillsData: Record<string, string[]> = {
-  "Languages": ["Norwegian (Bokmal)", "Tamil", "English"],
+  "Languages": ["Norwegian (Bokmål)", "Tamil", "English"],
   "Primary programming language": ["Python"],
   "Tools": [
     "PyTorch",
