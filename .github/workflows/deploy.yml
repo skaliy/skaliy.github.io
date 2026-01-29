@@ -26,7 +26,7 @@ jobs:
         run: npm ci
       - name: Build
         run: |
-          npm run build -- --no-lint
+          npm run build
           touch out/.nojekyll
           cp CNAME out/ || true
       - name: Upload artifact
