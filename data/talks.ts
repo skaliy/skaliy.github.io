@@ -25,7 +25,7 @@ export const talksData: Talk[] = [
     category: "AI in Medical Imaging"
   },
   {
-    title: "Leroy og kunstig intelligens",
+    title: "Lerøy og kunstig intelligens",
     location: "Inspirasjonsdag for realfagselever, Western Norway University of Applied Sciences, Bergen, Norway",
     date: "November 4, 2024",
     year: 2024,
@@ -39,8 +39,8 @@ export const talksData: Talk[] = [
     category: "AI"
   },
   {
-    title: "Leroy og kunstig intelligens",
-    location: "Leroy motivasjonssamling, Scandic Flesland, Bergen, Norway",
+    title: "Lerøy og kunstig intelligens",
+    location: "Lerøy motivasjonssamling, Scandic Flesland, Bergen, Norway",
     date: "September 7, 2024",
     year: 2024,
     category: "AI"
@@ -88,7 +88,7 @@ export const talksData: Talk[] = [
     category: "Medical Imaging"
   },
   {
-    title: "RAD230 lecture and lab: \"Hva er dyplæring?\"",
+    title: "RAD230 lecture and lab: \"Hva er dyp læring?\"",
     location: "Western Norway University of Applied Sciences, Bergen, Norway",
     date: "May 13, 2022",
     year: 2022,
