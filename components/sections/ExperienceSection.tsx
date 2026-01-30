@@ -11,7 +11,7 @@ const ExperienceCard = ({ job }: { job: JobDetail }) => {
 
   const shouldShowButton =
     (job.details && job.details.length > 1) ||
-    (job.description && job.description.length > 150)
+    (job.description && job.description.length > 100)
 
   return (
     <Card hoverable variant="experience">

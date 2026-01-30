@@ -22,7 +22,7 @@ export const experienceData: JobDetail[] = [
   },
   {
     title: "Data scientist",
-    company: "Leroy Seafood, Bergen",
+    company: "Lerøy Seafood, Bergen",
     period: "2023 - 2025",
     details: [
       "Built MLOps infrastructure in Databricks, automating model deployment and launching two production-grade salmon price prediction models",
