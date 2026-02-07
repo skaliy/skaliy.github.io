@@ -24,6 +24,7 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
 
   const handleNavClick = (sectionName: string) => {
     setIsMobileMenuOpen(false)
+    document.body.style.overflow = ""
     onSectionClick(sectionName)
   }
 
