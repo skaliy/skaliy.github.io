@@ -20,17 +20,17 @@ export const experienceData: JobDetail[] = [
     description: "Contributing to the development of an existing machine learning course by implementing hands-on learning materials using scikit-learn and PyTorch.",
   },
   {
-    title: "Postdoctoral fellow",
-    company: "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
-    period: "2025 - 2026",
-    description: "Conducted research and development of AI solutions for medical imaging and reporting within the ASIS project (AI-supported Services for Image Diagnostics in Western Norway), in close collaboration with radiologists.",
-  },
-  {
     title: "Partner",
     company: "AkademiX",
     period: "July 2023 - Present",
     description: "Co-founded a consulting company focused on artificial intelligence solutions and knowledge sharing.",
     link: "https://akademix.no/",
+  },
+  {
+    title: "Postdoctoral fellow",
+    company: "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
+    period: "2025 - 2026",
+    description: "Conducted research and development of AI solutions for medical imaging and reporting within the ASIS project (AI-supported Services for Image Diagnostics in Western Norway), in close collaboration with radiologists.",
   },
   {
     title: "Data scientist",
