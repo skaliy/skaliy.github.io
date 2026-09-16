@@ -1,13 +1,16 @@
 {
-  "name": "https://skaliy.github.io",
+  "name": "skaliy-portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "homepage": "https://skaliy.no",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "export": "next build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
@@ -20,7 +23,6 @@
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.3",
     "@types/node": "^22",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",

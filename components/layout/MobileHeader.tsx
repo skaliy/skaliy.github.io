@@ -1,10 +1,10 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Menu, X, Moon, Sun } from "lucide-react"
 import { useTheme } from "@/components/providers/ThemeProvider"
 import { SocialIcons } from "@/components/ui/SocialIcons"
-import { navItems } from "./Sidebar"
+import { navItems } from "./nav"
 
 interface MobileHeaderProps {
   activeSection: string
@@ -15,11 +15,24 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const { isDarkMode, toggleTheme } = useTheme()
 
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = "hidden";
+      return () => { document.body.style.overflow = ""; };
+    }
+  }, [isMobileMenuOpen]);
+
+  useEffect(() => {
+    if (!isMobileMenuOpen) return
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setIsMobileMenuOpen(false)
+    }
+    window.addEventListener("keydown", handleKeyDown)
+    return () => window.removeEventListener("keydown", handleKeyDown)
+  }, [isMobileMenuOpen])
+
   const toggleMobileMenu = () => {
-    const newState = !isMobileMenuOpen
-    setIsMobileMenuOpen(newState)
-    // Scroll lock when menu opens
-    document.body.style.overflow = newState ? "hidden" : ""
+    setIsMobileMenuOpen((prev) => !prev)
   }
 
   const handleNavClick = (sectionName: string) => {
@@ -30,11 +43,7 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
   return (
     <>
       {/* Mobile Header */}
-      <header className={`md:hidden fixed top-0 left-0 right-0 backdrop-blur-sm p-3 z-50 border-b ${
-        isDarkMode
-          ? "bg-gray-900/95 text-white border-gray-700/30"
-          : "bg-white/95 text-gray-900 border-gray-200/50"
-      }`}>
+      <header className="md:hidden fixed top-0 left-0 right-0 backdrop-blur-sm p-3 z-50 bg-nord5/95 dark:bg-nord0/95 border-b border-nord4 dark:border-nord2 text-nord1 dark:text-nord6">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
             <picture>
@@ -42,7 +51,7 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
               <img
                 src="/skaliy.png"
                 alt="Satheshkumar Kaliyugarasan"
-                className="rounded-full w-8 h-8 object-cover ring-2 ring-blue-500/20"
+                className="rounded-full w-8 h-8 object-cover ring-1 ring-nord4 dark:ring-nord2"
                 width={32}
                 height={32}
               />
@@ -52,24 +61,17 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
           <div className="flex items-center gap-1">
             <button
               onClick={toggleTheme}
-              className={`p-3 rounded-xl transition-colors focus-visible:outline-none focus-visible:ring-2 ${
-                isDarkMode
-                  ? "text-white hover:bg-white/10 focus-visible:ring-white/50"
-                  : "text-gray-700 hover:bg-gray-100 focus-visible:ring-gray-500"
-              }`}
+              className="flex min-h-11 min-w-11 items-center justify-center rounded-lg text-nord2 dark:text-nord4 hover:text-accent dark:hover:text-nord8 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8"
               aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
             >
               {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
             </button>
             <button
               onClick={toggleMobileMenu}
-              className={`p-3 rounded-xl transition-colors focus-visible:outline-none focus-visible:ring-2 ${
-                isDarkMode
-                  ? "text-white hover:bg-white/10 focus-visible:ring-white/50"
-                  : "text-gray-700 hover:bg-gray-100 focus-visible:ring-gray-500"
-              }`}
+              className="flex min-h-11 min-w-11 items-center justify-center rounded-lg text-nord2 dark:text-nord4 hover:text-accent dark:hover:text-nord8 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8"
               aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
               aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -79,38 +81,32 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden fixed inset-0 ${
-          isDarkMode ? "bg-gray-900/98 text-white" : "bg-white/98 text-gray-900"
-        } backdrop-blur-md z-40 pt-14 flex flex-col transform transition-transform duration-300 ease-in-out ${
+        id="mobile-menu"
+        {...(!isMobileMenuOpen && { inert: true })}
+        className={`md:hidden fixed inset-0 bg-nord6 dark:bg-nord1 text-nord1 dark:text-nord6 z-40 pt-14 flex flex-col transform transition-transform duration-300 ease-in-out ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
         aria-hidden={!isMobileMenuOpen}
       >
         <nav className="p-4 flex-grow overflow-y-auto" aria-label="Mobile navigation">
-          {navItems.map((item, index) => (
+          {navItems.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className={`flex items-center gap-4 px-4 py-4 mb-2 rounded-xl transition-all
-                focus-visible:outline-none focus-visible:ring-2 text-lg ${
-                  isDarkMode
-                    ? "text-gray-200 hover:text-white hover:bg-white/10 active:bg-white/20 focus-visible:ring-white/50"
-                    : "text-gray-700 hover:text-gray-900 hover:bg-gray-100 active:bg-gray-200 focus-visible:ring-gray-500"
+              aria-current={activeSection === item.name ? "page" : undefined}
+              className={`flex min-h-11 items-center px-4 py-4 mb-2 rounded-lg text-lg transition-colors
+                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8 ${
+                  activeSection === item.name
+                    ? "text-accent dark:text-nord8 font-medium"
+                    : "text-nord2 dark:text-nord4 hover:text-accent dark:hover:text-nord8"
                 }`}
-              style={{ animationDelay: `${index * 50}ms` }}
               onClick={() => handleNavClick(item.name)}
-              tabIndex={isMobileMenuOpen ? 0 : -1}
             >
-              <item.icon className="w-6 h-6 flex-shrink-0" />
               <span className="font-medium">{item.name}</span>
             </a>
           ))}
         </nav>
-        <div
-          className={`mt-auto p-6 border-t ${
-            isDarkMode ? "border-gray-700/30" : "border-gray-200/50"
-          }`}
-        >
+        <div className="mt-auto p-6 border-t border-nord4 dark:border-nord2">
           <SocialIcons size="large" />
         </div>
       </div>

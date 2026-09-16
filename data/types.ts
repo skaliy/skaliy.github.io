@@ -6,6 +6,7 @@ export interface JobDetail {
   description?: string
   technologies?: string[]
   link?: string
+  detailsLink?: { text: string; url: string };
 }
 
 export interface EducationDetail {
@@ -32,10 +33,4 @@ export interface Talk {
   category?: string
   locationLinkLabel?: string
   locationLink?: string
-}
-
-export interface SocialLink {
-  icon: React.ElementType
-  href: string
-  label: string
 }

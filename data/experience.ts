@@ -28,8 +28,11 @@ export const experienceData: JobDetail[] = [
       "Built MLOps infrastructure in Databricks, automating model deployment and launching two production-grade salmon price prediction models",
       "Supported Microsoft Copilot adoption through training development and hands-on GenAI workshops",
       "Developed two custom LLM solutions: a shipping document analyzer and HR chatbot",
-      "You can read more about it here: <a href='https://www.leroyseafood.com/en/about-us/news/the-value-of-artificial-intelligence-and-machine-learning/' target='_blank' rel='noopener noreferrer' class='text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline'>The value of artificial intelligence and machine learning</a>"
-    ]
+    ],
+    detailsLink: {
+      text: "The value of artificial intelligence and machine learning",
+      url: "https://www.leroyseafood.com/en/about-us/news/the-value-of-artificial-intelligence-and-machine-learning/",
+    },
   },
   {
     title: "Assistant professor II",

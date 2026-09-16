@@ -1,7 +1,6 @@
 export * from "./BackgroundSection"
 export * from "./ExperienceSection"
 export * from "./EducationSection"
-export * from "./SkillsSection"
 export * from "./PublicationsSection"
 export * from "./TeachingSection"
 export * from "./TalksSection"

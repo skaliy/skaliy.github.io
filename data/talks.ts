@@ -83,7 +83,7 @@ export const talksData: Talk[] = [
   {
     title: "Fully automatic whole-volume tumor segmentation in cervical cancer",
     location: "RSNA, McCormick Place, Chicago, IL, USA",
-    date: "December 27 - December 1, 2022",
+    date: "November 27 - December 1, 2022",
     year: 2022,
     category: "Medical Imaging"
   },

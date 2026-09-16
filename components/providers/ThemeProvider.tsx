@@ -1,11 +1,33 @@
 "use client"
 
-import { createContext, useContext, useState, useEffect, useCallback, useMemo, ReactNode } from "react"
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useMemo,
+  useSyncExternalStore,
+  type ReactNode,
+} from "react"
 
 interface ThemeContextType {
   isDarkMode: boolean
   toggleTheme: () => void
 }
+
+const listeners = new Set<() => void>()
+
+const subscribe = (listener: () => void) => {
+  listeners.add(listener)
+  window.addEventListener("storage", listener)
+  return () => {
+    listeners.delete(listener)
+    window.removeEventListener("storage", listener)
+  }
+}
+
+const getSnapshot = () => document.documentElement.classList.contains("dark")
+
+const getServerSnapshot = () => false
 
 const ThemeContext = createContext<ThemeContextType>({
   isDarkMode: false,
@@ -13,51 +35,25 @@ const ThemeContext = createContext<ThemeContextType>({
 })
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
-  const [isDarkMode, setIsDarkMode] = useState(false)
-  const [mounted, setMounted] = useState(false)
-
-  useEffect(() => {
-    setMounted(true)
-    const savedTheme = localStorage.getItem("theme")
-
-    if (savedTheme === "dark") {
-      setIsDarkMode(true)
-      document.documentElement.classList.add("dark")
-    } else {
-      setIsDarkMode(false)
-      document.documentElement.classList.remove("dark")
-      localStorage.setItem("theme", "light")
-    }
-  }, [])
+  const isDarkMode = useSyncExternalStore(
+    subscribe,
+    getSnapshot,
+    getServerSnapshot
+  )
 
   const toggleTheme = useCallback(() => {
-    setIsDarkMode((prev) => {
-      const newMode = !prev
-      if (newMode) {
-        document.documentElement.classList.add("dark")
-        localStorage.setItem("theme", "dark")
-      } else {
-        document.documentElement.classList.remove("dark")
-        localStorage.setItem("theme", "light")
-      }
-      return newMode
-    })
+    const nextDark = !document.documentElement.classList.contains("dark")
+    document.documentElement.classList.toggle("dark", nextDark)
+    localStorage.setItem("theme", nextDark ? "dark" : "light")
+    listeners.forEach((listener) => listener())
   }, [])
 
-  const value = useMemo(() => ({ isDarkMode, toggleTheme }), [isDarkMode, toggleTheme])
-
-  // Prevent hydration mismatch by not rendering until mounted
-  if (!mounted) {
-    return <>{children}</>
-  }
+  const value = useMemo(
+    () => ({ isDarkMode, toggleTheme }),
+    [isDarkMode, toggleTheme]
+  )
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
 }
 
-export const useTheme = () => {
-  const context = useContext(ThemeContext)
-  if (!context) {
-    throw new Error("useTheme must be used within a ThemeProvider")
-  }
-  return context
-}
+export const useTheme = () => useContext(ThemeContext)

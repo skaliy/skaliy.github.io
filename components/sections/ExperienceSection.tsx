@@ -6,97 +6,93 @@ import { Card } from "@/components/ui/Card"
 import { SectionHeader } from "@/components/ui/SectionHeader"
 import { experienceData, JobDetail } from "@/data"
 
-const ExperienceCard = ({ job }: { job: JobDetail }) => {
+const ExperienceCard = ({ job, index }: { job: JobDetail; index: number }) => {
   const [isExpanded, setIsExpanded] = useState(false)
 
-  const shouldShowButton =
-    (job.details && job.details.length > 1) ||
-    (job.description && job.description.length > 100)
+  const collapsible =
+    (job.details && job.details.length > 2) ||
+    (job.description && job.description.length > 200)
 
   return (
-    <Card hoverable variant="experience">
-      <div className="relative">
-        <h3 className="text-lg md:text-xl font-bold text-gray-800 dark:text-white">
-          {job.title}
-        </h3>
-        <p className="text-blue-600 dark:text-blue-400 mb-2">
-          {job.company} | {job.period}
+    <Card>
+      <h3 className="text-lg font-semibold text-nord1 dark:text-nord6">{job.title}</h3>
+      <p className="text-sm text-nord3 dark:text-nord4 mb-2">
+        {job.company} · {job.period}
+      </p>
+
+      {job.details ? (
+        <ul
+          id={`job-details-${index}`}
+          className="space-y-2 text-nord2 dark:text-nord4 text-sm sm:text-base"
+        >
+          {(isExpanded || !collapsible ? job.details : job.details.slice(0, 2)).map(
+            (detail: string, idx: number) => (
+              <li key={idx} className="flex items-start">
+                <span className="mr-3 mt-2 h-1.5 w-1.5 rounded-full bg-nord3 dark:bg-nord4 flex-shrink-0" />
+                <span>{detail}</span>
+              </li>
+            )
+          )}
+        </ul>
+      ) : job.description ? (
+        <p
+          id={`job-details-${index}`}
+          className={`text-nord2 dark:text-nord4 text-sm sm:text-base ${
+            isExpanded ? "" : "line-clamp-2"
+          }`}
+        >
+          {job.description}
         </p>
+      ) : null}
 
-        {job.details ? (
-          <ul className="space-y-3 text-gray-700 dark:text-gray-300">
-            {(isExpanded || !shouldShowButton ? job.details : job.details.slice(0, 1)).map(
-              (detail: string, idx: number) => (
-                <li
-                  key={idx}
-                  className={`flex items-start transition-all duration-300 ease-in-out ${
-                    isExpanded
-                      ? "opacity-100 translate-y-0"
-                      : idx === 0
-                      ? "opacity-100 translate-y-0"
-                      : "opacity-0 -translate-y-4"
-                  }`}
-                  style={{
-                    transitionDelay: isExpanded ? `${idx * 100}ms` : "0ms",
-                  }}
-                >
-                  <span className="mr-3 mt-1.5 h-1.5 w-1.5 rounded-full bg-blue-500 dark:bg-blue-400 flex-shrink-0" />
-                  <span dangerouslySetInnerHTML={{ __html: detail }} />
-                </li>
-              )
-            )}
-          </ul>
-        ) : job.description ? (
-          <p
-            className={`text-gray-700 dark:text-gray-300 ${
-              isExpanded ? "" : "line-clamp-2"
-            }`}
+      {job.detailsLink && (
+        <div className="mt-3">
+          <a
+            href={job.detailsLink.url}
+            className="inline-flex items-center gap-2 text-sm text-accent dark:text-nord8 underline underline-offset-2 min-h-11 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            {job.description}
-          </p>
-        ) : null}
+            <span>{job.detailsLink.text}</span>
+            <ExternalLink className="w-4 h-4" />
+          </a>
+        </div>
+      )}
 
-        {job.link && (
-          <div className="mt-3">
-            <a
-              href={job.link}
-              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800
-                dark:text-blue-400 dark:hover:text-blue-300 focus-visible:outline-none focus-visible:ring-2
-                focus-visible:ring-blue-500 focus-visible:ring-offset-2 rounded-lg px-3 py-2 sm:px-2 sm:py-1
-                transition-colors min-h-[44px] sm:min-h-auto underline underline-offset-2 decoration-1 hover:decoration-2"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>Website</span>
-              <ExternalLink className="w-4 h-4" />
-            </a>
-          </div>
-        )}
+      {job.link && (
+        <div className="mt-3">
+          <a
+            href={job.link}
+            className="inline-flex items-center gap-2 text-sm text-accent dark:text-nord8 underline underline-offset-2 min-h-11 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>Website</span>
+            <ExternalLink className="w-4 h-4" />
+          </a>
+        </div>
+      )}
 
-        {shouldShowButton && (
-          <div className="flex justify-end mt-4">
-            <button
-              onClick={() => setIsExpanded(!isExpanded)}
-              className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300
-                flex items-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500
-                focus-visible:ring-offset-2 rounded-lg px-3 py-2 sm:px-2 sm:py-1 transition-colors
-                min-h-[44px] sm:min-h-auto"
-              aria-expanded={isExpanded}
-              aria-controls={`job-details-${job.title.replace(/\s+/g, "-").toLowerCase()}`}
-            >
-              {isExpanded ? (
-                <>
-                  Show less <ChevronUp className="ml-1 w-4 h-4" />
-                </>
-              ) : (
-                <>
-                  Show more <ChevronDown className="ml-1 w-4 h-4" />
-                </>
-              )}
-            </button>
-          </div>
-        )}
-      </div>
+      {collapsible && (
+        <div className="flex justify-end mt-4">
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="text-sm text-accent dark:text-nord8 hover:underline inline-flex items-center min-h-11 px-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8"
+            aria-expanded={isExpanded}
+            aria-controls={`job-details-${index}`}
+          >
+            {isExpanded ? (
+              <>
+                Show less <ChevronUp className="ml-1 w-4 h-4" />
+              </>
+            ) : (
+              <>
+                Show more <ChevronDown className="ml-1 w-4 h-4" />
+              </>
+            )}
+          </button>
+        </div>
+      )}
     </Card>
   )
 }
@@ -104,10 +100,10 @@ const ExperienceCard = ({ job }: { job: JobDetail }) => {
 export const ExperienceSection = () => {
   return (
     <section id="experience-section" className="mb-12 sm:mb-16 scroll-mt-20 sm:scroll-mt-24">
-      <SectionHeader variant="experience">Experience</SectionHeader>
+      <SectionHeader>Experience</SectionHeader>
       <div className="space-y-4 sm:space-y-6">
         {experienceData.map((job, index) => (
-          <ExperienceCard key={index} job={job} />
+          <ExperienceCard key={index} job={job} index={index} />
         ))}
       </div>
     </section>

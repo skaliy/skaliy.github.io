@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://skaliy.github.io";
+const siteUrl = "https://skaliy.no";
 
 export const metadata: Metadata = {
   title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
@@ -50,8 +50,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/skaliy.png",
-        width: 400,
-        height: 400,
+        width: 442,
+        height: 496,
         alt: "Satheshkumar Kaliyugarasan - Software engineer and data scientist",
       },
     ],
@@ -124,6 +124,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem("theme");var d=t?t==="dark":window.matchMedia("(prefers-color-scheme: dark)").matches;if(d)document.documentElement.classList.add("dark")}catch(e){}})();`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

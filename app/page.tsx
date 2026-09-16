@@ -1,10 +1,10 @@
 "use client"
 
-import { useEffect, useState, useRef, useCallback } from "react"
+import { useEffect, useState, useCallback } from "react"
 import dynamic from "next/dynamic"
-import { useTheme } from "@/components/providers/ThemeProvider"
 import { Sidebar } from "@/components/layout/Sidebar"
 import { MobileHeader } from "@/components/layout/MobileHeader"
+import { navItems } from "@/components/layout/nav"
 import { BackgroundSection } from "@/components/sections/BackgroundSection"
 
 // Lazy load below-fold sections for better initial load performance
@@ -14,10 +14,6 @@ const ExperienceSection = dynamic(
 )
 const EducationSection = dynamic(
   () => import("@/components/sections/EducationSection").then((mod) => mod.EducationSection),
-  { loading: () => <SectionSkeleton /> }
-)
-const SkillsSection = dynamic(
-  () => import("@/components/sections/SkillsSection").then((mod) => mod.SkillsSection),
   { loading: () => <SectionSkeleton /> }
 )
 const PublicationsSection = dynamic(
@@ -40,18 +36,16 @@ const ContactSection = dynamic(
 // Loading skeleton for sections
 const SectionSkeleton = () => (
   <div className="mb-12 sm:mb-16 xl:mb-20 animate-pulse">
-    <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded w-1/4 mb-8" />
-    <div className="bg-white dark:bg-gray-800 rounded-xl p-6 space-y-4">
-      <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-3/4" />
-      <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-1/2" />
+    <div className="h-8 bg-nord4 dark:bg-nord2 rounded-md w-1/4 mb-8" />
+    <div className="rounded-md border border-nord4 dark:border-nord2 p-6 space-y-4">
+      <div className="h-4 bg-nord4 dark:bg-nord2 rounded-md w-3/4" />
+      <div className="h-4 bg-nord4 dark:bg-nord2 rounded-md w-1/2" />
     </div>
   </div>
 )
 
 export default function PortfolioPage() {
   const [activeSection, setActiveSection] = useState("Background")
-  const sectionsRef = useRef<{ [key: string]: HTMLElement | null }>({})
-  const { isDarkMode } = useTheme()
 
   const handleSectionClick = useCallback((section: string) => {
     setActiveSection(section)
@@ -66,14 +60,9 @@ export default function PortfolioPage() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            const sectionId = entry.target.id
-            const sectionName = sectionId
-              .replace("-section", "")
-              .split("-")
-              .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-              .join(" ")
             setActiveSection(
-              sectionName === "Talks And Travels" ? "Talks and travels" : sectionName
+              (prev) =>
+                navItems.find((n) => n.id === entry.target.id)?.name ?? prev
             )
           }
         })
@@ -83,39 +72,19 @@ export default function PortfolioPage() {
       }
     )
 
-    // Get all section elements and observe them
-    const sectionIds = [
-      "background-section",
-      "experience-section",
-      "education-section",
-      "skills-section",
-      "publications-section",
-      "teaching-section",
-      "talks-and-travels-section",
-      "contact-section",
-    ]
-
-    sectionIds.forEach((id) => {
+    navItems.forEach(({ id }) => {
       const element = document.getElementById(id)
-      if (element) {
-        sectionsRef.current[id] = element
-        observer.observe(element)
-      }
+      if (element) observer.observe(element)
     })
 
     return () => {
-      Object.values(sectionsRef.current).forEach((section) => {
-        if (section) observer.unobserve(section)
-      })
+      observer.disconnect()
+      document.documentElement.style.scrollBehavior = ""
     }
   }, [])
 
   return (
-    <div
-      className={`min-h-screen ${
-        isDarkMode ? "dark bg-gray-900" : "bg-stone-100"
-      } transition-colors duration-300 flex flex-col`}
-    >
+    <div className="min-h-screen bg-nord5 dark:bg-nord0 transition-colors duration-300 flex flex-col">
       {/* Mobile Header */}
       <MobileHeader
         activeSection={activeSection}
@@ -139,11 +108,15 @@ export default function PortfolioPage() {
           <BackgroundSection />
           <ExperienceSection />
           <EducationSection />
-          <SkillsSection />
           <PublicationsSection />
           <TeachingSection />
           <TalksSection />
           <ContactSection />
+
+          <footer className="border-t border-nord4 dark:border-nord2 py-8 text-sm text-nord3 dark:text-nord4 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
+            <span>© {new Date().getFullYear()} Satheshkumar Kaliyugarasan</span>
+            <span>Bergen, Norway</span>
+          </footer>
         </main>
       </div>
     </div>
