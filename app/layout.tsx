@@ -19,7 +19,7 @@ const siteUrl = "https://skaliy.no";
 export const metadata: Metadata = {
   title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
   description:
-    "PhD in Computer Science specializing in deep learning for medical image analysis. Associate Professor in Datateknologi at HVL working with AI and software engineering, and part-time Data Scientist / Researcher at MMIV.",
+    "PhD in computer science specializing in deep learning for medical image analysis. Associate professor in datateknologi at HVL working with AI and software engineering, and part-time data scientist / researcher at MMIV.",
   keywords: [
     "software engineer",
     "data scientist",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     lastName: "Kaliyugarasan",
     title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
     description:
-      "PhD in Computer Science specializing in deep learning for medical image analysis. Associate Professor at HVL and part-time Data Scientist / Researcher at MMIV.",
+      "PhD in computer science specializing in deep learning for medical image analysis. Associate professor at HVL and part-time data scientist / researcher at MMIV.",
     url: siteUrl,
     siteName: "Satheshkumar Kaliyugarasan",
     images: [
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
     description:
-      "PhD in Computer Science specializing in deep learning for medical image analysis.",
+      "PhD in computer science specializing in deep learning for medical image analysis.",
     images: ["/skaliy.png"],
   },
   robots: {
@@ -75,7 +75,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Satheshkumar Kaliyugarasan",
-  jobTitle: ["Associate Professor", "Data Scientist / Researcher"],
+  jobTitle: ["Associate professor", "Data scientist / researcher"],
   description:
     "Software engineer and data scientist specializing in deep learning for medical image analysis",
   url: siteUrl,

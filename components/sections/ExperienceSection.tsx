@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { ExternalLink, ChevronDown, ChevronUp } from "lucide-react"
 import { Card } from "@/components/ui/Card"
 import { SectionHeader } from "@/components/ui/SectionHeader"
@@ -8,10 +8,22 @@ import { experienceData, JobDetail } from "@/data"
 
 const ExperienceCard = ({ job, index }: { job: JobDetail; index: number }) => {
   const [isExpanded, setIsExpanded] = useState(false)
+  const [isClamped, setIsClamped] = useState(false)
+  const descriptionRef = useRef<HTMLParagraphElement>(null)
 
   const collapsible =
-    (job.details && job.details.length > 2) ||
-    (job.description && job.description.length > 200)
+    (!!job.details && job.details.length > 2) || (!job.details && isClamped)
+
+  useEffect(() => {
+    const el = descriptionRef.current
+    if (!el) return
+    const measure = () => {
+      if (!isExpanded) setIsClamped(el.scrollHeight > el.clientHeight + 1)
+    }
+    measure()
+    window.addEventListener("resize", measure)
+    return () => window.removeEventListener("resize", measure)
+  }, [job.description, isExpanded])
 
   return (
     <Card>
@@ -37,6 +49,7 @@ const ExperienceCard = ({ job, index }: { job: JobDetail; index: number }) => {
       ) : job.description ? (
         <p
           id={`job-details-${index}`}
+          ref={descriptionRef}
           className={`text-nord2 dark:text-nord4 text-sm sm:text-base ${
             isExpanded ? "" : "line-clamp-2"
           }`}

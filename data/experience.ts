@@ -2,14 +2,13 @@ import { JobDetail } from "./types"
 
 export const experienceData: JobDetail[] = [
   {
-    title: "Associate Professor",
+    title: "Associate professor",
     company: "Western Norway University of Applied Sciences (HVL)",
     period: "2026 - Present",
-    description: "Full-time Associate Professor in Datateknologi (Computer Engineering), working in the areas of artificial intelligence and software engineering across teaching and research.",
-    link: "https://www.hvl.edu/en/",
+    description: "Working with artificial intelligence and software engineering across teaching and research.",
   },
   {
-    title: "Data Scientist / Researcher (part-time)",
+    title: "Data scientist / researcher (part-time)",
     company: "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
     period: "2026 - Present",
     description: "Research and development of AI solutions for medical imaging and reporting within the ASIS project (AI-supported Services for Image Diagnostics in Western Norway), in close collaboration with radiologists.",
@@ -71,12 +70,12 @@ export const experienceData: JobDetail[] = [
     description: "Assisted in teaching various software engineering courses. Conducted lab sessions and graded assignments.",
   },
   {
-    title: "Summer Intern",
+    title: "Summer intern",
     company: "Capgemini",
     period: "2018",
   },
   {
-    title: "Summer Intern",
+    title: "Summer intern",
     company: "Nordea Liv",
     period: "2017",
   },
