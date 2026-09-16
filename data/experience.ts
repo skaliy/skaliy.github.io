@@ -2,6 +2,19 @@ import { JobDetail } from "./types"
 
 export const experienceData: JobDetail[] = [
   {
+    title: "Associate Professor",
+    company: "Western Norway University of Applied Sciences (HVL)",
+    period: "2026 - Present",
+    description: "Full-time Associate Professor in Datateknologi (Computer Engineering), working in the areas of artificial intelligence and software engineering across teaching and research.",
+    link: "https://www.hvl.edu/en/",
+  },
+  {
+    title: "Data Scientist / Researcher (part-time)",
+    company: "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
+    period: "2026 - Present",
+    description: "Research and development of AI solutions for medical imaging and reporting within the ASIS project (AI-supported Services for Image Diagnostics in Western Norway), in close collaboration with radiologists.",
+  },
+  {
     title: "Consultant (part-time)",
     company: "Sjøkrigsskolen",
     period: "2025 - Present",
@@ -10,8 +23,8 @@ export const experienceData: JobDetail[] = [
   {
     title: "Postdoctoral fellow",
     company: "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
-    period: "2025 - Present",
-    description: "Conducting research and development of AI solutions for medical imaging and reporting within the ASIS project (AI-supported Services for Image Diagnostics in Western Norway), in close collaboration with radiologists."
+    period: "2025 - 2026",
+    description: "Conducted research and development of AI solutions for medical imaging and reporting within the ASIS project (AI-supported Services for Image Diagnostics in Western Norway), in close collaboration with radiologists.",
   },
   {
     title: "Partner",

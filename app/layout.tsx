@@ -19,7 +19,7 @@ const siteUrl = "https://skaliy.no";
 export const metadata: Metadata = {
   title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
   description:
-    "PhD in Computer Science specializing in deep learning for medical image analysis. Postdoctoral fellow at MMIV developing AI solutions for medical imaging and reporting.",
+    "PhD in Computer Science specializing in deep learning for medical image analysis. Associate Professor in Datateknologi at HVL working with AI and software engineering, and part-time Data Scientist / Researcher at MMIV.",
   keywords: [
     "software engineer",
     "data scientist",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     lastName: "Kaliyugarasan",
     title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
     description:
-      "PhD in Computer Science specializing in deep learning for medical image analysis. Postdoctoral fellow at MMIV.",
+      "PhD in Computer Science specializing in deep learning for medical image analysis. Associate Professor at HVL and part-time Data Scientist / Researcher at MMIV.",
     url: siteUrl,
     siteName: "Satheshkumar Kaliyugarasan",
     images: [
@@ -75,7 +75,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Satheshkumar Kaliyugarasan",
-  jobTitle: "Postdoctoral Fellow",
+  jobTitle: ["Associate Professor", "Data Scientist / Researcher"],
   description:
     "Software engineer and data scientist specializing in deep learning for medical image analysis",
   url: siteUrl,
@@ -97,11 +97,18 @@ const jsonLd = {
       name: "University of Bergen",
     },
   ],
-  worksFor: {
-    "@type": "Organization",
-    name: "Mohn Medical Imaging and Visualization Centre (MMIV)",
-    url: "https://mmiv.no",
-  },
+  worksFor: [
+    {
+      "@type": "Organization",
+      name: "Western Norway University of Applied Sciences (HVL)",
+      url: "https://www.hvl.edu/en/",
+    },
+    {
+      "@type": "Organization",
+      name: "Mohn Medical Imaging and Visualization Centre (MMIV)",
+      url: "https://mmiv.no",
+    },
+  ],
   sameAs: [
     "https://github.com/skaliy",
     "https://no.linkedin.com/in/satheshkumar-kaliyugarasan-75269711b",
