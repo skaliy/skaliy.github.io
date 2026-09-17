@@ -19,7 +19,7 @@ const siteUrl = "https://skaliy.no";
 export const metadata: Metadata = {
   title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
   description:
-    "PhD in computer science specializing in deep learning for medical image analysis. Associate professor at HVL working with AI and software engineering, and part-time data scientist / researcher at MMIV.",
+    "PhD in computer science specializing in deep learning for medical image analysis. Associate professor at HVL working with AI and software engineering, and part-time researcher at MMIV.",
   keywords: [
     "software engineer",
     "data scientist",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     lastName: "Kaliyugarasan",
     title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
     description:
-      "PhD in computer science specializing in deep learning for medical image analysis. Associate professor at HVL and part-time data scientist / researcher at MMIV.",
+      "PhD in computer science specializing in deep learning for medical image analysis. Associate professor at HVL and part-time researcher at MMIV.",
     url: siteUrl,
     siteName: "Satheshkumar Kaliyugarasan",
     images: [
