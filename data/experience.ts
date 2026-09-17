@@ -11,7 +11,7 @@ export const experienceData: JobDetail[] = [
     title: "Data scientist / researcher (part-time)",
     company: "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
     period: "2026 - Present",
-    description: "Research and development of AI solutions for medical imaging and reporting",
+    description: "Research and development of AI solutions for medical imaging and reporting.",
   },
   {
     title: "Consultant (part-time)",
@@ -50,18 +50,18 @@ export const experienceData: JobDetail[] = [
     title: "Assistant professor II",
     company: "Western Norway University of Applied Sciences",
     period: "2021",
-    description: "Held a 20% position during PhD studies for teaching ML course for third year BSc students.",
+    description: "Held a 20% position during PhD studies for teaching a machine learning course for third year BSc students.",
   },
   {
     title: "Data scientist",
     company: "Bouvet ASA, Bergen",
     period: "2019",
-    description: "Worked part-time during my masters.",
+    description: "Worked part-time during my master's.",
   },
   {
     title: "Researcher",
     company: "University of Bergen, Department of Biomedicine",
-    period: "2019-2020",
+    period: "2019 - 2020",
   },
   {
     title: "Teaching assistant",
@@ -81,7 +81,7 @@ export const experienceData: JobDetail[] = [
   },
   {
     title: "Internship",
-    company: "Vizrt, Bergen, Norway",
+    company: "Vizrt",
     period: "2016",
   },
 ]

@@ -4,7 +4,7 @@ export const educationData: EducationDetail[] = [
   {
     degree: "PhD in computer science",
     school: "Western Norway University of Applied Sciences",
-    period: "2020-2023",
+    period: "2020 - 2023",
     thesis: "Deep learning in medical image analysis: efficient use of data and radiological expertise",
   },
   {
