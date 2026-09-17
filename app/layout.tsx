@@ -19,7 +19,7 @@ const siteUrl = "https://skaliy.no";
 export const metadata: Metadata = {
   title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
   description:
-    "PhD in computer science specializing in deep learning for medical image analysis. Associate professor in datateknologi at HVL working with AI and software engineering, and part-time data scientist / researcher at MMIV.",
+    "PhD in computer science specializing in deep learning for medical image analysis. Associate professor at HVL working with AI and software engineering, and part-time data scientist / researcher at MMIV.",
   keywords: [
     "software engineer",
     "data scientist",
@@ -114,12 +114,12 @@ const jsonLd = {
     "https://no.linkedin.com/in/satheshkumar-kaliyugarasan-75269711b",
   ],
   knowsAbout: [
-    "Machine Learning",
-    "Deep Learning",
-    "Medical Image Analysis",
+    "machine learning",
+    "deep learning",
+    "medical image analysis",
     "Python",
     "PyTorch",
-    "Computer Vision",
+    "computer vision",
   ],
 };
 

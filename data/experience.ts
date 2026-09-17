@@ -11,7 +11,7 @@ export const experienceData: JobDetail[] = [
     title: "Data scientist / researcher (part-time)",
     company: "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
     period: "2026 - Present",
-    description: "Research and development of AI solutions for medical imaging and reporting within the ASIS project (AI-supported Services for Image Diagnostics in Western Norway), in close collaboration with radiologists.",
+    description: "Research and development of AI solutions for medical imaging and reporting",
   },
   {
     title: "Consultant (part-time)",

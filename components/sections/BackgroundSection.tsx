@@ -7,7 +7,7 @@ export const BackgroundSection = () => {
       <SectionHeader>Background</SectionHeader>
       <Card>
         <p className="text-nord2 dark:text-nord4 text-base sm:text-lg leading-relaxed">
-          PhD from the Western Norway University of Applied Sciences. I work at the intersection of applied AI research and software engineering, building practical tools for real-world challenges. Currently an associate professor in datateknologi at HVL, working with AI and software engineering, and a part-time data scientist / researcher at MMIV, developing AI solutions for medical imaging and reporting in close collaboration with radiologists.
+          PhD from the Western Norway University of Applied Sciences. I work at the intersection of applied AI research and software engineering, building practical tools for real-world challenges. Currently associate professor at HVL, working with AI and software engineering, and part-time data scientist / researcher at MMIV, developing AI solutions for medical imaging and reporting in close collaboration with radiologists.
         </p>
       </Card>
     </section>
