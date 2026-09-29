@@ -22,15 +22,10 @@ export const TalksSection = () => {
 
   const displayedTalks = showAll ? talksData : talksData.slice(0, INITIAL_COUNT)
   const hiddenCount = talksData.length - INITIAL_COUNT
-  const years = talksData.map((t) => t.year)
 
   return (
     <section id="talks-section" className="mb-16 sm:mb-20 scroll-mt-20 sm:scroll-mt-24">
-      <SectionHeader
-        description={`${talksData.length} talks, conference presentations and guest lectures since ${Math.min(...years)}`}
-      >
-        Talks
-      </SectionHeader>
+      <SectionHeader>Talks</SectionHeader>
       <Card>
         <div id="talks-list" className="space-y-8">
           {groupByYear(displayedTalks).map(({ year, talks }) => (
