@@ -7,11 +7,4 @@ export const profile = {
   languages: "Norwegian (Bokmål), Tamil, English",
   github: "https://github.com/skaliy",
   linkedin: "https://no.linkedin.com/in/satheshkumar-kaliyugarasan-75269711b",
-  focusAreas: [
-    "Medical image analysis",
-    "Deep learning",
-    "Large language models",
-    "MLOps",
-    "Software engineering",
-  ],
 }
