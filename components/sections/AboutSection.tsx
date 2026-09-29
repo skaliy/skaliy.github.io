@@ -1,8 +1,4 @@
-import { ArrowRight, Github, Linkedin } from "lucide-react"
 import { profile } from "@/data"
-
-const secondaryLinkClass =
-  "inline-flex items-center gap-2 min-h-11 px-4 rounded-md border border-nord4 dark:border-nord2 text-sm font-medium text-nord1 dark:text-nord6 hover:border-accent hover:text-accent dark:hover:border-nord8 dark:hover:text-nord8 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8"
 
 export const AboutSection = () => {
   return (
@@ -32,24 +28,6 @@ export const AboutSection = () => {
           Mohn Medical Imaging and Visualization Centre (MMIV), where I develop AI solutions for
           medical imaging and reporting in close collaboration with radiologists.
         </p>
-      </div>
-
-      <div className="flex flex-wrap gap-3 mt-10">
-        <a
-          href="#contact-section"
-          className="inline-flex items-center gap-2 min-h-11 px-5 rounded-md bg-accent text-white dark:bg-nord8 dark:text-nord0 text-sm font-semibold hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8"
-        >
-          Get in touch
-          <ArrowRight className="w-4 h-4" />
-        </a>
-        <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className={secondaryLinkClass}>
-          <Linkedin className="w-4 h-4" />
-          LinkedIn
-        </a>
-        <a href={profile.github} target="_blank" rel="noopener noreferrer" className={secondaryLinkClass}>
-          <Github className="w-4 h-4" />
-          GitHub
-        </a>
       </div>
     </section>
   )
