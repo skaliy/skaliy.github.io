@@ -3,6 +3,7 @@
 import { Moon, Sun } from "lucide-react"
 import { useTheme } from "@/components/providers/ThemeProvider"
 import { SocialIcons } from "@/components/ui/SocialIcons"
+import { profile } from "@/data"
 import { navItems } from "./nav"
 
 interface SidebarProps {
@@ -14,60 +15,67 @@ export const Sidebar = ({ activeSection, onSectionClick }: SidebarProps) => {
   const { isDarkMode, toggleTheme } = useTheme()
 
   return (
-    <div className="sticky top-0 w-72 h-screen bg-nord6 dark:bg-nord1 border-r border-nord4 dark:border-nord2 text-nord1 dark:text-nord6 p-8 hidden md:flex md:flex-col shrink-0">
-      <div className="mb-12">
-        <div className="relative w-40 h-40 mx-auto mb-6">
-          <picture>
-            <source srcSet="/skaliy.webp" type="image/webp" />
-            <img
-              src="/skaliy.png"
-              alt="Satheshkumar Kaliyugarasan - Software engineer and data scientist specializing in deep learning for medical image analysis"
-              className="rounded-full w-full h-full object-cover ring-1 ring-nord4 dark:ring-nord2"
-              width={160}
-              height={160}
-            />
-          </picture>
-        </div>
-        <h1 className="text-2xl font-bold mb-2 text-center">
-          Satheshkumar Kaliyugarasan
-        </h1>
-        <p className="text-nord3 dark:text-nord4 text-center">
-          Software engineer & data scientist
-        </p>
+    <aside className="sticky top-0 w-72 h-screen overflow-y-auto bg-nord6 dark:bg-nord1 border-r border-nord4 dark:border-nord2 text-nord1 dark:text-nord6 px-6 py-8 hidden md:flex md:flex-col shrink-0">
+      <div className="mb-10 text-center">
+        <picture>
+          <source srcSet="/skaliy.webp" type="image/webp" />
+          <img
+            src="/skaliy.png"
+            alt={`Portrait of ${profile.name}`}
+            className="mx-auto mb-5 rounded-full w-36 h-36 object-cover ring-4 ring-nord5 dark:ring-nord2"
+            width={144}
+            height={144}
+          />
+        </picture>
+        <p className="text-xl font-bold tracking-tight">{profile.name}</p>
+        <p className="mt-1 text-sm text-nord3 dark:text-nord4">{profile.tagline}</p>
       </div>
 
-      <nav className="space-y-1 flex-grow" aria-label="Main navigation">
-        {navItems.map((item) => (
-          <a
-            key={item.name}
-            href={item.href}
-            aria-current={activeSection === item.name ? "page" : undefined}
-            className={`flex min-h-11 items-center px-3 py-2 rounded-md text-sm transition-colors
-              focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8 ${
-                activeSection === item.name
-                  ? "text-accent dark:text-nord8 font-medium"
-                  : "text-nord2 dark:text-nord4 hover:text-accent dark:hover:text-nord8"
-              }`}
-            onClick={() => onSectionClick(item.name)}
-          >
-            {item.name}
-          </a>
-        ))}
+      <nav className="flex-grow" aria-label="Main navigation">
+        <ul className="space-y-1">
+          {navItems.map((item) => {
+            const isActive = activeSection === item.name
+            return (
+              <li key={item.name}>
+                <a
+                  href={item.href}
+                  aria-current={isActive ? "location" : undefined}
+                  className={`relative flex min-h-10 items-center pl-4 pr-3 py-2 rounded-md text-sm transition-colors
+                    focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8 ${
+                      isActive
+                        ? "bg-nord5 dark:bg-nord2/60 text-accent dark:text-nord8 font-semibold"
+                        : "text-nord2 dark:text-nord4 hover:bg-nord5/70 dark:hover:bg-nord2/40 hover:text-nord0 dark:hover:text-nord6"
+                    }`}
+                  onClick={() => onSectionClick(item.name)}
+                >
+                  {isActive && (
+                    <span
+                      aria-hidden="true"
+                      className="absolute left-0 top-2 bottom-2 w-0.5 rounded-full bg-accent dark:bg-nord8"
+                    />
+                  )}
+                  {item.name}
+                </a>
+              </li>
+            )
+          })}
+        </ul>
       </nav>
 
-      <div className="mt-auto pt-6 flex flex-col items-center gap-4">
+      <div className="mt-auto pt-6 flex flex-col items-center gap-3 border-t border-nord4 dark:border-nord2">
+        <SocialIcons />
         <button
+          type="button"
           onClick={toggleTheme}
-          className="flex min-h-11 w-full items-center justify-center gap-2 px-3 py-2 rounded-md text-sm
-            text-nord2 dark:text-nord4 hover:text-accent dark:hover:text-nord8 transition-colors
+          className="flex min-h-10 w-full items-center justify-center gap-2 px-3 py-2 rounded-md text-sm
+            text-nord3 dark:text-nord4 hover:text-accent dark:hover:text-nord8 transition-colors
             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8"
           aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
         >
           {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-          <span>{isDarkMode ? "Light Mode" : "Dark Mode"}</span>
+          <span>{isDarkMode ? "Light mode" : "Dark mode"}</span>
         </button>
-        <SocialIcons />
       </div>
-    </div>
+    </aside>
   )
 }

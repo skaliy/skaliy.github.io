@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { SkipLink } from "@/components/layout/SkipLink";
@@ -15,12 +15,24 @@ const geistMono = Geist_Mono({
 });
 
 const siteUrl = "https://skaliy.no";
+const title = "Satheshkumar Kaliyugarasan | AI researcher and software engineer";
+const description =
+  "Associate professor at the Western Norway University of Applied Sciences (HVL) and part-time researcher at MMIV, working on applied AI, deep learning for medical image analysis and software engineering.";
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#e5e9f0" },
+    { media: "(prefers-color-scheme: dark)", color: "#2e3440" },
+  ],
+};
 
 export const metadata: Metadata = {
-  title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
-  description:
-    "PhD in computer science specializing in deep learning for medical image analysis. Associate professor at HVL working with AI and software engineering, and part-time researcher at MMIV.",
+  title,
+  description,
   keywords: [
+    "Satheshkumar Kaliyugarasan",
+    "associate professor",
+    "AI researcher",
     "software engineer",
     "data scientist",
     "machine learning",
@@ -31,6 +43,9 @@ export const metadata: Metadata = {
     "Python",
     "PyTorch",
     "fastMONAI",
+    "large language models",
+    "HVL",
+    "MMIV",
   ],
   authors: [{ name: "Satheshkumar Kaliyugarasan" }],
   creator: "Satheshkumar Kaliyugarasan",
@@ -42,9 +57,8 @@ export const metadata: Metadata = {
     type: "profile",
     firstName: "Satheshkumar",
     lastName: "Kaliyugarasan",
-    title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
-    description:
-      "PhD in computer science specializing in deep learning for medical image analysis. Associate professor at HVL and part-time researcher at MMIV.",
+    title,
+    description,
     url: siteUrl,
     siteName: "Satheshkumar Kaliyugarasan",
     images: [
@@ -52,16 +66,15 @@ export const metadata: Metadata = {
         url: "/skaliy.png",
         width: 442,
         height: 496,
-        alt: "Satheshkumar Kaliyugarasan - Software engineer and data scientist",
+        alt: "Portrait of Satheshkumar Kaliyugarasan",
       },
     ],
     locale: "en_US",
   },
   twitter: {
     card: "summary",
-    title: "Satheshkumar Kaliyugarasan | Software Engineer & Data Scientist",
-    description:
-      "PhD in computer science specializing in deep learning for medical image analysis.",
+    title,
+    description,
     images: ["/skaliy.png"],
   },
   robots: {
@@ -75,9 +88,8 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Satheshkumar Kaliyugarasan",
-  jobTitle: ["Associate professor", "Data scientist / researcher"],
-  description:
-    "Software engineer and data scientist specializing in deep learning for medical image analysis",
+  jobTitle: ["Associate professor", "Researcher"],
+  description,
   url: siteUrl,
   image: `${siteUrl}/skaliy.png`,
   email: "skaliyugarasan@hotmail.com",
@@ -120,6 +132,8 @@ const jsonLd = {
     "Python",
     "PyTorch",
     "computer vision",
+    "large language models",
+    "software engineering",
   ],
 };
 
@@ -129,7 +143,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable}`}
+      suppressHydrationWarning
+    >
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -141,9 +159,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="font-sans antialiased">
         <ThemeProvider>
           <SkipLink />
           {children}

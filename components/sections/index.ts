@@ -1,4 +1,4 @@
-export * from "./BackgroundSection"
+export * from "./AboutSection"
 export * from "./ExperienceSection"
 export * from "./EducationSection"
 export * from "./PublicationsSection"

@@ -1,27 +1,26 @@
-"use client"
-
 import { Github, Linkedin, Mail } from "lucide-react"
+import { profile } from "@/data"
 
 interface SocialIconsProps {
   size?: "small" | "large"
 }
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com/skaliy", label: "GitHub" },
-  { icon: Linkedin, href: "https://no.linkedin.com/in/satheshkumar-kaliyugarasan-75269711b", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:skaliyugarasan@hotmail.com", label: "Email" },
+  { icon: Github, href: profile.github, label: "GitHub profile (opens in new tab)", external: true },
+  { icon: Linkedin, href: profile.linkedin, label: "LinkedIn profile (opens in new tab)", external: true },
+  { icon: Mail, href: `mailto:${profile.email}`, label: `Email ${profile.email}`, external: false },
 ]
 
 export const SocialIcons = ({ size = "small" }: SocialIconsProps) => {
   return (
-    <div className="flex justify-center space-x-4 sm:space-x-6">
-      {socialLinks.map((social, index) => (
+    <div className="flex justify-center gap-2 sm:gap-4">
+      {socialLinks.map((social) => (
         <a
-          key={index}
+          key={social.href}
           href={social.href}
-          aria-label={`Visit ${social.label} profile (opens in new tab)`}
-          target="_blank"
-          rel="noopener noreferrer"
+          aria-label={social.label}
+          title={social.label}
+          {...(social.external && { target: "_blank", rel: "noopener noreferrer" })}
           className="
             text-nord3 dark:text-nord4 hover:text-accent dark:hover:text-nord8 transition-colors
             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8

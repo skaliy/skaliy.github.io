@@ -7,6 +7,8 @@ export interface JobDetail {
   technologies?: string[]
   link?: string
   detailsLink?: { text: string; url: string };
+  /** Shown under "Earlier roles" instead of the main timeline */
+  early?: boolean
 }
 
 export interface EducationDetail {
@@ -19,7 +21,9 @@ export interface EducationDetail {
 export interface Publication {
   title: string
   authors: string
-  publication: string
+  venue: string
+  year: number
+  note?: string
   link?: string
   linkText?: string
   tags?: string[]
