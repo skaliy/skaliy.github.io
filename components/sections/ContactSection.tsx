@@ -26,7 +26,7 @@ export const ContactSection = () => {
       <Card>
         <p className="text-nord2 dark:text-nord4 leading-relaxed max-w-2xl">
           I am always happy to hear about research collaborations, student projects, speaking
-          invitations and applied AI work. Email is the best way to reach me.
+          invitations and applied AI work.
         </p>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-5 mt-6">
           {items.map((item) => (
