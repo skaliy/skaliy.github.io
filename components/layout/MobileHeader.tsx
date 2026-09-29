@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import { Menu, X, Moon, Sun } from "lucide-react"
 import { useTheme } from "@/components/providers/ThemeProvider"
 import { SocialIcons } from "@/components/ui/SocialIcons"
+import { profile } from "@/data"
 import { navItems } from "./nav"
 
 interface MobileHeaderProps {
@@ -45,19 +46,23 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
       {/* Mobile Header */}
       <header className="md:hidden fixed top-0 left-0 right-0 backdrop-blur-sm p-3 z-50 bg-nord5/95 dark:bg-nord0/95 border-b border-nord4 dark:border-nord2 text-nord1 dark:text-nord6">
         <div className="flex justify-between items-center">
-          <div className="flex items-center gap-3">
+          <a
+            href="#main-content"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="flex items-center gap-3 min-w-0 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8"
+          >
             <picture>
               <source srcSet="/skaliy.webp" type="image/webp" />
               <img
                 src="/skaliy.png"
-                alt="Satheshkumar Kaliyugarasan"
+                alt=""
                 className="rounded-full w-8 h-8 object-cover ring-1 ring-nord4 dark:ring-nord2"
                 width={32}
                 height={32}
               />
             </picture>
-            <h1 className="text-lg font-semibold truncate">Satheshkumar K.</h1>
-          </div>
+            <span className="text-base font-semibold truncate">{profile.shortName}</span>
+          </a>
           <div className="flex items-center gap-1">
             <button
               onClick={toggleTheme}
@@ -93,16 +98,16 @@ export const MobileHeader = ({ activeSection, onSectionClick }: MobileHeaderProp
             <a
               key={item.name}
               href={item.href}
-              aria-current={activeSection === item.name ? "page" : undefined}
+              aria-current={activeSection === item.name ? "location" : undefined}
               className={`flex min-h-11 items-center px-4 py-4 mb-2 rounded-lg text-lg transition-colors
                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8 ${
                   activeSection === item.name
-                    ? "text-accent dark:text-nord8 font-medium"
+                    ? "bg-nord5 dark:bg-nord2/60 text-accent dark:text-nord8 font-semibold"
                     : "text-nord2 dark:text-nord4 hover:text-accent dark:hover:text-nord8"
                 }`}
               onClick={() => handleNavClick(item.name)}
             >
-              <span className="font-medium">{item.name}</span>
+              <span>{item.name}</span>
             </a>
           ))}
         </nav>

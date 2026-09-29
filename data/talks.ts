@@ -145,7 +145,7 @@ export const talksData: Talk[] = [
   },
   {
     title: "Maskinlæring og kunstig intelligens: MMIV@HUS: Kunstig intelligens ved radiologisk avdeling",
-    location: "TekPRAT, Forde Sentralsjukehus, Norway",
+    location: "TekPRAT, Førde sentralsjukehus, Norway",
     date: "September 23, 2019",
     year: 2019,
     category: "Medical Imaging"

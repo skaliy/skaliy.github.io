@@ -6,7 +6,7 @@ interface BadgeProps {
 
 export const Badge = ({ children }: BadgeProps) => {
   return (
-    <span className="inline-block text-xs font-medium px-2 py-0.5 rounded-md bg-nord5 text-nord2 dark:bg-nord2 dark:text-nord5">
+    <span className="inline-flex items-center text-xs font-medium px-2.5 py-1 rounded-full border border-nord4 bg-nord6 text-nord2 dark:border-nord3 dark:bg-nord1 dark:text-nord5">
       {children}
     </span>
   )
