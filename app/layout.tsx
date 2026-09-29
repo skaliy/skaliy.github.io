@@ -93,7 +93,6 @@ const jsonLd = {
   url: siteUrl,
   image: `${siteUrl}/skaliy.png`,
   email: "skaliyugarasan@hotmail.com",
-  telephone: "+47 936 14 229",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Bergen",

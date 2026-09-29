@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Languages, Linkedin, Github, type LucideIcon } from "lucide-react"
+import { Mail, MapPin, Languages, Linkedin, Github, type LucideIcon } from "lucide-react"
 import { Card } from "@/components/ui/Card"
 import { SectionHeader } from "@/components/ui/SectionHeader"
 import { profile } from "@/data"
@@ -13,7 +13,6 @@ interface ContactItem {
 
 const items: ContactItem[] = [
   { icon: Mail, label: "Email", value: profile.email, href: `mailto:${profile.email}` },
-  { icon: Phone, label: "Phone", value: profile.phone, href: profile.phoneHref },
   { icon: Linkedin, label: "LinkedIn", value: "Satheshkumar Kaliyugarasan", href: profile.linkedin, external: true },
   { icon: Github, label: "GitHub", value: "github.com/skaliy", href: profile.github, external: true },
   { icon: MapPin, label: "Location", value: profile.location },
