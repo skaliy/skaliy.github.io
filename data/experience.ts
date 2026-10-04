@@ -4,26 +4,26 @@ export const experienceData: JobDetail[] = [
   {
     title: "Associate professor",
     company: "Western Norway University of Applied Sciences (HVL)",
-    period: "2026 – Present",
+    period: "2026 – present",
     description: "Teaching and research in artificial intelligence and software engineering.",
   },
   {
     title: "Data scientist / researcher (part-time)",
     company: "Mohn Medical Imaging and Visualization Centre (MMIV), Haukeland University Hospital",
-    period: "2026 – Present",
+    period: "2026 – present",
     description: "Research and development of AI solutions for medical imaging and reporting.",
   },
   {
     title: "Consultant (part-time)",
     company: "Royal Norwegian Naval Academy (Sjøkrigsskolen)",
-    period: "2025 – Present",
+    period: "2025 – present",
     description: "Developing hands-on learning materials in scikit-learn and PyTorch for an existing machine learning course.",
   },
   {
     title: "Partner",
     company: "AkademiX",
-    period: "2023 – Present",
-    description: "Co-founded a consultancy that delivers artificial intelligence solutions, training and knowledge sharing.",
+    period: "2023 – present",
+    description: "Co-founded an AI consultancy, working on software development and training.",
     link: "https://akademix.no/",
   },
   {
@@ -37,9 +37,9 @@ export const experienceData: JobDetail[] = [
     company: "Lerøy Seafood",
     period: "2023 – 2025",
     details: [
-      "Built MLOps infrastructure in Databricks, automating model deployment and launching two production-grade salmon price prediction models",
-      "Supported Microsoft Copilot adoption through training development and hands-on generative AI workshops",
-      "Developed two custom LLM solutions: a shipping document analyzer and an HR chatbot",
+      "Built model deployment infrastructure in Databricks and put two salmon price prediction models into production.",
+      "Created training materials and ran workshops on Microsoft Copilot and generative AI.",
+      "Built a shipping document analyser and an HR chatbot using large language models.",
     ],
     detailsLink: {
       text: "The value of artificial intelligence and machine learning",

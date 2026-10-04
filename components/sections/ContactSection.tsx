@@ -25,17 +25,17 @@ export const ContactSection = () => {
       <SectionHeader>Contact</SectionHeader>
       <Card>
         <p className="text-nord2 dark:text-nord4 leading-relaxed max-w-2xl">
-          I am always happy to hear about research collaborations, student projects, speaking
-          invitations and applied AI work.
+          For research collaborations, student projects or speaking invitations,
+          email is the best way to reach me.
         </p>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-5 mt-6">
           {items.map((item) => (
             <li key={item.label} className="flex items-start gap-3 min-w-0">
-              <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-md bg-nord5 dark:bg-nord2 text-nord3 dark:text-nord4">
+              <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center  text-nord3 dark:text-nord4">
                 <item.icon className="w-4 h-4" aria-hidden="true" />
               </span>
               <div className="min-w-0">
-                <p className="text-xs font-medium uppercase tracking-wider text-nord3 dark:text-nord4">{item.label}</p>
+                <p className="text-xs font-medium text-nord3 dark:text-nord4">{item.label}</p>
                 {item.href ? (
                   <a
                     href={item.href}

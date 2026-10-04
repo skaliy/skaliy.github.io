@@ -7,7 +7,7 @@ const linkClass =
   "inline-flex items-center gap-1.5 text-sm text-accent dark:text-nord8 underline underline-offset-2 hover:no-underline min-h-11 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8 rounded-sm"
 
 const TimelineItem = ({ job }: { job: JobDetail }) => {
-  const isCurrent = job.period.includes("Present")
+  const isCurrent = job.period.includes("present")
 
   return (
     <li className="group relative pl-8 pb-8 last:pb-0">
@@ -90,7 +90,7 @@ export const ExperienceSection = () => {
 
         {earlyRoles.length > 0 && (
           <div className="mt-8 pt-6 border-t border-nord4 dark:border-nord2">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-nord3 dark:text-nord4 mb-3">
+            <h3 className="text-sm font-semibold text-nord3 dark:text-nord4 mb-3">
               Earlier roles
             </h3>
             <ul className="divide-y divide-nord4/70 dark:divide-nord2/70">

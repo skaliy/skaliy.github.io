@@ -16,18 +16,18 @@ export const Sidebar = ({ activeSection, onSectionClick }: SidebarProps) => {
 
   return (
     <aside className="sticky top-0 w-72 h-screen overflow-y-auto bg-nord6 dark:bg-nord1 border-r border-nord4 dark:border-nord2 text-nord1 dark:text-nord6 px-6 py-8 hidden md:flex md:flex-col shrink-0">
-      <div className="mb-10 text-center">
+      <div className="mb-10">
         <picture>
           <source srcSet="/skaliy.webp" type="image/webp" />
           <img
             src="/skaliy.png"
             alt={`Portrait of ${profile.name}`}
-            className="mx-auto mb-5 rounded-full w-36 h-36 object-cover ring-4 ring-nord5 dark:ring-nord2"
+            className="mb-5 rounded-sm w-36 h-40 object-cover"
             width={144}
-            height={144}
+            height={160}
           />
         </picture>
-        <p className="text-xl font-bold tracking-tight">{profile.name}</p>
+        <p className="text-lg font-medium tracking-tight">{profile.name}</p>
         <p className="mt-1 text-sm text-nord3 dark:text-nord4">{profile.tagline}</p>
       </div>
 
@@ -43,7 +43,7 @@ export const Sidebar = ({ activeSection, onSectionClick }: SidebarProps) => {
                   className={`relative flex min-h-10 items-center pl-4 pr-3 py-2 rounded-md text-sm transition-colors
                     focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent dark:focus-visible:ring-nord8 ${
                       isActive
-                        ? "bg-nord5 dark:bg-nord2/60 text-accent dark:text-nord8 font-semibold"
+                        ? "bg-nord5 dark:bg-nord2/30 text-accent dark:text-nord8 font-semibold"
                         : "text-nord2 dark:text-nord4 hover:bg-nord5/70 dark:hover:bg-nord2/40 hover:text-nord0 dark:hover:text-nord6"
                     }`}
                   onClick={() => onSectionClick(item.name)}

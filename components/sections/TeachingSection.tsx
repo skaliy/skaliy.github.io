@@ -36,7 +36,7 @@ export const TeachingSection = () => {
         <div className="space-y-6">
           {groups.map((group) => (
             <div key={group.heading}>
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-nord3 dark:text-nord4 mb-2">
+              <h3 className="text-sm font-semibold text-nord3 dark:text-nord4 mb-2">
                 {group.heading}
               </h3>
               <ul className="space-y-2">
