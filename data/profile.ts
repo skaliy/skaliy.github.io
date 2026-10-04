@@ -1,7 +1,6 @@
 export const profile = {
   name: "Satheshkumar Kaliyugarasan",
   shortName: "Satheshkumar K.",
-  tagline: "AI researcher and software engineer",
   email: "skaliyugarasan@hotmail.com",
   location: "Bergen, Norway",
   languages: "Norwegian (Bokmål), Tamil, English",

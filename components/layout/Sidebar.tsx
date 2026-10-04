@@ -28,7 +28,6 @@ export const Sidebar = ({ activeSection, onSectionClick }: SidebarProps) => {
           />
         </picture>
         <p className="text-lg font-medium tracking-tight">{profile.name}</p>
-        <p className="mt-1 text-sm text-nord3 dark:text-nord4">{profile.tagline}</p>
       </div>
 
       <nav className="flex-grow" aria-label="Main navigation">
