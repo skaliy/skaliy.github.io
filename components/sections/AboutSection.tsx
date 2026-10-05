@@ -22,12 +22,6 @@ export const AboutSection = () => {
           and Visualization Centre (MMIV), collaborating with radiologists on
           medical image analysis and reporting.
         </p>
-        <p>
-          My research explores how to train deep learning models with limited
-          data and draw on clinical expertise. I also develop software to support
-          this work, including fastMONAI, an open-source library for medical
-          image analysis.
-        </p>
       </div>
     </section>
   )

@@ -47,21 +47,22 @@ export const experienceData: JobDetail[] = [
     },
   },
   {
-    title: "Assistant professor II",
+    title: "Assistant professor II in machine learning (part-time)",
     company: "Western Norway University of Applied Sciences (HVL)",
     period: "2021",
-    description: "20% position alongside PhD studies, teaching a machine learning course for third-year BSc students.",
+    early: true,
   },
   {
     title: "Researcher",
     company: "University of Bergen, Department of Biomedicine",
     period: "2019 – 2020",
+    early: true,
   },
   {
     title: "Data scientist (part-time)",
     company: "Bouvet ASA",
     period: "2019",
-    description: "Combined with master's studies in software engineering at the University of Bergen.",
+    early: true,
   },
   {
     title: "Teaching assistant",
