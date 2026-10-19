@@ -14,6 +14,12 @@ const groups: { heading: string; items: TeachingItem[] }[] = [
     ],
   },
   {
+    heading: "PhD co-supervision",
+    items: [
+      { period: "2026 – present", text: "Deep learning for vestibular schwannoma: integration and evaluation in research, towards clinical workflows" },
+    ],
+  },
+  {
     heading: "MSc project co-supervision",
     items: [
       { period: "2020 – 2022", text: "A workflow-integrated brain tumor segmentation system based on fastai and MONAI" },

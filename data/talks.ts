@@ -2,6 +2,13 @@ import { Talk } from "./types"
 
 export const talksData: Talk[] = [
   {
+    title: "Workshop: patient-friendly translation of radiology reports",
+    location: "PRESIMAL research school, Sola Strand Hotel, Sola, Norway",
+    date: "4–6 November 2026",
+    year: 2026,
+    category: "Healthcare AI"
+  },
+  {
     title: "Integrating LLMs and computer vision into radiological workflows",
     location: "Bergen, Norway",
     date: "12 December 2025",
